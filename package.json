@@ -1,0 +1,29 @@
+{
+  "name": "poderify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@splinetool/react-spline": "^2.2.6",
+    "babel": "^6.23.0",
+    "framer-motion": "^10.16.4",
+    "next": "13.5.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-tilt": "^1.0.2"
+  },
+  "devDependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "autoprefixer": "^10",
+    "dotenv": "^16.3.1",
+    "eslint-config-next": "13.5.6",
+    "postcss": "^8",
+    "react-icons": "^4.11.0",
+    "tailwindcss": "^3"
+  }
+}

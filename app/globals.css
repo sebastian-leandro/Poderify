@@ -1,0 +1,341 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Globals */
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  resize: none;
+  box-sizing: border-box;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 4rem 6rem ;
+}
+
+.shadows-variant {
+  box-shadow: 0 0 20px rgba(255, 255, 255, .075);
+}
+
+/* Buttons */
+
+.btn-classic {
+  background-color: #000;
+  color: #e9e9e9;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 5px rgba(255, 255, 255, .075);
+  transition: .33s all ease;
+}
+
+.btn-classic:hover {
+  background-color: #e9e9e9;
+  color: #000;
+  transform: translateY(-5px);
+}
+
+.btn-feedback {
+  font-weight: 500;
+  padding: 0.25rem .75rem;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(255, 255, 255, .075);
+  transition: .33s all ease;
+  background: hsl(220deg 76% 51%) 100%;
+  color: #e9e9e9;
+}
+
+
+/* Backgrounds */
+
+.bg-card {
+  background: linear-gradient(to right, #0cf7b196, rgb(64, 1, 103) );
+  z-index: -1;
+}
+
+.bg-image {
+  background: linear-gradient(to right, #00000062, #00000062),url('../public/bg2.jpg')no-repeat center/cover;
+  background-attachment: fixed;
+}
+
+.bg-feed-quote {
+  background: url('../public/icons/quotes.svg')no-repeat center/contain;
+  width: 36px;
+  height: 36px;
+}
+
+.bg-wrapper {
+  background: url('../public/icons/wrapper.svg')no-repeat center/cover;
+  height: 3px;
+}
+
+.bg-about {
+  background-color: hsla(29, 100%, 47%, 1);
+}
+
+.background {
+  background-color: rgba(255, 255, 255, .050);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  -moz-backdrop-filter: blur(2.5px);
+  -ms-backdrop-filter: blur(2.5px);
+  -o-backdrop-filter: blur(2.5px);
+  padding: 0.55rem 1.3rem;
+  border-radius: 5px;
+  box-shadow: 0 1.25px 3.33px rgba(255, 255, 255, .1);
+}
+
+
+/* Gradients */
+
+.gradient {
+  position: absolute;
+  z-index: -10;
+  width: 180.98px;
+  height: 180.98px;
+  border-radius: 100%;
+  filter: blur(1000px);
+  -webkit-filter: blur(1000px);
+  -moz-filter: blur(1000px);
+  -o-filter: blur(1000px);
+  -ms-filter: blur(1000px);
+  background: radial-gradient(circle at 50% 50%, rgba(26, 24, 133, 1) 40%, rgba(0, 1, 73, 1) 70%);
+}
+
+.gradient-01 {
+  background-image: linear-gradient(
+    270deg,
+    hsl(295deg 76% 51%) 0%,
+    hsl(284deg 70% 73%) 26%,
+    hsl(257deg 70% 86%) 39%,
+    hsl(202deg 92% 90%) 50%,
+    hsl(215deg 77% 81%) 61%,
+    hsl(221deg 73% 70%) 74%,
+    hsl(220deg 76% 51%) 100%
+  );
+  filter: blur(125px);
+  position: absolute;
+  z-index: -10;
+  border-radius: 100%;
+  -webkit-filter: blur(125px);
+  -moz-filter: blur(125px);
+  -o-filter: blur(125px);
+  -ms-filter: blur(125px);
+}
+
+.gradient-02 {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: -10;
+  background: #7aebfb;
+  filter: blur(190px);
+}
+
+.gradient-03 {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: -10;
+  background: rgba(149, 66, 232, 0.35);
+  filter: blur(175px);
+  transform: rotate(-114.2deg);
+}
+
+.gradient-04 {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: -10;
+  background: rgba(45, 72, 152, 0.75);
+  filter: blur(200px);
+  transform: rotate(-53.13deg);
+}
+
+.gradient-05 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.05) 0%,
+    rgba(0, 0, 0, .50) 100%
+  );
+}
+
+.gradient-05-v2 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.90) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+
+.gradient-06 {
+  position: absolute;
+  z-index: -10;
+  width: 180.98px;
+  height: 180.98px;
+  border-radius: 100%;
+  filter: blur(1000px);
+  -webkit-filter: blur(1000px);
+  -moz-filter: blur(1000px);
+  -o-filter: blur(1000px);
+  -ms-filter: blur(1000px);
+  background: radial-gradient(circle at 50% 50%, rgba(26, 24, 133, 1) 40%, rgba(0, 1, 73, 1) 70%);
+}
+
+.hero-gradient {
+  background: linear-gradient(
+    97.86deg,
+    #a509ff 0%,
+    #34acc7 53.65%,
+    #a134c7 100%
+  );
+}
+
+/* Text */
+
+.heading {
+  font-size: 32.98px;
+  font-weight: 800;
+  text-align: center;
+  color: #ffffffff;
+}
+
+.subheading {
+  font-size: 18.75px;
+  font-weight: 700;
+  text-align: center;
+  color: #cecece;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 19.25px;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.paragraph-v1 {
+  font-size: 16.25px;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-shadow: 0 0 3px rgba(255, 255, 255, .1);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #0cf7b196, rgb(64, 1, 103) );
+  color: transparent;
+  background-clip: text;
+}
+
+.txt-shadow {
+  text-shadow: 0 0 2px #ffffff;
+}
+
+.link-paragraph {
+  color: #e9e9e9;
+  font-size: 15.25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.9px #ffffff;
+}
+
+/* Slider */
+
+.slider {
+  flex: 0 0 100%;
+}
+
+.btn-arrow {
+  all:unset;
+  padding: 0 .25rem;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  z-index: 100;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.btn-arrow:first-child {
+  left: 0;
+}
+
+.btn-arrow:nth-child(2) {
+  right: 0;
+}
+
+.btn-arrow > * {
+  width: 2rem;
+  height: 2rem;
+  fill: white;
+  stroke: white;
+  border-radius: 50%;
+  transition: 500ms fill ease;
+  animation: squish 200ms ease-in-out;
+}
+
+.btn-arrow > *:hover {
+  fill: #a0a0a0;
+}
+
+.btn-icon > * {
+  width: 1rem;
+  height: 1rem;
+  fill: black;
+  stroke: white;
+  transition: 500ms fill ease;
+}
+
+/* Border */
+
+.border-card {
+  border: 1px solid hsla(29, 100%, 47%, 1);
+}
+
+/* Hover */
+
+.icon-links:hover {
+  background-color: rgba(255, 255, 255, .075);
+}
+
+.icon-links:hover > * {
+  fill: hsla(29, 100%, 47%, 1);
+}
+
+
+
+/* Medias */
+
+@media screen and (max-width: 1024px) {
+  section {
+    padding: 2rem 3rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  section {
+    padding: 1rem 2rem;
+  }
+  .paragraph-v1 {
+    font-size: 13.25px;
+  }
+  .heading {
+    font-size: 24.98px;
+  }
+}
