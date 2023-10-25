@@ -25,6 +25,10 @@ section {
   box-shadow: 0 0 20px rgba(255, 255, 255, .075);
 }
 
+.rounded-variant {
+  border-radius: 16px 16px 0 0;
+}
+
 /* Buttons */
 
 .btn-classic {
@@ -193,6 +197,10 @@ section {
   -o-filter: blur(1000px);
   -ms-filter: blur(1000px);
   background: radial-gradient(circle at 50% 50%, rgba(26, 24, 133, 1) 40%, rgba(0, 1, 73, 1) 70%);
+}
+
+.gradient-07 {
+  background: linear-gradient(to top, hsla(240, 100%, 7.5%, 1)27.33%, hsla(261, 100%, 50%, 1)100%);
 }
 
 .hero-gradient {

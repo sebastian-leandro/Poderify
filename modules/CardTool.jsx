@@ -12,7 +12,7 @@ const CardTool = ({img, alt, title, index}) => {
                 <div className="w-full rounded-lg h-full bg-tertiary">
                     <div className="flex flex-col items-center justify-center w-full h-full">
                         <div className="w-full h-full items-center justify-center flex">
-                            < Image src={img} alt={alt} width={30} height={30} />
+                            < Image src={img} alt={alt} width={40} height={40} />
                         </div>
                         <div className="w-full h-full items-center flex justify-center">
                             <h4 className="subheading">{title}</h4>
