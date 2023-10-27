@@ -10,7 +10,7 @@ import { CardService } from '@/modules'
 
 const Services = () => {
   return (
-    <section id='services' className='w-full h-auto flex flex-col gap-y-24 relative overflow-hidden'>
+    <section id="services" className='section w-full h-auto flex flex-col gap-y-24 relative overflow-hidden'>
       <div className="gradient-01 w-[250px] h-[250px] bottom-64 left-1"></div>
       <div className="gradient top-36 w-[250px] h-[250px]"></div>
       <h2 className='heading txt-shadow uppercase'>Our Services</h2>

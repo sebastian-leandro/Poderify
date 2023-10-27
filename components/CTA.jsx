@@ -5,7 +5,7 @@ import { Model } from '@/modules'
 
 const CTA = () => {
   return (
-    <section className="flex w-full h-auto justify-center relative">
+    <section className="section flex w-full h-auto justify-center relative">
         <div className='absolute top-[-50%] md:top-[-20%]  h-[280px] w-[280px] overflow-x-hidden'>
           < Model />
         </div>

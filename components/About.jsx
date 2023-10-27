@@ -7,8 +7,7 @@ import { CardAbout } from "@/modules"
 
 const About = () => {
   return (
-    <section id="about" className="w-full h-auto flex flex-col gap-y-12 relative">
-        <div className="gradient-01 right-0 left-[30%] bottom-32 w-[500px] h-[500px]"></div>
+    <section id="about" className="section w-full h-auto flex flex-col gap-y-12 relative overflow-hidden">
         <div className="gradient top-36"></div>
         <div className="gradient right-0 bottom-36"></div>
         <div className="w-full h-auto items-center">

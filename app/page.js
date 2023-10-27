@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <main className="grid gap-y-20">
+      <main className="grid gap-y-20 overflow-x-hidden place-content-center">
         < Tools />
         < CTA />
         < Services />

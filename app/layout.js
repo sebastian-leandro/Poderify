@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={`${nunito.className} bg-body-gradient backdrop-blur-md`}>
+      <body className={`${nunito.className} bg-body-gradient`}>
         < Navbar />
         {children}
         <div className='mt-12'>

@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 const Tools = () => {
   return (
-    <section className='w-full flex items-center h-auto gap-y-20 flex-col relative'>
+    <section className='section w-full flex items-center h-auto gap-y-20 flex-col relative'>
       <div className="gradient bottom-10 right-1"></div>
       <div className="gradient top-10 left-1"></div>
         <div className='w-full h-auto flex flex-col items-center gap-y-10 justify-center'>

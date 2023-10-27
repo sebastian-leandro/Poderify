@@ -136,28 +136,22 @@ export const services = [
 
 export const feedback = [
     {
-        img : '',
-        alt : '',
-        title : '',
-        text : '',
-        href : '',
-        link : '',
+        img : '/equipo/2.jpeg',
+        alt : 'Foto',
+        title : 'Micaela',
+        text : 'Excelente lugar, buenos precion y excelente trato por parte del equipo'
     },
     {
-        img : '',
-        alt : '',
-        title : '',
-        text : '',
-        href : '',
-        link : '',
+        img : '/equipo/2.jpeg',
+        alt : 'Foto',
+        title : 'Micaela',
+        text : 'Excelente lugar, buenos precion y excelente trato por parte del equipo'
     },
     {
-        img : '',
-        alt : '',
-        title : '',
-        text : '',
-        href : '',
-        link : '',
+        img : '/equipo/2.jpeg',
+        alt : 'Foto',
+        title : 'Micaela',
+        text : 'Excelente lugar, buenos precion y excelente trato por parte del equipo'
     },
 ];
 
