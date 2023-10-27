@@ -73,24 +73,24 @@ export const feature = [
 
 export const tools = [
     {
-        img : '/branding/javascript.svg',
+        img : '/branding/javascript.png',
         alt : 'JavaScript logo',
         title : 'JavaScript'
     },
     {
-        img : '/branding/python.svg',
+        img : '/branding/python.png',
         alt : 'Python logo',
         title : 'Python'
     },
     {
-        img : '/branding/javascript.svg',
-        alt : 'JavaScript logo',
-        title : 'JavaScript'
+        img : '/branding/sql.png',
+        alt : 'Sql Logo',
+        title : 'SQL'
     },
     {
-        img : '/branding/javascript.svg',
-        alt : 'JavaScript logo',
-        title : 'JavaScript'
+        img : '/branding/google-analytics.png',
+        alt : 'Google Analytics Logo',
+        title : 'Google Analytics'
     },
 ];
 
@@ -104,33 +104,33 @@ export const cta = [
 
 export const servicesRow = [
     {
-        img : '/service/Inteligencia_Artificial_y_Machine_Learning.jpg',
+        img : '/service/inteligencia.png',
         alt : 'Logo',
-        title: 'Automatizacion',
+        title: 'Inteligencia',
         paragraph: 'Lorem amet adip amet consectetur consectetur'
     },      
 ];
 
 export const services = [
     {
-        img : '/tools/1.png',
+        img : '/service/branding.png',
         alt : 'Logo',
-        title: 'Automatizacion',
+        title: 'Branding',
     },
     {
-        img : '/tools/1.png',
+        img : '/service/estrategia.png',
         alt : 'Logo',
-        title: 'Automatizacion',
+        title: 'Estrategia',
     },    
     {
-        img : '/tools/1.png',
+        img : '/service/web-design.png',
         alt : 'Logo',
-        title: 'Automatizacion',
+        title: 'Diseño Web',
     },    
     {
-        img : '/tools/1.png',
+        img : '/service/scraping.png',
         alt : 'Logo',
-        title: 'Automatizacion',
+        title: 'Scraping',
     },
 ];
 
