@@ -13,7 +13,7 @@ const About = () => {
         <div className="gradient right-0 bottom-28"></div>
         <div></div>
         <div className="w-full h-auto items-center">
-            <h2 className="heading txt-shadow border-b-2 border-orange-600 w-fit m-auto">Our team</h2>
+            <h2 className="heading txt-shadow border-b-2 border-orange-600 w-fit m-auto">Quienes Somos</h2>
         </div>
         <div className="w-full h-full flex items-center justify-center">
             <motion.div variants={staggerContainer} initial="hidden" whileInView="show" viewport={{once:true, amount:0.25}} className=" w-full h-full items-center justify-center gap-4 flex flex-wrap flex-col sm:flex-row ">

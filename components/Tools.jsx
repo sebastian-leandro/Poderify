@@ -11,7 +11,7 @@ const Tools = () => {
       <div className="gradient top-10 left-1"></div>
         <div className='w-full h-auto flex flex-col items-center gap-y-10 justify-center'>
             <div className="flex items-center justify-center w-full h-auto gap-y-10 flex-col">
-              <p className="paragraph text-center capitalize text-[#618adc]">Powering tools and integrations from companies all around the world</p>
+              <p className="paragraph text-center capitalize text-[#618adc]">Integra las herramientas más poderosas del mercado a tu negocio.</p>
               <div className="flex w-full h-full flex-wrap">
                 < Features />
               </div>
@@ -23,7 +23,7 @@ const Tools = () => {
             </div>
         </div>
         <div className="flex w-full flex-col h-full flex-wrap items-center gap-y-10">
-          <h2 className="heading uppercase txt-shadow">Our tools</h2>
+          <h2 className="heading uppercase txt-shadow">Nuestros Conocimientos</h2>
           <motion.div variants={staggerContainer()} initial="hidden" whileInView="show" viewport={{once:true, amount:0.25}} className="flex w-full h-auto flex-wrap flex-col gap-y-4 sm:flex-row items-center justify-center gap-x-10">
             {tools.map(({img,alt,title}, i) => (
               < CardTool img={img} alt={alt} title={title} key={i} index={i}/>

@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           <div className="w-full flex h-auto justify-center sm:justify-end gap-x-8">
             <p className="paragraph-v1 text-white">Designed by Poderify</p>
-            <p className="paragraph-v1 text-white">all rights reserved.</p>
+            <p className="paragraph-v1 text-white">All rights reserved.</p>
           </div>
         </div>
     </footer>

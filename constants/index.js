@@ -19,8 +19,8 @@ export const nav = [
 
 export const hero = [
     {
-        title : 'Poderify Resultados Digitales',
-        paragraph : 'Mas que desarrolladores, somos socios digitales para crecer juntos',
+        title : 'Tu Puente Hacia el Futuro Digital, Hoy.',
+        paragraph : 'Nuestras soluciones 360, cubren desde desarrollo web, analisis de datos e IA hasta scraping y automatización. Hacemos que la tecnología trabaje para vos.',
         href : 'https://google.com',
         link : 'Contactanos',
         navigation : '#services',
@@ -96,8 +96,8 @@ export const tools = [
 
 export const cta = [
     {
-        title : 'We can help with',
-        paragraph : 'Lorem ipsum dolor sit amet, consectetur adip e parturient montes et nonum',
+        title : 'Tu negocio es unico.',
+        paragraph : 'Contactanos y recibe una asesoria personalizada.',
         link : 'Contactanos',
     }
 ];

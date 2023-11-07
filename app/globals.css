@@ -70,7 +70,7 @@
 }
 
 .bg-image {
-  background: linear-gradient(to right, #00000062, #00000062),url('../public/bg2.jpg')no-repeat center/cover;
+  background: linear-gradient(to right, #00000062, #00000062),url('../public/345.png')no-repeat center/cover;
   background-attachment: fixed;
 }
 
