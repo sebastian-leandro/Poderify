@@ -210,7 +210,7 @@ export const images = [
 
 export const team = [
     {
-        img: '/equipo/2.jpeg',
+        img: '/equipo/5.jpeg',
         alt : 'Foto',
         name : 'Santiago Canepa',
         desc : 'Estrategia & Análisis del Negocio',
@@ -218,7 +218,7 @@ export const team = [
         href : 'https://www.linkeding.com',
     },
     {
-        img: '/equipo/2.jpeg',
+        img: '/equipo/6.jpeg',
         alt : 'Foto',
         name : 'Sebastian Leandro',
         desc : 'Desarrollador Web Full Stack',
@@ -242,7 +242,7 @@ export const team = [
         href : 'https://www.linkeding.com',
     },
     {
-        img: '/equipo/2.jpeg',
+        img: '/equipo/4.jpeg',
         alt : 'Foto',
         name : 'Ramiro Imperiali',
         desc : 'Marketing Digital, SEO Y SEM',
@@ -250,7 +250,7 @@ export const team = [
         href : 'https://www.linkeding.com',
     },
     {
-        img: '/equipo/2.jpeg',
+        img: '/equipo/7.jpeg',
         alt : 'Foto',
         name : 'Victoria Quiroga',
         desc : 'Contenido y Storytelling',
