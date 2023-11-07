@@ -11,6 +11,7 @@ import { nav } from "@/constants"
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [activeSection, setActiveSection] = useState('');
+  const [move, setMove] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -33,14 +34,29 @@ const Navbar = () => {
 
   },[])
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setMove(true);
+      } else {
+        setMove(false);
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    }
+  }, [])
+
 
 
 
   return (
-    <nav className={`flex fixed top-0 px-4 md:px-12 left-0 w-full h-[64px] justify-between z-[999] items-center`}>
+    <nav className={`flex fixed top-0 px-4 md:px-12 left-0 w-full h-[64px] justify-between z-[999] items-center duration-300 ${move ? 'bg-[rgba(0,0,0,.75)]' : ''}`}>
       <div className="flex gap-x-0 m-0 w-fit cursor-pointer h-full items-center" onClick={() => {window.location.reload()}}>
-        < Image src={'/logos/logo.png'} alt="logo poderify" width={48} height={48} className="object-contain p-0 m-0" />
-        <span className="text-3xl uppercase text-gradient">oderify</span>
+        < Image src={'/logos/logo_pagina/1.png'} alt="logo poderify" width={180} height={56} className="object-contain p-0 m-0" />
       </div>
       <ul className='md:flex hidden gap-x-4 list-none'>
         {nav.map(({id,title}, i) => (
