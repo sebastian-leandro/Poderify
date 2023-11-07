@@ -1,6 +1,7 @@
 import { Nunito } from 'next/font/google'
 import './globals.css'
 import { Navbar, Footer } from '@/components'
+import { WhatsappIcon } from '@/modules'
 
 const nunito = Nunito({ subsets: ['latin'], weight: ['200','300','400','500','600','700','800','900','1000'], style: 'normal' })
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className={`${nunito.className} bg-body-gradient`}>
         < Navbar />
+        <WhatsappIcon />
         {children}
         <div className='mt-12'>
           < Footer />

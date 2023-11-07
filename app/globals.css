@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+:root {
+  --green-water: #80ffdb;
+  --violet: #5e60ce;
+}
+
+
 /* Globals */
 
 *,
@@ -86,7 +92,12 @@
 }
 
 .bg-about {
-  background-color: hsla(29, 100%, 47%, 1);
+  background: linear-gradient(
+    97.86deg,
+    #a509ff 0%,
+    #34acc7 53.65%,
+    #a134c7 100%
+  );
 }
 
 .background {
@@ -322,7 +333,7 @@
 /* Border */
 
 .border-card {
-  border: 1px solid hsla(29, 100%, 47%, 1);
+  border: 1px solid #5e60ce;
 }
 
 /* Hover */
