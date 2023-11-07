@@ -108,7 +108,13 @@ export const servicesRow = [
         alt : 'Logo',
         title: 'Inteligencia',
         paragraph: 'Lorem amet adip amet consectetur consectetur'
-    },      
+    }, 
+    {
+        img : '/service/inteligencia.png',
+        alt : 'Logo',
+        title: 'Inteligencia',
+        paragraph: 'Lorem amet adip amet consectetur consectetur'
+    }   
 ];
 
 export const services = [

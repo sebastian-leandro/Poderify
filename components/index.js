@@ -8,15 +8,14 @@ import Works from "./Works";
 import About from "./About";
 import Footer from "./Footer";
 
-
 export {
-    Navbar,
-    Hero,
-    Tools,
-    CTA,
-    Services,
-    Testimonials,
-    Works,
-    About,
-    Footer
-}
+  Navbar,
+  Hero,
+  Tools,
+  CTA,
+  Services,
+  Testimonials,
+  Works,
+  About,
+  Footer,
+};
