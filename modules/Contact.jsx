@@ -69,35 +69,35 @@ const Contact = () => {
       className="w-full h-full flex flex-col gap-8 relative"
     >
       <label className="flex flex-col">
-        <span className="text-white font-medium mb-4">Your Name</span>
+        <span className="text-white font-medium mb-4">Nombre</span>
         <input
           type="text"
           name="name"
           value={form.name}
           onChange={handleChange}
-          placeholder="What's your good name?"
+          placeholder="Nombre"
           className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
         />
       </label>
       <label className="flex flex-col">
-        <span className="text-white font-medium">Your email</span>
+        <span className="text-white font-medium">Email</span>
         <input
           type="email"
           name="email"
           value={form.email}
           onChange={handleChange}
-          placeholder="What's your web address?"
+          placeholder="Correo Electronico"
           className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
         />
       </label>
       <label className="flex flex-col">
-        <span className="text-white font-medium">Your Message</span>
+        <span className="text-white font-medium">Mensaje</span>
         <textarea
           rows={7}
           name="message"
           value={form.message}
           onChange={handleChange}
-          placeholder="What you want to say?"
+          placeholder="Su mensaje?"
           className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
         />
       </label>
@@ -107,21 +107,21 @@ const Contact = () => {
           type="submit"
           className="bg-tertiary py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary"
         >
-          {loading ? "Sending..." : "Send"}
+          {loading ? "Enviando..." : "Enviar"}
         </button>
       </div>
       <div className="flex w-full h-auto absolute bottom-1 right-1 justify-end">
         {error && (
-          <div className="w-[220px] h-[40px] flex items-center justify-center rounded-md gradient-05-v2 sm;gradient-05 shadow-sm shadow-red-600">
+          <div className="w-auto p-4 h-auto flex items-center justify-center rounded-md gradient-05-v2 sm;gradient-05 shadow-sm shadow-red-600">
             <span className="paragraph-v1 text-white uppercase">
-              Something went wrong try again later
+              Algo a ido mal reintente mas tarde
             </span>
           </div>
         )}
         {success && (
-          <div className="w-[220px] h-[40px] flex items-center justify-center rounded-md gradient-05-v2 sm:gradient-05 shadow-sm shadow-green-400">
+          <div className="w-auto p-4 h-auto flex items-center justify-center rounded-md gradient-05-v2 sm:gradient-05 shadow-sm shadow-green-400">
             <span className="paragraph-v1 text-white text-center">
-              Succesfully send
+              Mensaje enviado. En la brevedad nos pondremos en contacto.
             </span>
           </div>
         )}
