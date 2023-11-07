@@ -8,6 +8,8 @@ const CardService = ({ index, title, img, alt }) => {
   return (
     <Tilt className="cursor-default">
       <motion.div
+        initial="hidden"
+        whileInView="show"
         variants={fadeIn("left", "spring", 0.5 * index, 0.75)}
         className="w-[250px] h-[320px] rounded-2xl bg-card p-[0.15rem]"
       >

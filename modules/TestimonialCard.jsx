@@ -6,6 +6,8 @@ import Image from "next/image";
 const TestimonialCard = ({ text, img, alt, name, index }) => {
   return (
     <motion.div
+      initial="hidden"
+      whileInView="show"
       variants={fadeIn("down", "spring", 0.7 * index)}
       className="w-[270px] h-[250px] shadow-sm shadow-zinc-900 rounded-md relative"
     >

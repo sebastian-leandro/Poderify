@@ -9,6 +9,8 @@ const CardAbout = ({ img, alt, name, desc, href, link, index }) => {
   return (
     <motion.div
       variants={fadeIn("bottom", "spring", 0.5 * index, 0.75)}
+      initial="hidden"
+      whileInView="show"
       className="w-[230px] relative h-[270px] p-[0.075rem] bg-about"
     >
       <div className="w-full h-full flex flex-col bg-[#090909]">

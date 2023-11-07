@@ -10,6 +10,8 @@ const CardTool = ({ img, alt, title, index }) => {
       <motion.div
         className="w-full h-full cursor-default"
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+        initial="hidden"
+        whileInView="show"
       >
         <div
           options={{ max: 45, scale: 1, speed: 450 }}
