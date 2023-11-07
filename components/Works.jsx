@@ -4,7 +4,7 @@ const Works = () => {
   return (
     <section className='section flex w-full h-auto flex-col gap-y-12 overflow-x-hidden relative'>
         <div className='w-full h-auto flex justify-center'>
-            <h2 className='heading txt-shadow uppercase'>Our Works</h2>
+            <h2 className='heading txt-shadow uppercase'>Ultimos Trabajos</h2>
         </div>
         <div className='flex w-full h-full items-center justify-center'>
             < Slider /> 

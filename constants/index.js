@@ -20,7 +20,7 @@ export const nav = [
 export const hero = [
     {
         title : 'Tu Puente Hacia el Futuro Digital, Hoy.',
-        paragraph : 'Nuestras soluciones 360, cubren desde desarrollo web, analisis de datos e IA hasta scraping y automatización. Hacemos que la tecnología trabaje para vos.',
+        paragraph : 'Soluciones 360. Desde desarrollo web, analisis de datos e IA hasta scraping y automatización de tareas. Hacemos que la tecnología trabaje para vos.',
         href : 'https://google.com',
         link : 'Contactanos',
         navigation : '#services',

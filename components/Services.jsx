@@ -13,7 +13,7 @@ const Services = () => {
     <section id="services" className='section w-full h-auto flex flex-col gap-y-24 relative overflow-hidden'>
       <div className="gradient-01 w-[250px] h-[250px] bottom-64 left-1"></div>
       <div className="gradient top-36 w-[250px] h-[250px]"></div>
-      <h2 className='heading txt-shadow uppercase'>Our Services</h2>
+      <h2 className='heading txt-shadow uppercase'>Nuestros Servicios</h2>
       <motion.div variants={staggerContainer()} initial="hidden" whileInView="show" viewport={{once:true, amount:0.25}}  className='w-full rounded-2xl min-h-[512px] gap-y-12 md:min-h-[384px] h-full flex md:flex-row flex-col bg-tertiary'>
         {servicesRow.map(({img,alt,title,paragraph}, i) => (
               <motion.div variants={zoomIn(0.3,0.7)} key={i} className="w-full h-full rounded-2xl flex shadow-md shadow-zinc-950">
