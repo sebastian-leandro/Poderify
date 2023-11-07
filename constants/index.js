@@ -106,14 +106,12 @@ export const servicesRow = [
     {
         img : '/service/inteligencia.png',
         alt : 'Logo',
-        title: 'Inteligencia',
-        paragraph: 'Lorem amet adip amet consectetur consectetur'
+        title: 'IA & Machine Learning',
     }, 
     {
-        img : '/service/inteligencia.png',
+        img : '/service/AnaliticayModeladodeDatos.png',
         alt : 'Logo',
-        title: 'Inteligencia',
-        paragraph: 'Lorem amet adip amet consectetur consectetur'
+        title: 'Analisis & Modelos de Datos',
     }   
 ];
 
@@ -121,22 +119,23 @@ export const services = [
     {
         img : '/service/branding.png',
         alt : 'Logo',
-        title: 'Branding',
+        title: 'Branding & Marketing Digital',
+        
     },
     {
         img : '/service/estrategia.png',
         alt : 'Logo',
-        title: 'Estrategia',
+        title: 'Estrategia de Crecimiento',
     },    
     {
         img : '/service/web-design.png',
         alt : 'Logo',
-        title: 'Diseño Web',
+        title: 'Diseño & Desarrollo Web',
     },    
     {
         img : '/service/scraping.png',
         alt : 'Logo',
-        title: 'Scraping',
+        title: 'Automatización & Scraping',
     },
 ];
 
