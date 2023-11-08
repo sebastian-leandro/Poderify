@@ -1,4 +1,3 @@
-"use client"
 import {BiLogoWhatsapp} from 'react-icons/bi'
 import Link from 'next/link'
 

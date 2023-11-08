@@ -1,8 +1,5 @@
-"use client";
 import { CardTool, Features } from "@/modules";
 import { tools } from "@/constants";
-import { staggerContainer } from "@/utils/motion";
-import { motion } from "framer-motion";
 
 const Tools = () => {
   return (
@@ -34,17 +31,13 @@ const Tools = () => {
       </div>
       <div className="flex w-full flex-col h-full flex-wrap items-center gap-y-10">
         <h2 className="heading uppercase txt-shadow">SOMOS EXPERTOS EN:</h2>
-        <motion.div
-          variants={staggerContainer()}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+        <div
           className="flex w-full h-auto flex-wrap flex-col gap-y-4 sm:flex-row items-center justify-center gap-x-10"
         >
           {tools.map(({ img, alt, title }, i) => (
             <CardTool img={img} alt={alt} title={title} key={i} index={i} />
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

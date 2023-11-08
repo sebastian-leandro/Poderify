@@ -1,6 +1,3 @@
-"use client";
-import { staggerContainer } from "@/utils/motion";
-import { motion } from "framer-motion";
 import { team } from "@/constants";
 import { CardAbout } from "@/modules";
 
@@ -20,11 +17,7 @@ const About = () => {
         </h2>
       </div>
       <div className="w-full h-full flex items-center justify-center">
-        <motion.div
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+        <div
           className=" w-full h-full items-center justify-center gap-4 flex flex-wrap flex-col sm:flex-row "
         >
           {team.map(({ img, alt, name, desc, link, href }, index) => (
@@ -39,7 +32,7 @@ const About = () => {
               index={index}
             />
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

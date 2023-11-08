@@ -1,11 +1,8 @@
-"use client"
 import Image from "next/image";
-import { zoomIn } from "@/utils/motion";
-import { motion } from "framer-motion";
 
 const CardRowService = ({ img, alt, title, paragraph }) => {
   return (
-    <motion.div initial="hidden" whileInView="show" variants={zoomIn(0.3, 0.5)} className="lg:w-1/2 w-full min-h-[512px] md:min-h-[384px] bg-tertiary rounded-2xl flex shadow-md shadow-zinc-950">
+    <div className="lg:w-1/2 w-full min-h-[512px] md:min-h-[384px] bg-tertiary rounded-2xl flex shadow-md shadow-zinc-950">
       <div className="flex h-full items-center md:flex-row flex-col justify-center gap-y-4 w-full">
         <div className="w-full h-full relative">
           <Image
@@ -20,7 +17,7 @@ const CardRowService = ({ img, alt, title, paragraph }) => {
           <p className="paragraph-v1 text-[#cecece]">{paragraph}</p>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

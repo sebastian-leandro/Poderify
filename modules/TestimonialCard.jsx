@@ -1,14 +1,8 @@
-"use client";
-import { fadeIn } from "@/utils/motion";
-import { motion } from "framer-motion";
 import Image from "next/image";
 
 const TestimonialCard = ({ text, img, alt, name, index }) => {
   return (
-    <motion.div
-      initial="hidden"
-      whileInView="show"
-      variants={fadeIn("down", "spring", 0.7 * index)}
+    <div
       className="w-[270px] h-[250px] shadow-sm shadow-zinc-900 rounded-md relative"
     >
       <div className="absolute top-1 left-1 bg-feed-quote"></div>
@@ -29,7 +23,7 @@ const TestimonialCard = ({ text, img, alt, name, index }) => {
           <h4 className="subheading">{name}</h4>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

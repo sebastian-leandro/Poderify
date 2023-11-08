@@ -14,7 +14,7 @@ const Hero = () => {
           key={i}
         >
           <h1 className="heading uppercase">{title}</h1>
-          <p className="paragraph text-[#cecece] w-[90%] text-center">
+          <p className="paragraph-v1 text-[#cecece] w-full md:w-[90%] text-center">
             {paragraph}
           </p>
           <div className="flex w-full gap-x-8 items-center justify-center flex-col xs:flex-row gap-y-4 xs:gap-y-0">

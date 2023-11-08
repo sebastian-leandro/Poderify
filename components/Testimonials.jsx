@@ -1,8 +1,5 @@
-"use client";
 import TestimonialCard from "@/modules/TestimonialCard";
 import { feedback } from "@/constants";
-import { motion } from "framer-motion";
-import { staggerContainer } from "@/utils/motion";
 
 const Testimonials = () => {
   return (
@@ -14,11 +11,7 @@ const Testimonials = () => {
           QUE DICEN NUESTROS CLIENTES
         </h2>
       </div>
-      <motion.div
-        variants={staggerContainer()}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true, amount: 0.25 }}
+      <div
         className="w-full h-full flex items-center justify-evenly flex-wrap sm:flex-row flex-col gap-y-10"
       >
         {feedback.map(({ img, alt, text, title }, index) => (
@@ -31,7 +24,7 @@ const Testimonials = () => {
             index={index}
           />
         ))}
-      </motion.div>
+      </div>
     </section>
   );
 };

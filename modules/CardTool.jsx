@@ -1,17 +1,12 @@
 "use client";
 import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
-import { fadeIn } from "@/utils/motion";
 import Image from "next/image";
 
 const CardTool = ({ img, alt, title, index }) => {
   return (
     <Tilt className="w-full xs:w-[230px] h-[230px] rounded-lg">
-      <motion.div
+      <div
         className="w-full h-full cursor-default"
-        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        initial="hidden"
-        whileInView="show"
       >
         <div
           options={{ max: 45, scale: 1, speed: 450 }}
@@ -28,7 +23,7 @@ const CardTool = ({ img, alt, title, index }) => {
             </div>
           </div>
         </div>
-      </motion.div>
+      </div>
     </Tilt>
   );
 };

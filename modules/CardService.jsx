@@ -1,16 +1,11 @@
 "use client";
 import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
-import { fadeIn } from "@/utils/motion";
 import Image from "next/image";
 
 const CardService = ({ index, title, img, alt }) => {
   return (
     <Tilt className="cursor-default">
-      <motion.div
-        initial="hidden"
-        whileInView="show"
-        variants={fadeIn("left", "spring", 0.5 * index, 0.75)}
+      <div
         className="w-[250px] h-[320px] rounded-2xl bg-card p-[0.15rem]"
       >
         <div className="flex flex-col w-full h-full gradient-07 rounded-2xl items-center justify-center">
@@ -26,7 +21,7 @@ const CardService = ({ index, title, img, alt }) => {
             <h3 className="subheading txt-shadow uppercase">{title}</h3>
           </div>
         </div>
-      </motion.div>
+      </div>
     </Tilt>
   );
 };
