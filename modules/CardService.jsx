@@ -1,10 +1,8 @@
-"use client";
-import { Tilt } from "react-tilt";
 import Image from "next/image";
 
-const CardService = ({ index, title, img, alt }) => {
+const CardService = ({title, img, alt }) => {
   return (
-    <Tilt className="cursor-default">
+    <div className="cursor-default">
       <div
         className="w-[250px] h-[320px] rounded-2xl bg-card p-[0.15rem]"
       >
@@ -22,7 +20,7 @@ const CardService = ({ index, title, img, alt }) => {
           </div>
         </div>
       </div>
-    </Tilt>
+    </div>
   );
 };
 

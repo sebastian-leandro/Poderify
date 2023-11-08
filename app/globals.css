@@ -76,7 +76,7 @@
 }
 
 .bg-image {
-  background: linear-gradient(to right, #00000062, #00000062),url('../public/345.png')no-repeat center/cover;
+  background: linear-gradient(to right, #00000062, #00000062),url('../public/bg.jpg')no-repeat center/cover;
   background-attachment: fixed;
 }
 
@@ -342,15 +342,14 @@
   background-color: rgba(255, 255, 255, .075);
 }
 
-.icon-links:hover > * {
-  fill: hsla(29, 100%, 47%, 1);
-}
-
 
 
 /* Medias */
 
 @media screen and (max-width: 1024px) {
+  .bg-image {
+    background-attachment: scroll;
+  }
   section {
     padding: 2rem 3rem;
   }
@@ -365,5 +364,6 @@
   }
   .heading {
     font-size: 22px;
+    font-weight: 600;
   }
 }

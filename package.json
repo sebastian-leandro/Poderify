@@ -9,13 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@splinetool/react-spline": "^2.2.6",
     "babel": "^6.23.0",
-    "framer-motion": "^10.16.4",
     "next": "13.5.6",
     "react": "^18",
-    "react-dom": "^18",
-    "react-tilt": "^1.0.2"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@emailjs/browser": "^3.11.0",

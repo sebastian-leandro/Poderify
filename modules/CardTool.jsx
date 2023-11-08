@@ -1,15 +1,12 @@
-"use client";
-import { Tilt } from "react-tilt";
 import Image from "next/image";
 
-const CardTool = ({ img, alt, title, index }) => {
+const CardTool = ({ img, alt, title }) => {
   return (
-    <Tilt className="w-full xs:w-[230px] h-[230px] rounded-lg">
+    <div className="w-full xs:w-[230px] h-[230px] rounded-lg">
       <div
         className="w-full h-full cursor-default"
       >
         <div
-          options={{ max: 45, scale: 1, speed: 450 }}
           className="w-[99%] h-[99%] rounded-lg bg-card p-[0.05rem]"
         >
           <div className="w-full rounded-lg h-full bg-tertiary">
@@ -24,7 +21,7 @@ const CardTool = ({ img, alt, title, index }) => {
           </div>
         </div>
       </div>
-    </Tilt>
+    </div>
   );
 };
 

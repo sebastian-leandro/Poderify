@@ -8,7 +8,7 @@ const Testimonials = () => {
       <div className="gradient-04 left-6 top-56"></div>
       <div className="w-full h-auto items-start flex">
         <h2 className="heading txt-shadow uppercase">
-          QUE DICEN NUESTROS CLIENTES
+          Que dicen nuestros clientes
         </h2>
       </div>
       <div

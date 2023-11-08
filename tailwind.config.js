@@ -23,12 +23,6 @@ module.exports = {
       backgroundImage : theme => ({
         'body-gradient' : 'linear-gradient(to bottom, #060c24, #090909);',
       }),
-      gridTemplateColumns : {
-        'autofit-cols' : 'repeat(auto-fit, minmax(150px 1fr))'
-      },
-      gridTemplateRows : {
-        'autofit-rows' : 'repeat(auto-fit, minmax(450px 1fr))'
-      }
     },
   },
   plugins: [],

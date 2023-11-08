@@ -13,7 +13,7 @@ const Hero = () => {
           className="flex flex-col max-w-[620px] items-center  gap-y-6"
           key={i}
         >
-          <h1 className="heading uppercase">{title}</h1>
+          <h1 className="heading capitalize sm:uppercase">{title}</h1>
           <p className="paragraph-v1 text-[#cecece] w-full md:w-[90%] text-center">
             {paragraph}
           </p>
