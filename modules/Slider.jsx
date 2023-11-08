@@ -39,7 +39,7 @@ const Slider = () => {
           </div>
           <div className="w-full h-full flex flex-col items-center justify-center gap-4">
             <h3 className="heading">{title}</h3>
-            <p className="paragraph-v1">{subTitle}</p>
+            <p className="paragraph-v1 w-[90%] text-center ">{subTitle}</p>
           </div>
         </div>
       ))}
