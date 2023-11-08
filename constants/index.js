@@ -104,9 +104,9 @@ export const cta = [
 
 export const servicesRow = [
     {
-        img : '/service/inteligencia.png',
+        img : '/service/web-design.png',
         alt : 'Logo',
-        title: 'IA & Machine Learning',
+        title: 'Diseño & Desarrollo Web',
     }, 
     {
         img : '/service/AnaliticayModeladodeDatos.png',
@@ -128,9 +128,9 @@ export const services = [
         title: 'Estrategia de Crecimiento',
     },    
     {
-        img : '/service/web-design.png',
+        img : '/service/inteligencia.png',
         alt : 'Logo',
-        title: 'Diseño & Desarrollo Web',
+        title: 'IA & Machine Learning',
     },    
     {
         img : '/service/scraping.png',
@@ -183,7 +183,7 @@ export const works = [
 
 export const images = [
     {
-        src: '/equipo/2.jpeg',
+        src: '/work/eda-min.gif',
         alt: 'Image 1',
         title: 'Image 1',
         subTitle : 'lorem ipsum adip amet'
@@ -215,7 +215,7 @@ export const team = [
         name : 'Santiago Canepa',
         desc : 'Estrategia & Análisis del Negocio',
         link : 'https://www.github.com/',
-        href : 'https://www.linkeding.com',
+        href : 'https://www.linkeding.com/santiagocanepa',
     },
     {
         img: '/equipo/6.jpeg',
@@ -239,7 +239,7 @@ export const team = [
         name : 'Gonzalo Canepa',
         desc : 'Desarrollador Backend',
         link : 'https://www.github.com/',
-        href : 'https://www.linkeding.com',
+        href : 'https://www.linkedin.com/in/gonzalocanepa23/',
     },
     {
         img: '/equipo/4.jpeg',
