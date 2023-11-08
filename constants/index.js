@@ -184,18 +184,18 @@ export const works = [
 export const images = [
     {
         src: '/work/eda-min.gif',
+        alt: 'gif-EDA',
+        title: 'EDA | Analisis SEM',
+        subTitle : 'Analisis SEM e implementación de modelo predictivo sobre la base de leads del cliente extraida de hubspot.'
+    },
+    {
+        src: '/work/1.png',
         alt: 'Image 1',
         title: 'Image 1',
         subTitle : 'lorem ipsum adip amet'
     },
     {
-        src: '/equipo/2.jpeg',
-        alt: 'Image 1',
-        title: 'Image 1',
-        subTitle : 'lorem ipsum adip amet'
-    },
-    {
-        src: '/equipo/2.jpeg',
+        src: '/work/2.png',
         alt: 'Image 1',
         title: 'Image 1',
         subTitle : 'lorem ipsum adip amet'
