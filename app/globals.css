@@ -356,14 +356,14 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 640px) {
   section {
-    padding: 1rem 2rem;
+    padding: 0.25rem;
   }
   .paragraph-v1 {
     font-size: 13.25px;
   }
   .heading {
-    font-size: 24.98px;
+    font-size: 22px;
   }
 }

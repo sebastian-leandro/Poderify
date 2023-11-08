@@ -33,7 +33,7 @@ const Slider = () => {
             <Image
               src={src}
               alt={alt}
-              className="object-cover rounded-2xl"
+              className="object-cover rounded-2xl w-full h-full"
               fill
             />
           </div>
