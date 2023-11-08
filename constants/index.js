@@ -104,12 +104,12 @@ export const cta = [
 
 export const servicesRow = [
     {
-        img : '/service/web-design.png',
+        img : '/service/web-design.jpg',
         alt : 'Logo',
         title: 'Diseño & Desarrollo Web',
     }, 
     {
-        img : '/service/AnaliticayModeladodeDatos.png',
+        img : '/service/AnaliticayModeladodeDatos.jpg',
         alt : 'Logo',
         title: 'Analisis & Modelos de Datos',
     }   

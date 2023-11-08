@@ -7,28 +7,7 @@ import { nav } from "@/constants";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [activeSection, setActiveSection] = useState("");
   const [move, setMove] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
-          }
-        });
-      },
-      { threshold: 0.25 }
-    );
-
-    const sections = document.querySelectorAll("section");
-    sections.forEach((section) => observer.observe(section));
-
-    return () => {
-      sections.forEach((section) => observer.unobserve(section));
-    };
-  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -71,7 +50,6 @@ const Navbar = () => {
           <li key={i} className="link-paragraph p-2 rounded-md hover:bg-[rgba(255,255,255,0.3)] hover:backdrop-blur-3xl duration-300 ">
             <Link
               href={`#${id}`}
-              className={id === activeSection ? "active" : ""}
             >
               {title}
             </Link>

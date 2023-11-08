@@ -8,7 +8,8 @@ const CardRowService = ({ img, alt, title, paragraph }) => {
           <Image
             src={img}
             alt={alt}
-            fill
+            width={280}
+            height={384}
             className="object-cover block rounded-2xl"
           />
         </div>
