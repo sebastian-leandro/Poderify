@@ -1,6 +1,7 @@
 import Image from "next/image";
 
-const CardService = ({title, img, alt }) => {
+const CardService = ({title, img, alt, i }) => {
+
   return (
     <div className="cursor-default">
       <div
