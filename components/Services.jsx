@@ -6,13 +6,13 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="section w-full h-auto flex flex-col gap-y-24 relative overflow-hidden"
+      className="section w-full h-auto flex flex-col gap-y-24 relative justify-between overflow-hidden"
     >
       <div className="gradient-01 w-[250px] h-[250px] bottom-64 left-1"></div>
       <div className="gradient top-36 w-[250px] h-[250px]"></div>
       <h2 className="heading txt-shadow uppercase">Nuestros Servicios</h2>
       <div
-      className="w-full flex flex-col h-auto gap-y-4"
+      className="w-full flex flex-col h-auto gap-y-4 justify-center items-center"
       >
         {servicesRow.map(({img,alt,title}, i) => (
           <CardRow
@@ -25,7 +25,7 @@ const Services = () => {
         ))}
       </div>
       <div
-        className="w-full h-full gap-6 flex flex-wrap md:flex-row items-center justify-between flex-col"
+        className="w-full h-full gap-6 flex flex-wrap md:flex-row items-center justify-center flex-col"
       >
         {services.map(({ title, img, alt }, i) => (
           <CardService key={i} i={i} title={title} img={img} alt={alt} />
