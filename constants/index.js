@@ -190,15 +190,15 @@ export const images = [
     },
     {
         src: '/work/1.png',
-        alt: 'Image 1',
-        title: 'Image 1',
-        subTitle : 'lorem ipsum adip amet'
+        alt: 'iPureFix',
+        title: 'Desarrollo Web iPureFix',
+        subTitle : 'Diseño y Desarrollo de Landing Page'
     },
     {
         src: '/work/2.png',
-        alt: 'Image 1',
-        title: 'Image 1',
-        subTitle : 'lorem ipsum adip amet'
+        alt: 'M&M',
+        title: 'Desarrollo Web M&M Design',
+        subTitle : 'Desarrollo Web, integración con CRM y Chat bot en M&M Desing'
     },
     {
         src: '/equipo/2.jpeg',
@@ -226,7 +226,7 @@ export const team = [
         href : 'https://www.linkeding.com',
     },
     {
-        img: '/equipo/2.jpeg',
+        img: '/equipo/meji.png',
         alt : 'Foto',
         name : 'Felipe Maldonado',
         desc : 'Data Analytics & IA',
@@ -234,7 +234,7 @@ export const team = [
         href : 'https://www.linkeding.com',
     },
     {
-        img: '/equipo/2.jpeg',
+        img: '/equipo/gonza.png',
         alt : 'Foto',
         name : 'Gonzalo Canepa',
         desc : 'Desarrollador Backend',
@@ -266,7 +266,7 @@ export const team = [
         href : 'https://www.linkeding.com',
     },
     {
-        img: '/equipo/3.jpeg',
+        img: '/equipo/3.png',
         alt : 'Foto',
         name : 'Nadia Malena',
         desc : 'Ingeniera de Datos',
@@ -274,7 +274,7 @@ export const team = [
         href : 'https://www.linkeding.com',
     },
     {
-        img: '/equipo/2.jpeg',
+        img: '/equipo/2.png',
         alt : 'Foto',
         name : 'Clara Oviedo',
         desc : 'Diseñadora Grafica',
