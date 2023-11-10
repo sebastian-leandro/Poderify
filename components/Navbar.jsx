@@ -43,6 +43,7 @@ const Navbar = () => {
           width={180}
           height={56}
           className="object-contain p-0 m-0"
+          loading="eager"
         />
       </div>
       <ul className="md:flex hidden gap-x-4 list-none">

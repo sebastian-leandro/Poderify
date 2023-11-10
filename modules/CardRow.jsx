@@ -16,6 +16,7 @@ const CardRow = ({img,alt,title,i}) => {
                     src={img}
                     alt={alt}
                     fill
+                    loading="eager"
                     className="block rounded-2xl"
                     />
                 </div>

@@ -19,6 +19,7 @@ const TestimonialCard = ({ text, img, alt, name, index }) => {
             width={32}
             height={32}
             className="rounded-[50%]"
+            loading="eager"
           />
           <h4 className="subheading">{name}</h4>
         </div>

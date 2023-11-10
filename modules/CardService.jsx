@@ -13,6 +13,7 @@ const CardService = ({title, img, alt, i }) => {
               src={img}
               alt={alt}
               fill
+              loading="eager"
               className="object-contain block rounded-variant"
             />
           </div>
