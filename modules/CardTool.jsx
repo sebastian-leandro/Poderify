@@ -41,7 +41,7 @@ const CardTool = ({ img, alt, title, index }) => {
     <Tilt>
       <motion.div  
       initial={isMobile ? {} : fadeInVariants.hidden}
-      animate={isMobile ? {} : fadeInVariants.show} 
+      whileInView={isMobile ? {} : fadeInVariants.show} 
       className="w-full xs:w-[230px] h-[230px] rounded-lg">
         <div
           className="w-full h-full cursor-default"
