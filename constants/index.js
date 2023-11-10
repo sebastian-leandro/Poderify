@@ -120,7 +120,6 @@ export const services = [
         img : '/service/branding.png',
         alt : 'Logo',
         title: 'Branding & Marketing Digital',
-        
     },
     {
         img : '/service/estrategia.png',
@@ -141,19 +140,19 @@ export const services = [
 
 export const feedback = [
     {
-        img : '/equipo/2.jpeg',
+        img : '/equipo/2.png',
         alt : 'Foto',
         title : 'Octa Correa',
         text : 'Poner el CRM en nuestra WEB fue un antes y un después. Para el que tiene una tienda online, ni lo dudes.'
     },
     {
-        img : '/equipo/2.jpeg',
+        img : '/equipo/2.png',
         alt : 'Foto',
         title : 'Marce Diaz',
         text : 'Las PWA nos cambiaron el juego. La página anda más rápido y la gente se queda más tiempo. Vale cada peso invertido.'
     },
     {
-        img : '/equipo/2.jpeg',
+        img : '/equipo/2.png',
         alt : 'Foto',
         title : 'Damian Perez',
         text : 'Desde que miramos el SEO en el diseño web, la gente que nos visita subió una banda. Clave para no pasar desapercibido en internet.'
@@ -201,7 +200,7 @@ export const images = [
         subTitle : 'Desarrollo Web, integración con CRM y Chat bot en M&M Desing'
     },
     {
-        src: '/equipo/2.jpeg',
+        src: '/equipo/2.png',
         alt: 'Image 1',
         title: 'Image 1',
         subTitle : 'lorem ipsum adip amet'
@@ -211,7 +210,7 @@ export const images = [
 export const team = [
     {
         img: '/equipo/5.jpeg',
-        alt : 'Foto',
+        alt : 'santiago Canepa Foto del equipo de Poderify',
         name : 'Santiago Canepa',
         desc : 'Estrategia & Análisis del Negocio',
         link : 'https://www.github.com/',
@@ -219,7 +218,7 @@ export const team = [
     },
     {
         img: '/equipo/6.jpeg',
-        alt : 'Foto',
+        alt : 'Sebastian Leandro Foto del equipo de Poderify',
         name : 'Sebastian Leandro',
         desc : 'Desarrollador Web Full Stack',
         link : 'https://www.github.com/',
@@ -227,7 +226,7 @@ export const team = [
     },
     {
         img: '/equipo/meji.png',
-        alt : 'Foto',
+        alt : 'Felipe Maldonado Foto del equipo de Poderify',
         name : 'Felipe Maldonado',
         desc : 'Data Analytics & IA',
         link : 'https://www.github.com/',
@@ -235,7 +234,7 @@ export const team = [
     },
     {
         img: '/equipo/gonza.png',
-        alt : 'Foto',
+        alt : 'Gonzalo Canepa foto del equipo de Poderify',
         name : 'Gonzalo Canepa',
         desc : 'Desarrollador Backend',
         link : 'https://www.github.com/',
@@ -243,7 +242,7 @@ export const team = [
     },
     {
         img: '/equipo/4.jpeg',
-        alt : 'Foto',
+        alt : 'Ramiro Imperiali foto del equipo de Poderify',
         name : 'Ramiro Imperiali',
         desc : 'Marketing Digital, SEO Y SEM',
         link : 'https://www.github.com/',
@@ -251,7 +250,7 @@ export const team = [
     },
     {
         img: '/equipo/7.jpeg',
-        alt : 'Foto',
+        alt : 'Victoria Quiroga foto del equipo de Poderify',
         name : 'Victoria Quiroga',
         desc : 'Contenido y Storytelling',
         link : 'https://www.github.com/',
@@ -259,7 +258,7 @@ export const team = [
     },
     {
         img: '/equipo/1.jpeg',
-        alt : 'Foto',
+        alt : 'Alenjandro Lencina foto del equipo de Poderify',
         name : 'Alejandro Lencina',
         desc : 'Diseñadora UX/UI',
         link : 'https://www.github.com/',
@@ -267,7 +266,7 @@ export const team = [
     },
     {
         img: '/equipo/3.png',
-        alt : 'Foto',
+        alt : 'Nadia Malena Foto del equipo de Poderify',
         name : 'Nadia Malena',
         desc : 'Ingeniera de Datos',
         link : 'https://www.github.com/',
@@ -275,7 +274,7 @@ export const team = [
     },
     {
         img: '/equipo/2.png',
-        alt : 'Foto',
+        alt : 'Clara Oviedo foto del equipo de Poderify',
         name : 'Clara Oviedo',
         desc : 'Diseñadora Grafica',
         link : 'https://www.github.com/',

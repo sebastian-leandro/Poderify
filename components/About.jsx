@@ -8,7 +8,6 @@ const About = () => {
       className="section w-full h-auto flex flex-col gap-y-12 relative overflow-hidden"
     >
       <div className="gradient left-0 top-36"></div>
-      <div className="gradient-01 w-42 h-42"></div>
       <div className="gradient right-0 bottom-28"></div>
       <div></div>
       <div className="w-full h-auto items-center">
