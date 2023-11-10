@@ -58,7 +58,7 @@ body {
 
 
 .hero-bg {
-    background: linear-gradient(to bottom, #00000099, #00000099), url('../public/backgrounds/bg.jpg')no-repeat center/cover;
+    background: linear-gradient(to bottom, #00000099, #00000099), url('../public/bg.jpg')no-repeat center/cover;
     background-attachment: fixed;
 }
 
