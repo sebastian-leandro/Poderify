@@ -4,6 +4,8 @@ import { feedback } from "@/constants";
 const Testimonials = () => {
   return (
     <section className="section w-full h-auto flex flex-col gap-y-20 min-h-[100vh] relative overflow-hidden">
+      <div className="lg:block hidden gradient-03 right-6 top-52"></div>
+      <div className="lg:block hidden gradient-04 left-6 top-56"></div>
       <div className="w-full h-auto items-start flex">
         <h2 className="heading txt-shadow uppercase">
           Que dicen nuestros clientes

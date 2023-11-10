@@ -4,6 +4,8 @@ import { tools } from "@/constants";
 const Tools = () => {
   return (
     <section className="section w-full flex items-center h-auto gap-y-20 flex-col relative">
+      <div className="lg:block hidden gradient bottom-10 right-1"></div>
+      <div className="lg:block hidden gradient top-10 left-1"></div>
       <div className="w-full h-auto flex flex-col items-center gap-y-10 justify-center">
         <div className="flex items-center justify-center w-full h-auto gap-y-10 flex-col">
           <p className="paragraph text-center capitalize text-[#618adc]">
