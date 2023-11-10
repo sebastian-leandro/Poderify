@@ -10,7 +10,7 @@
     --black: #111;
     --black-3: #060416;
     --elements-webflow-library-neutral--800: #211f54;
-    --black-2: #0a0a0a;
+    --black-2: #9b7474;
     --medium-purple: #a06cff;
     --cornflower-blue: #6a80ff;
     --medium-slate-blue: #8f6aff;
@@ -73,7 +73,6 @@ section {
 
 /* Fonts */
 
-<<<<<<< HEAD
 .bg-about {
   background: linear-gradient(
     97.86deg,
@@ -222,19 +221,6 @@ section {
   font-weight: 800;
   text-align: center;
   color: #ffffffff;
-=======
-.title {
-    font-size: 3.2rem;
-    font-weight: 600;
-    letter-spacing: -1px;
-    text-align: center;
-    background-image: linear-gradient(to top, var(--medium-purple-2)4%, white 29%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
-    line-height: 1.2;
->>>>>>> 4c729ab (Changing load)
 }
 
 .subheading {
