@@ -7,9 +7,6 @@ const About = () => {
       id="about"
       className="section w-full h-auto flex flex-col gap-y-12 relative overflow-hidden"
     >
-      <div className="gradient left-0 top-36"></div>
-      <div className="gradient right-0 bottom-28"></div>
-      <div></div>
       <div className="w-full h-auto items-center">
         <h2 className="heading txt-shadow border-b-2 border-[#a400b8] w-fit m-auto">
           Quienes Somos
