@@ -12,7 +12,7 @@ const CTA = () => {
             <p className="paragraph-v1 text-center md:text-left text-[#cecece]">{paragraph}</p>
           </div>
           <div className="flex w-full h-full items-center justify-center md:justify-end">
-            <Link href='https://google.com' className="btn-classic gap-x-4">{link}< HiChatAlt2 /></Link>
+            <Link href='https://api.whatsapp.com/send?phone=5491176108397' className="btn-classic gap-x-4">{link}< HiChatAlt2 /></Link>
           </div>
         </div>
       ))}

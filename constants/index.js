@@ -21,7 +21,7 @@ export const hero = [
     {
         title : 'Tu Puente Hacia el Futuro Digital, Hoy.',
         paragraph : 'Soluciones 360. Desde desarrollo web, analisis de datos e IA hasta scraping y automatización de tareas. Hacemos que la tecnología trabaje para vos.',
-        href : 'https://google.com',
+        href : 'https://api.whatsapp.com/send?phone=5491176108397',
         link : 'Contactanos',
         navigation : '#services',
         textNavigation : 'Servicios'
@@ -97,7 +97,7 @@ export const tools = [
 export const cta = [
     {
         title : 'Tu negocio es unico.',
-        paragraph : 'Contactanos y recibe una asesoria personalizada.',
+        paragraph : 'Contactanos y recibe nuestra asesoria personalizada.',
         link : 'Contactanos',
     }
 ];
@@ -143,20 +143,20 @@ export const feedback = [
     {
         img : '/equipo/2.jpeg',
         alt : 'Foto',
-        title : 'Micaela',
-        text : 'Excelente lugar, buenos precion y excelente trato por parte del equipo'
+        title : 'Octa Correa',
+        text : 'Poner el CRM en nuestra WEB fue un antes y un después. Para el que tiene una tienda online, ni lo dudes.'
     },
     {
         img : '/equipo/2.jpeg',
         alt : 'Foto',
-        title : 'Micaela',
-        text : 'Excelente lugar, buenos precion y excelente trato por parte del equipo'
+        title : 'Marce Diaz',
+        text : 'Las PWA nos cambiaron el juego. La página anda más rápido y la gente se queda más tiempo. Vale cada peso invertido.'
     },
     {
         img : '/equipo/2.jpeg',
         alt : 'Foto',
-        title : 'Micaela',
-        text : 'Excelente lugar, buenos precion y excelente trato por parte del equipo'
+        title : 'Damian Perez',
+        text : 'Desde que miramos el SEO en el diseño web, la gente que nos visita subió una banda. Clave para no pasar desapercibido en internet.'
     },
 ];
 
