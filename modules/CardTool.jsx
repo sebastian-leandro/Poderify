@@ -1,12 +1,48 @@
 "use client"
 import Image from "next/image";
 import { Tilt } from "react-tilt";
+import { motion } from "framer-motion";
+import { fadeIn } from "@/utils/motion";
+import { useState, useEffect } from "react";
 
-const CardTool = ({ img, alt, title }) => {
+const CardTool = ({ img, alt, title, index }) => {
+  
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const mobileWidth = 1024;
+
+    const checkMobile = () => {
+      if(window.innerWidth < mobileWidth){
+        setIsMobile(true);
+      }else {
+        setIsMobile(false);
+      }
+    };
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, [])
+
+  function direction() {
+    switch(index) {
+      case 0:
+        return "right";
+      case 1:
+        return "down";
+      case 2:
+        return "up";
+      default:
+        return "left";
+    }
+  }
+  const fadeInVariants = fadeIn(direction(), "spring", 0.3, index * 0.75);
+
   return (
-
     <Tilt>
-      <div className="w-full xs:w-[230px] h-[230px] rounded-lg">
+      <motion.div  
+      initial={isMobile ? {} : fadeInVariants.hidden}
+      animate={isMobile ? {} : fadeInVariants.show} 
+      className="w-full xs:w-[230px] h-[230px] rounded-lg">
         <div
           className="w-full h-full cursor-default"
         >
@@ -25,7 +61,7 @@ const CardTool = ({ img, alt, title }) => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </Tilt>
   );
 };
