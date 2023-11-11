@@ -222,7 +222,7 @@ export const team = [
         name : 'Sebastian Leandro',
         desc : 'Desarrollador Web Full Stack',
         link : 'https://www.github.com/',
-        href : 'https://www.linkeding.com',
+        href : 'https://www.linkedin.com/in/sebastian-leandro/',
     },
     {
         img: '/equipo/meji.png',
@@ -230,7 +230,7 @@ export const team = [
         name : 'Felipe Maldonado',
         desc : 'Data Analytics & IA',
         link : 'https://www.github.com/',
-        href : 'https://www.linkeding.com',
+        href : 'https://www.linkedin.com/in/felipemaldonado/',
     },
     {
         img: '/equipo/gonza.png',
@@ -246,7 +246,7 @@ export const team = [
         name : 'Ramiro Imperiali',
         desc : 'Marketing Digital, SEO Y SEM',
         link : 'https://www.github.com/',
-        href : 'https://www.linkeding.com',
+        href : 'https://www.linkedin.com/in/ramiro-imperiali-172b4a256/',
     },
     {
         img: '/equipo/7.jpeg',
@@ -254,7 +254,7 @@ export const team = [
         name : 'Victoria Quiroga',
         desc : 'Contenido y Storytelling',
         link : 'https://www.github.com/',
-        href : 'https://www.linkeding.com',
+        href : 'https://www.linkedin.com/in/victoriaquirogalopez/',
     },
     {
         img: '/equipo/1.jpeg',

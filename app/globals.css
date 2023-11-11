@@ -83,7 +83,7 @@ section {
 /* Backgrounds */
 
 .bg-card {
-  background: linear-gradient(to right, #0cf7b196, rgb(64, 1, 103) );
+  background: linear-gradient(to right, #04c7bd, rgb(45, 1, 128) );
   z-index: -1;
 }
 
@@ -106,9 +106,9 @@ section {
 .bg-about {
   background: linear-gradient(
     97.86deg,
-    #a509ff 0%,
-    #34acc7 53.65%,
-    #a134c7 100%
+    #4402af 0%,
+    #04c7bd 53.65%,
+    #4402af 100%
   );
 }
 
@@ -177,7 +177,7 @@ section {
 }
 
 .active {
-  border-bottom: 1px solid #a134c7;
+  border-bottom: 1px solid #4402af;
 }
 
 .gradient-03 {
@@ -228,19 +228,19 @@ section {
   -moz-filter: blur(1000px);
   -o-filter: blur(1000px);
   -ms-filter: blur(1000px);
-  background: radial-gradient(circle at 50% 50%, rgba(26, 24, 133, 1) 40%, rgba(0, 1, 73, 1) 70%);
+  background: radial-gradient(circle at 50% 50%, rgb(67, 2, 187) 40%, rgba(0, 1, 73, 1) 70%);
 }
 
 .gradient-07 {
-  background: linear-gradient(to top, hsla(240, 100%, 7.5%, 1)27.33%, hsla(261, 100%, 50%, 1)100%);
+  background: linear-gradient(to top, rgb(16, 12, 22)27.33%, rgb(19, 15, 31)100%);
 }
 
 .hero-gradient {
   background: linear-gradient(
     97.86deg,
-    #a509ff 0%,
+    #4402af 0%,
     #34acc7 53.65%,
-    #a134c7 100%
+    #4402af 100%
   );
 }
 
@@ -294,7 +294,7 @@ section {
 }
 
 .text-gradient {
-  background: linear-gradient(to right, #0cf7b196, rgb(64, 1, 103) );
+  background: linear-gradient(to right, #0cf7b196, rgb(55, 1, 156) );
   color: transparent;
   background-clip: text;
 }
