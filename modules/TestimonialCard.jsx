@@ -8,7 +8,7 @@ const TestimonialCard = ({ text, img, alt, name, index }) => {
       <div className="absolute top-1 left-1 bg-feed-quote"></div>
       <div className="flex w-full h-full flex-col rounded-md">
         <div className="w-full h-full flex items-center">
-          <p className="paragraph-v1 text-[#cecece] w-[95%] txt-shadow text-center">
+          <p className="paragraph-v1 text-[#cecece] w-[95%]   text-center">
             {text}
           </p>
         </div>
@@ -19,7 +19,7 @@ const TestimonialCard = ({ text, img, alt, name, index }) => {
             width={32}
             height={32}
             className="rounded-[50%]"
-            loading="eager"
+            loading="lazy"
           />
           <h4 className="subheading">{name}</h4>
         </div>

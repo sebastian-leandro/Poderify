@@ -60,7 +60,7 @@ const Navbar = () => {
 
       <div className="flex md:hidden justify-center items-center">
         <div
-          className="text-3xl text-[#888] font-medium"
+          className="text-3xl text-white"
           onClick={() => setToggle((prevToggle) => !prevToggle)}
         >
           {toggle ? <HiX /> : <HiMenuAlt2 />}

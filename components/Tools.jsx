@@ -16,10 +16,10 @@ const Tools = () => {
           </div>
         </div>
         <div className="w-full items-center text-center max-w-[600px] justify-center">
-          <p className="paragraph-v1 capitalize text-purple-900">
+          <p className="paragraph-v2 capitalize text-purple-900">
             Soluciones inteligentes
           </p>
-          <h2 className="heading uppercase">
+          <h2 id="tools" className="heading uppercase">
             Potencia tu Empresa con Innovación Digital
           </h2>
           <p className="paragraph-v1 text-[#cecece] mx-auto w-[100%]">
@@ -29,7 +29,8 @@ const Tools = () => {
           </p>
         </div>
       </div>
-      <div className="flex w-full flex-col h-full flex-wrap items-center gap-y-10">
+      <div 
+      className="flex w-full flex-col h-full flex-wrap items-center gap-y-10">
         <h2 className="heading uppercase txt-shadow">SOMOS EXPERTOS EN:</h2>
         <div
           className="flex w-full h-auto flex-wrap flex-col gap-y-4 sm:flex-row items-center justify-center gap-x-10"

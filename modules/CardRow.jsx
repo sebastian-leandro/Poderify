@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 
-const CardRow = ({img,alt,title,i}) => {
+const CardRow = ({img,alt,title}) => {
 
 
   return (
@@ -14,9 +14,10 @@ const CardRow = ({img,alt,title,i}) => {
                     alt={alt}
                     fill
                     className="block rounded-2xl"
+                    loading="lazy"
                     />
                 </div>
-                <div className="w-full h-[50%] flex items-center justify-center">
+                <div className="w-full h-[75%] flex items-center justify-center">
                     <h3 className="subheading">{title}</h3>
                 </div>
             </div>

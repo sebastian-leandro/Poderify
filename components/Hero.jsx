@@ -1,8 +1,11 @@
 import { hero } from "@/constants";
 import Link from "next/link";
-import { HiChatAlt2 } from "react-icons/hi";
+import { HiChatAlt2,HiChevronDoubleDown } from "react-icons/hi";
 
 const Hero = () => {
+
+
+
   return (
     <section
       id="home"
@@ -17,10 +20,13 @@ const Hero = () => {
           <p className="paragraph-v1 text-[#cecece] w-full md:w-[90%] text-center">
             {paragraph}
           </p>
-          <div className="flex w-full gap-x-8 items-center justify-center flex-col xs:flex-row gap-y-4 xs:gap-y-0">
+          <div className="flex w-full gap-x-8 items-center justify-center flex-col gap-y-6">
             <Link href={href} className="btn-classic gap-x-4">
               {link}
               <HiChatAlt2 />
+            </Link>
+            <Link href={'#tools'} className="text-white cursor-pointer text-4xl p-2 rounded-full hover:bg-[rgba(255,255,255,.6)] hover:backdrop-blur-3xl duration-500">
+              <HiChevronDoubleDown/>
             </Link>
           </div>
         </div>

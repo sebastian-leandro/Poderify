@@ -12,7 +12,7 @@ const Features = () => {
             width={96}
             height={96}
             className="object-cover block "
-            loading="eager"
+            loading="lazy"
           />
         </div>
       ))}

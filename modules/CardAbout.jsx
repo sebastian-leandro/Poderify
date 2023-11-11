@@ -15,7 +15,7 @@ const CardAbout = ({ img, alt, name, desc, href }) => {
             width={72}
             height={72}
             className="object-contain rounded-full border-card"
-            loading="eager"
+            loading="lazy"
           />
         </div>
         <div className="w-full h-full items-center justify-end flex flex-col">

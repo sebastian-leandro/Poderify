@@ -35,7 +35,7 @@ const Slider = () => {
               alt={alt}
               className="object-cover rounded-2xl w-full h-full"
               fill
-              loading="eager"
+              loading="lazy"
             />
           </div>
           <div className="w-full h-full flex flex-col items-center justify-center gap-4">
