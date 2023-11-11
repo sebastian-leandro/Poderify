@@ -199,12 +199,7 @@ export const images = [
         title: 'Desarrollo Web M&M Design',
         subTitle : 'Desarrollo Web, integración con CRM y Chat bot en M&M Desing'
     },
-    {
-        src: '/equipo/2.png',
-        alt: 'Image 1',
-        title: 'Image 1',
-        subTitle : 'lorem ipsum adip amet'
-    },
+
 ];
 
 export const team = [
