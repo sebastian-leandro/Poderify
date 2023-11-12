@@ -16,13 +16,10 @@ const Footer = () => {
           <div className="w-full flex md:flex-row flex-col h-auto pt-8 justify-center gap-8 px-4 relative">
             <div className="absolute top-0  left-0 right-0 w-full h-[1px] hero-gradient"></div>
             <div className="flex w-fit flex-grow h-auto justify-center m-auto md:justify-start items-end gap-x-8">
-              <Link href={'https://facebook.com'} className="text-3xl rounded-full duration-300 text-white hover:bg-[rgba(255,255,255,0.5)] p-1 hover:backdrop-blur-3xl">
-                <BiLogoFacebookSquare/>
-              </Link>
-              <Link href={'https://linkedin.com'} className="text-3xl rounded-full duration-300 text-white hover:bg-[rgba(255,255,255,0.5)] p-1 hover:backdrop-blur-3xl">
+              <Link href={'https://www.linkedin.com/company/poderify/'} className="text-3xl rounded-full duration-300 text-white hover:bg-[rgba(255,255,255,0.5)] p-1 hover:backdrop-blur-3xl">
                 <BiLogoLinkedinSquare/>
               </Link>
-              <Link href={'https://instagram.com'} className="text-3xl rounded-full duration-300 text-white hover:bg-[rgba(255,255,255,0.5)] p-1 hover:backdrop-blur-3xl">
+              <Link href={'https://instagram.com/PoderiFy'} className="text-3xl rounded-full duration-300 text-white hover:bg-[rgba(255,255,255,0.5)] p-1 hover:backdrop-blur-3xl">
                 <BiLogoInstagram/>
               </Link>
             </div>
