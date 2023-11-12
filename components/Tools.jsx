@@ -17,10 +17,10 @@ const Tools = () => {
         </div>
         <div className="w-full items-center text-center max-w-[600px] justify-center">
           <p className="paragraph-v2 capitalize text-purple-900">
-            Soluciones inteligentes
+            Soluciones inteligentes.
           </p>
           <h2 id="tools" className="heading uppercase">
-            Potencia tu Empresa con Innovación Digital
+            Potencia tu Empresa con Innovación Digital.
           </h2>
           <p className="paragraph-v1 text-[#cecece] mx-auto w-[100%]">
             Desbloquea el potencial de tu negocio. Transformamos datos

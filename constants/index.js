@@ -96,8 +96,8 @@ export const tools = [
 
 export const cta = [
     {
-        title : 'Tu negocio es unico.',
-        paragraph : 'Contáctanos y recibe nuestra asesoria personalizada.',
+        title : 'Tu negocio es único.',
+        paragraph : 'Contáctanos y recibe nuestra asesoría personalizada.',
         link : 'Contáctanos',
     }
 ];
@@ -111,7 +111,7 @@ export const servicesRow = [
     {
         img : '/service/AnaliticayModeladodeDatos.jpg',
         alt : 'Logo',
-        title: 'Analisis & Modelos de Datos',
+        title: 'Análisis & Modelos de Datos',
     }   
 ];
 
