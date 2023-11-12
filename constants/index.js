@@ -271,7 +271,7 @@ export const team = [
         img: '/equipo/2.png',
         alt : 'Clara Oviedo foto del equipo de Poderify',
         name : 'Clara Oviedo',
-        desc : 'Diseñadora Gráfica con Enfoque en Branding e Indentidad Visual',
+        desc : 'Diseñadora Gráfica con Enfoque en Branding e Identidad Visual',
         link : 'https://www.github.com/',
         href : 'https://www.linkeding.com',
     },
