@@ -140,22 +140,22 @@ export const services = [
 
 export const feedback = [
     {
-        img : '/equipo/2.png',
+        img : '/Rec/octa.jpeg',
         alt : 'Foto',
         title : 'Octa Correa',
-        text : 'Poner el CRM en nuestra WEB fue un antes y un después. Para el que tiene una tienda online, ni lo dudes.'
+        text : 'Poner el CRM en nuestra Web fue un antes y un después. Para el que tiene una tienda online, ni lo dudes.'
     },
     {
-        img : '/equipo/2.png',
+        img : '/Rec/marce.jpeg',
         alt : 'Foto',
         title : 'Marce Diaz',
         text : 'Las PWA nos cambiaron el juego. La página anda más rápido y la gente se queda más tiempo. Vale cada peso invertido.'
     },
     {
-        img : '/equipo/2.png',
+        img : '/Rec/dami.jpeg',
         alt : 'Foto',
         title : 'Damian Perez',
-        text : 'Desde que miramos el SEO en el diseño web, la gente que nos visita subió una banda. Clave para no pasar desapercibido en internet.'
+        text : 'Desde que miramos el SEO en el diseño web, la gente que nos visita subió organicamente subio considerablemte.'
     },
 ];
 
@@ -207,7 +207,7 @@ export const team = [
         img: '/equipo/5.jpeg',
         alt : 'santiago Canepa Foto del equipo de Poderify',
         name : 'Santiago Canepa',
-        desc : 'Estrategia & Análisis del Negocio',
+        desc : 'Director Consultor de Estrategia & Análisis del Negocio',
         link : 'https://www.github.com/',
         href : 'https://www.linkeding.com/santiagocanepa',
     },
@@ -215,7 +215,7 @@ export const team = [
         img: '/equipo/6.jpeg',
         alt : 'Sebastian Leandro Foto del equipo de Poderify',
         name : 'Sebastian Leandro',
-        desc : 'Desarrollador Web Full Stack',
+        desc : 'Desarrollador Web Full Stack | Especialista en Javascript',
         link : 'https://www.github.com/',
         href : 'https://www.linkedin.com/in/sebastian-leandro/',
     },
@@ -223,7 +223,7 @@ export const team = [
         img: '/equipo/meji.png',
         alt : 'Felipe Maldonado Foto del equipo de Poderify',
         name : 'Felipe Maldonado',
-        desc : 'Data Analytics & IA',
+        desc : 'Cientifico de Datos | Ingeniero en Aprendizaje Automatico',
         link : 'https://www.github.com/',
         href : 'https://www.linkedin.com/in/felipemaldonado/',
     },
@@ -231,7 +231,7 @@ export const team = [
         img: '/equipo/gonza.png',
         alt : 'Gonzalo Canepa foto del equipo de Poderify',
         name : 'Gonzalo Canepa',
-        desc : 'Desarrollador Backend',
+        desc : 'Desarrollador Backend | Ingeniero de Software',
         link : 'https://www.github.com/',
         href : 'https://www.linkedin.com/in/gonzalocanepa23/',
     },
@@ -239,7 +239,7 @@ export const team = [
         img: '/equipo/4.jpeg',
         alt : 'Ramiro Imperiali foto del equipo de Poderify',
         name : 'Ramiro Imperiali',
-        desc : 'Marketing Digital, SEO Y SEM',
+        desc : 'Especialista en Marketing Digital, SEO Y SEM',
         link : 'https://www.github.com/',
         href : 'https://www.linkedin.com/in/ramiro-imperiali-172b4a256/',
     },
@@ -247,7 +247,7 @@ export const team = [
         img: '/equipo/7.jpeg',
         alt : 'Victoria Quiroga foto del equipo de Poderify',
         name : 'Victoria Quiroga',
-        desc : 'Contenido y Storytelling',
+        desc : 'Experta en Marketing de Contenido y Storytelling',
         link : 'https://www.github.com/',
         href : 'https://www.linkedin.com/in/victoriaquirogalopez/',
     },
@@ -255,7 +255,7 @@ export const team = [
         img: '/equipo/1.jpeg',
         alt : 'Alenjandro Lencina foto del equipo de Poderify',
         name : 'Alejandro Lencina',
-        desc : 'Diseñadora UX/UI',
+        desc : 'Diseñador UX/UI',
         link : 'https://www.github.com/',
         href : 'https://www.linkeding.com',
     },
@@ -263,7 +263,7 @@ export const team = [
         img: '/equipo/3.png',
         alt : 'Nadia Malena Foto del equipo de Poderify',
         name : 'Nadia Malena',
-        desc : 'Ingeniera de Datos',
+        desc : 'Data Engineer',
         link : 'https://www.github.com/',
         href : 'https://www.linkeding.com',
     },

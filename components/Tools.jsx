@@ -23,7 +23,7 @@ const Tools = () => {
             Potencia tu Empresa con Innovación Digital
           </h2>
           <p className="paragraph-v1 text-[#cecece] mx-auto w-[100%]">
-            Desbloquea el potencial completo de tu negocio. Transformamos datos
+            Desbloquea el potencial de tu negocio. Transformamos datos
             en decisiones, conectividad en crecimiento, y estrategias en
             resultados.
           </p>
