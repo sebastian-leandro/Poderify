@@ -97,7 +97,7 @@ const Contact = () => {
           name="message"
           value={form.message}
           onChange={handleChange}
-          placeholder="Su mensaje?"
+          placeholder="Mensaje"
           className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
         />
       </label>
@@ -114,14 +114,14 @@ const Contact = () => {
         {error && (
           <div className="w-auto p-4 h-auto flex items-center justify-center rounded-md gradient-05-v2 sm;gradient-05 shadow-sm shadow-red-600">
             <span className="paragraph-v1 text-white uppercase">
-              Algo a ido mal reintente mas tarde
+              Algo a salido mal, reintente mas tarde
             </span>
           </div>
         )}
         {success && (
           <div className="w-auto p-4 h-auto flex items-center justify-center rounded-md gradient-05-v2 sm:gradient-05 shadow-sm shadow-green-400">
             <span className="paragraph-v1 text-white text-center">
-              Mensaje enviado. En la brevedad nos pondremos en contacto.
+              Mensaje enviado. En breve estaremos en contacto.
             </span>
           </div>
         )}
