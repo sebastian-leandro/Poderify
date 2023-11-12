@@ -263,7 +263,7 @@ export const team = [
         img: '/equipo/3.png',
         alt : 'Nadia Malena Foto del equipo de Poderify',
         name : 'Nadia Malena',
-        desc : 'Data Engineer',
+        desc : 'Ingeniera de Datos',
         link : 'https://www.github.com/',
         href : 'https://www.linkeding.com',
     },
