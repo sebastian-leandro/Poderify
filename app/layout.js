@@ -7,7 +7,7 @@ const nunito = Nunito({ subsets: ['latin'], weight: ['200','300','400','500','60
 
 export const metadata = {
   title: 'PoderiFy',
-  description: 'Desde desarrollo web, analisis de datos e IA hasta scraping y automatización de tareas. Hacemos que la tecnología trabaje para vos.',
+  description: 'Desde desarrollo web, análisis de datos e IA hasta scraping y automatización de tareas. Hacemos que la tecnología trabaje para vos.',
   keywords: ['Desarrollo Web','Datos','IA','scraping','automatización','CRM','Diseño','Web','SEM'],
   url: 'https://poderify.com',
   type: 'website',

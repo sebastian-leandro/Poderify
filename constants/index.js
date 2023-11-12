@@ -20,9 +20,9 @@ export const nav = [
 export const hero = [
     {
         title : 'Tu Puente Hacia el Futuro Digital, Hoy.',
-        paragraph : 'Soluciones 360. Desde desarrollo web, analisis de datos e IA hasta scraping y automatización de tareas. Hacemos que la tecnología trabaje para vos.',
+        paragraph : 'Soluciones 360. Desde desarrollo web, análisis de datos e IA hasta scraping y automatización de tareas. Hacemos que la tecnología trabaje para vos.',
         href : 'https://api.whatsapp.com/send?phone=5491176108397',
-        link : 'Contactanos',
+        link : 'Contáctanos',
         navigation : '#services',
         textNavigation : 'Servicios'
     }
@@ -97,8 +97,8 @@ export const tools = [
 export const cta = [
     {
         title : 'Tu negocio es unico.',
-        paragraph : 'Contactanos y recibe nuestra asesoria personalizada.',
-        link : 'Contactanos',
+        paragraph : 'Contáctanos y recibe nuestra asesoria personalizada.',
+        link : 'Contáctanos',
     }
 ];
 
@@ -155,7 +155,7 @@ export const feedback = [
         img : '/Rec/dami.jpeg',
         alt : 'Foto',
         title : 'Damian Perez',
-        text : 'Desde que miramos el SEO en el diseño web, la gente que nos visita subió organicamente subio considerablemte.'
+        text : 'Desde que miramos el SEO en el diseño web, la gente que nos visita orgánicamente subio considerablemente.'
     },
 ];
 
@@ -185,19 +185,19 @@ export const images = [
         src: '/work/eda-min.gif',
         alt: 'gif-EDA',
         title: 'EDA | Analisis SEM',
-        subTitle : 'Analisis SEM e implementación de modelo predictivo sobre la base de leads del cliente extraida de hubspot.'
+        subTitle : 'Realizamos un análisis exhaustivo del Search Engine Marketing (SEM) del cliente, utilizando técnicas avanzadas de Exploratory Data Analysis (EDA) para optimizar la estrategia de marketing digital y mejorar la captación de leads.'
     },
     {
         src: '/work/1.png',
         alt: 'iPureFix',
         title: 'Desarrollo Web iPureFix',
-        subTitle : 'Diseño y Desarrollo de Landing Page'
+        subTitle : 'Diseñamos y desarrollamos una Landing Page eficiente y atractiva para iPureFix, enfocada en maximizar la conversión de usuarios y mejorar la experiencia de navegación.'
     },
     {
         src: '/work/2.png',
         alt: 'M&M',
         title: 'Desarrollo Web M&M Design',
-        subTitle : 'Desarrollo Web, integración con CRM y Chat bot en M&M Desing'
+        subTitle : 'Creamos un sitio web dinámico y a medida para M&M Design, integrando soluciones CRM y Chatbot para mejorar la interacción con el cliente y la gestión de leads.'
     },
 
 ];
@@ -215,7 +215,7 @@ export const team = [
         img: '/equipo/6.jpeg',
         alt : 'Sebastian Leandro Foto del equipo de Poderify',
         name : 'Sebastian Leandro',
-        desc : 'Desarrollador Web Full Stack | Especialista en Javascript',
+        desc : 'Desarrollador Web Full-Stack | Especialista en Javascript',
         link : 'https://www.github.com/',
         href : 'https://www.linkedin.com/in/sebastian-leandro/',
     },
@@ -223,7 +223,7 @@ export const team = [
         img: '/equipo/meji.png',
         alt : 'Felipe Maldonado Foto del equipo de Poderify',
         name : 'Felipe Maldonado',
-        desc : 'Cientifico de Datos | Ingeniero en Aprendizaje Automatico',
+        desc : 'Científico de Datos | Ingeniero en Aprendizaje Automático',
         link : 'https://www.github.com/',
         href : 'https://www.linkedin.com/in/felipemaldonado/',
     },
@@ -239,7 +239,7 @@ export const team = [
         img: '/equipo/4.jpeg',
         alt : 'Ramiro Imperiali foto del equipo de Poderify',
         name : 'Ramiro Imperiali',
-        desc : 'Especialista en Marketing Digital, SEO Y SEM',
+        desc : 'Especialista en Marketing Digital, SEO y SEM',
         link : 'https://www.github.com/',
         href : 'https://www.linkedin.com/in/ramiro-imperiali-172b4a256/',
     },
@@ -255,7 +255,7 @@ export const team = [
         img: '/equipo/1.jpeg',
         alt : 'Alenjandro Lencina foto del equipo de Poderify',
         name : 'Alejandro Lencina',
-        desc : 'Diseñador UX/UI',
+        desc : 'Diseñador Experto en Experiencia e Interfaz de Usuario',
         link : 'https://www.github.com/',
         href : 'https://www.linkeding.com',
     },
@@ -263,7 +263,7 @@ export const team = [
         img: '/equipo/3.png',
         alt : 'Nadia Malena Foto del equipo de Poderify',
         name : 'Nadia Malena',
-        desc : 'Ingeniera de Datos',
+        desc : 'Ingeniera Especializada en Big Data y Análisis de Datos',
         link : 'https://www.github.com/',
         href : 'https://www.linkeding.com',
     },
@@ -271,7 +271,7 @@ export const team = [
         img: '/equipo/2.png',
         alt : 'Clara Oviedo foto del equipo de Poderify',
         name : 'Clara Oviedo',
-        desc : 'Diseñadora Grafica',
+        desc : 'Diseñadora Gráfica con Enfoque en Branding e Indentidad Visual',
         link : 'https://www.github.com/',
         href : 'https://www.linkeding.com',
     },
