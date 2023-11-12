@@ -220,7 +220,7 @@ export const team = [
         href : 'https://www.linkedin.com/in/sebastian-leandro/',
     },
     {
-        img: '/equipo/meji.png',
+        img: '/equipo/meji.jpeg',
         alt : 'Felipe Maldonado Foto del equipo de Poderify',
         name : 'Felipe Maldonado',
         desc : 'Científico de Datos | Ingeniero en Aprendizaje Automático',
@@ -228,7 +228,7 @@ export const team = [
         href : 'https://www.linkedin.com/in/felipemaldonado/',
     },
     {
-        img: '/equipo/gonza.png',
+        img: '/equipo/gonza.jpeg',
         alt : 'Gonzalo Canepa foto del equipo de Poderify',
         name : 'Gonzalo Canepa',
         desc : 'Desarrollador Backend | Ingeniero de Software',
@@ -260,7 +260,7 @@ export const team = [
         href : 'https://www.linkeding.com',
     },
     {
-        img: '/equipo/3.png',
+        img: '/equipo/3.jpeg',
         alt : 'Nadia Malena Foto del equipo de Poderify',
         name : 'Nadia Malena',
         desc : 'Ingeniera Especializada en Big Data y Análisis de Datos',
@@ -268,7 +268,7 @@ export const team = [
         href : 'https://www.linkeding.com',
     },
     {
-        img: '/equipo/2.png',
+        img: '/equipo/2.jpeg',
         alt : 'Clara Oviedo foto del equipo de Poderify',
         name : 'Clara Oviedo',
         desc : 'Diseñadora Gráfica con Enfoque en Branding e Identidad Visual',
