@@ -39,10 +39,10 @@ const Slider = () => {
               loading="lazy"
             />
           </div>
-          <div className="w-full h-full flex flex-col items-center justify-center gap-4">
-            <h3 className="heading">{title}</h3>
-            <p className="paragraph-v1 w-[90%] text-center ">{subTitle}</p>
-            <Link className="btn-feedback" href={link}>{linkTitle}</Link>
+          <div className="w-full h-full flex flex-col items-center gap-4">
+            <h3 className="heading m-auto">{title}</h3>
+            <p className="paragraph-v1 m-auto w-[90%] text-center ">{subTitle}</p>
+            <Link className="btn-feedback justify-self-end" href={link}>{linkTitle}</Link>
           </div>
         </div>
       ))}
