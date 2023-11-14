@@ -20,7 +20,7 @@ const CardAbout = ({ img, alt, name, desc, href }) => {
         </div>
         <div className="w-full h-full items-center justify-end flex flex-col">
           <h3 className="subheading uppercase h-1/2">{name}</h3>
-          <p className="paragraph-v1 text-[#fff] h-full text-center whitespace-break-spaces">{desc}</p>
+          <p className="paragraph-v3 h-full text-center whitespace-break-spaces">{desc}</p>
         </div>
         <div className="h-1/2 flex items-end gap-x-6 justify-end w-full">
           <Link
