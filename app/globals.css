@@ -301,12 +301,11 @@ section {
 }
 
 .paragraph-v3 {
-  font-size: 15.10px;
+  font-size: 15.75px;
   font-weight: 400;
   letter-spacing: 0.075rem;
   text-shadow: 0 0 1.1px rgba(255, 255, 255, 0.9);
   color: var(--thistle-2);
-  line-height: 1.1;
   text-rendering: optimizeLegibility;
 }
 
