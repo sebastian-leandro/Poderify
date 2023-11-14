@@ -185,19 +185,25 @@ export const images = [
         src: '/work/eda-min.gif',
         alt: 'gif-EDA',
         title: 'EDA | Analisis SEM',
-        subTitle : 'Realizamos un análisis exhaustivo del Search Engine Marketing (SEM) del cliente, utilizando técnicas avanzadas de Exploratory Data Analysis (EDA) para optimizar la estrategia de marketing digital y mejorar la captación de leads.'
+        subTitle : 'Realizamos un análisis exhaustivo del Search Engine Marketing (SEM) del cliente, utilizando técnicas avanzadas de Exploratory Data Analysis (EDA) para optimizar la estrategia de marketing digital y mejorar la captación de leads.',
+        link: "https://google.com", 
+        linkTitle: "Ver trabajo"
     },
     {
         src: '/work/1.png',
         alt: 'iPureFix',
         title: 'Desarrollo Web iPureFix',
-        subTitle : 'Diseñamos y desarrollamos una Landing Page eficiente y atractiva para iPureFix, enfocada en maximizar la conversión de usuarios y mejorar la experiencia de navegación.'
+        subTitle : 'Diseñamos y desarrollamos una Landing Page eficiente y atractiva para iPureFix, enfocada en maximizar la conversión de usuarios y mejorar la experiencia de navegación.',
+        link: "https://google.com", 
+        linkTitle: "Ver trabajo"
     },
     {
         src: '/work/2.png',
         alt: 'M&M',
         title: 'Desarrollo Web M&M Design',
-        subTitle : 'Creamos un sitio web dinámico y a medida para M&M Design, integrando soluciones CRM y Chatbot para mejorar la interacción con el cliente y la gestión de leads.'
+        subTitle : 'Creamos un sitio web dinámico y a medida para M&M Design, integrando soluciones CRM y Chatbot para mejorar la interacción con el cliente y la gestión de leads.',
+        link: "https://google.com", 
+        linkTitle: "Ver trabajo"
     },
 
 ];

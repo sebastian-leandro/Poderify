@@ -72,11 +72,18 @@ section {
 .btn-feedback {
   font-weight: 500;
   padding: 0.25rem .75rem;
-  border-radius: 5px;
+  border-radius: 16px;
+  border: 1px solid #e9e9e9;
   box-shadow: 0 1px 5px rgba(255, 255, 255, .075);
   transition: .33s all ease;
-  background: hsl(220deg 76% 51%) 100%;
+  background: transparent;
   color: #e9e9e9;
+  transition: 0.33s all ease;
+}
+
+.btn-feedback:hover {
+  background-color: hsla(350, 95%, 98.5%, 1);
+  color: hsla(0, 0%, 0%, 1);
 }
 
 
@@ -88,7 +95,7 @@ section {
 }
 
 .bg-image {
-  background: linear-gradient(to right, #00000062, #00000062),url('../public/bg.jpg')no-repeat center/cover;
+  background: linear-gradient(to right, #00000096, #00000096),url('../public/bg.jpg')no-repeat center/cover;
   background-attachment: fixed;
 }
 
@@ -307,6 +314,13 @@ section {
   text-shadow: 0 0 1.1px rgba(255, 255, 255, 0.9);
   color: var(--thistle-2);
   text-rendering: optimizeLegibility;
+}
+
+.paragraph-v4 {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
 }
 
 .text-gradient {

@@ -23,15 +23,14 @@ const Footer = () => {
                 <BiLogoInstagram/>
               </Link>
             </div>
-            <div className="flex gap-y-4 p-1 gap-x-8 flex-wrap justify-center md:justify-end md:items-center ">
+            <div className="flex gap-y-4 md:flex-row flex-col p-1 gap-x-8 items-center flex-wrap justify-center md:justify-end md:items-center ">
               <p className="paragraph-v1 text-white md:text-left text-center">Designed by Poderify</p>
               <p className="paragraph-v1 text-white md:text-left text-center">All rights reserved.</p>
-              <Link href={'#home'} className="text-white   text-4xl p-2 rounded-full hover:bg-[rgba(255,255,255,.6)] hover:backdrop-blur-3xl duration-500">
+              <Link href={'#home'} className="text-white w-fit text-center text-4xl p-2 rounded-full hover:bg-[rgba(255,255,255,.6)] hover:backdrop-blur-3xl duration-500">
               <HiChevronDoubleUp/>
             </Link>
             </div>
           </div>
-
         </div>
       </footer>
     </section>

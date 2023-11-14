@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { images } from "@/constants";
 import { useState } from "react";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
@@ -23,13 +24,13 @@ const Slider = () => {
       <button onClick={nextSlide} className="btn-arrow duration-500">
         <HiChevronRight />
       </button>
-      {images.map(({ src, alt, title, subTitle }, i) => (
+      {images.map(({ src, alt, title, subTitle, link, linkTitle }, i) => (
         <div
           className={` flex-col md:flex-row w-full slider h-full p-6 flex items-center justify-between duration-700`}
           style={{ translate: `${-100 * currentIndex}%` }}
           key={i}
         >
-          <div className="relative w-full h-[375px]">
+          <div className="relative w-full h-[375px] md:block hidden">
             <Image
               src={src}
               alt={alt}
@@ -41,6 +42,7 @@ const Slider = () => {
           <div className="w-full h-full flex flex-col items-center justify-center gap-4">
             <h3 className="heading">{title}</h3>
             <p className="paragraph-v1 w-[90%] text-center ">{subTitle}</p>
+            <Link className="btn-feedback" href={link}>{linkTitle}</Link>
           </div>
         </div>
       ))}
