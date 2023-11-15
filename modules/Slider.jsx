@@ -16,7 +16,7 @@ const Slider = () => {
 
   return (
     <div
-      className={`max-w-[1200px] relative  w-full h-auto md:max-h-[450px] h-full rounded-2xl flex overflow-hidden bg-tertiary duration-700 text-white px-6 py-4`}
+      className={`max-w-[1200px] relative  w-full h-full md:max-h-[450px] rounded-2xl flex overflow-hidden bg-tertiary duration-700 text-white px-6 py-4`}
     >
       <button onClick={prevSlide} className="btn-arrow duration-500">
         <HiChevronLeft />

@@ -6,7 +6,7 @@ const Works = () => {
       <div className="w-full h-auto flex justify-center">
         <h2 className="heading txt-shadow uppercase">Ultimos Trabajos</h2>
       </div>
-      <div className="flex w-full h-full items-center justify-center">
+      <div className="flex w-full h-full items-center justify-center sm:px-0 px-2">
         <Slider />
       </div>
       <div className="w-full flex items-center justify-center h-auto">
