@@ -34,7 +34,7 @@ const Navbar = () => {
       <div
         className="flex gap-x-0 m-0 w-fit cursor-pointer h-full items-center"
         onClick={() => {
-          window.location.reload();
+          window.scrollTo(0,0);
         }}
       >
         <Image
