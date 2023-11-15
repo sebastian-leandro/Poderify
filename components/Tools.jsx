@@ -1,12 +1,16 @@
 import { CardTool, Features } from "@/modules";
 import { tools } from "@/constants";
 
+
 const Tools = () => {
+
+
   return (
     <section className="section w-full flex items-center h-auto gap-y-20 flex-col relative">
       <div className="lg:block hidden gradient bottom-10 right-1"></div>
       <div className="lg:block hidden gradient top-10 left-1"></div>
-      <div className="w-full h-auto flex flex-col items-center gap-y-10 justify-center">
+      <div 
+      className="w-full h-auto flex flex-col items-center gap-y-10 py-2 justify-center">
         <div className="flex items-center justify-center w-full h-auto gap-y-10 flex-col">
           <p className="paragraph text-center capitalize text-[#618adc]">
             Integra las herramientas más poderosas del mercado a tu negocio.
@@ -31,12 +35,12 @@ const Tools = () => {
       </div>
       <div 
       className="flex w-full flex-col h-full flex-wrap items-center gap-y-10">
-        <h2 className="heading uppercase txt-shadow">SOMOS EXPERTOS EN:</h2>
+        <h2 className="heading uppercase txt-shadow">SOMOS EXPERTOS EN</h2>
         <div
           className="flex w-full h-auto flex-wrap flex-col gap-y-4 sm:flex-row items-center justify-center gap-x-10"
         >
-          {tools.map(({ img, alt, title }, i) => (
-            <CardTool img={img} alt={alt} title={title} key={i} index={i} />
+          {tools.map(({ img, alt, title }, index) => (
+              <CardTool img={img} alt={alt} title={title} index={index} key={alt} />
           ))}
         </div>
       </div>

@@ -1,8 +1,6 @@
 import Image from "next/image"
 
-
-const CardRow = ({img,alt,title}) => {
-
+const CardRow = ({img,alt,title,i}) => {
 
   return (
     <div className="w-64 md:w-full h-[350px] max-w-[1100px] p-[0.1rem] bg-card rounded-2xl">
