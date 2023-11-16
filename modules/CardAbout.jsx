@@ -30,7 +30,7 @@ const CardAbout = ({ img, alt, name, desc, href, index }) => {
           />
         </div>
         <div className="w-full h-full items-center justify-end flex flex-col">
-          <h4 className="subheading uppercase h-1/2">{name}</h4>
+          <h3 className="subheading uppercase h-1/2">{name}</h3>
           <p className="paragraph-v3 h-full text-center">{desc}</p>
         </div>
         <div className="h-1/2 flex items-end gap-x-6 justify-end w-full">
