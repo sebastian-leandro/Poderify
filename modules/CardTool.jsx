@@ -8,7 +8,7 @@ import { Direction } from "@/utils";
 const CardTool = ({ img, alt, title, index }) => {
 
   const direction = Direction(index);
-  const fade = fadeIn(direction, "spring", 0.3, index * 0.75);
+  const fade = fadeIn(direction, "spring", 0.3, 0.5 );
 
   return (
     <Tilt>
@@ -17,7 +17,7 @@ const CardTool = ({ img, alt, title, index }) => {
       initial="hidden"
       whileInView="show"
       viewport={{once: true}}
-      className="w-[230px] h-[230px] rounded-lg duration-500 shadow-feed m-1">
+      className="w-[230px] h-[230px] rounded-lg shadow-feed m-1">
         <div className="w-full h-full cursor-default">
           <div className="w-[99%] h-[99%] rounded-lg bg-card p-[0.05rem]">
             <div className="w-full rounded-lg h-full bg-tertiary">

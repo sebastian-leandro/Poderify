@@ -4,10 +4,10 @@ import { Direction } from "@/utils";
 import { motion } from "framer-motion";
 import { slideIn } from "@/utils/motion";
 
-const CardService = ({title, img, alt, i }) => {
+const CardService = ({title, img, alt, index }) => {
 
-  const direction = Direction(i)
-  const slide = slideIn(direction, 'spring', 0.3, i * 0.5);
+  const direction = Direction(index)
+  const slide = slideIn(direction, 'spring', 0.3, 0.75);
 
   return (
     <motion.div 
@@ -15,7 +15,7 @@ const CardService = ({title, img, alt, i }) => {
     initial="hidden"
     whileInView="show"
     viewport={{once: true}}
-    className="cursor-default shadow-feed duration-500">
+    className="cursor-default shadow-feed">
       <div
         className="w-[250px] h-[320px] rounded-2xl  bg-card p-[0.15rem]"
       >

@@ -1,10 +1,21 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import { AiFillLinkedin } from "react-icons/ai";
+import { motion } from "framer-motion";
+import { fadeIn } from "@/utils/motion";
+import { Time } from "@/utils";
 
-const CardAbout = ({ img, alt, name, desc, href }) => {
+const CardAbout = ({ img, alt, name, desc, href, index }) => {
+  
+  const fade = fadeIn("right", "tween", 0.3, 0.75);
+  
   return (
-    <div
+    <motion.div
+      variants={fade}
+      initial="hidden"
+      whileInView="show"
+      viewport={{once: true}}
       className="w-[230px] relative h-[250px] p-[0.075rem] bg-about"
     >
       <div className="w-full h-full flex flex-col bg-[#090909]">
@@ -33,7 +44,7 @@ const CardAbout = ({ img, alt, name, desc, href }) => {
           </Link>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

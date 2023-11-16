@@ -19,7 +19,7 @@ const Services = () => {
           img={img}
           alt={alt}
           title={title}
-          i={i}
+          index={i}
           key={i}
           />
         ))}
