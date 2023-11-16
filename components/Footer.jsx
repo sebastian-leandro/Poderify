@@ -10,7 +10,7 @@ const Footer = () => {
       <footer className="px-0 sm:px-2 w-full h-auto overflow-hidden">
         <div className="w-full h-full flex flex-col gap-y-12 justify-center items-center">
           <h2 className="heading txt-shadow uppercase">Contáctanos</h2>
-          <div className="min-h-[520px] w-[250px] sm:w-[420px] shadow-md py-4 px-8 bg-[#101010] rounded-md shadow-slate-950 flex">
+          <div className="min-h-[520px] w-[340px] sm:w-[420px] shadow-md p-4 bg-[#101010] rounded-md shadow-slate-950 flex">
             <Contact />
           </div>
           <div className="w-full flex md:flex-row flex-col h-auto pt-8 justify-center gap-8 px-4 relative">
