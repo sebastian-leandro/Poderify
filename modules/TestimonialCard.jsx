@@ -14,9 +14,9 @@ const TestimonialCard = ({ text, img, alt, name, index }) => {
   return (
     <motion.div
       className="w-[270px] h-[250px] shadow-feed bg-[rgba(0,0,0,0.5)] p-3 shadow-lg shadow-zinc-950 rounded-md relative"
-      variants={isMobile ? {} : fadeVariant}
-      initial={isMobile ? {} : "hidden"}
-      whileInView={isMobile ? {} : "show"}
+      variants={fadeVariant}
+      initial={"hidden"}
+      whileInView={"show"}
       viewport={{once: true, amount: 0.5}}
     >
       <div className="absolute top-2 left-6 bg-feed-quote"></div>
