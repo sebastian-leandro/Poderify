@@ -33,7 +33,7 @@ const TestimonialCard = ({ text, img, alt, name, index }) => {
             height={32}
             className="rounded-[50%] object-contain"
           />
-          <h5 className="subheading">{name}</h5>
+          <h3 className="subheading">{name}</h3>
         </div>
       </div>
     </motion.div>
