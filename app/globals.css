@@ -423,7 +423,7 @@ section {
 
 @media screen and (max-width: 640px) {
   section {
-    padding: 2.5rem;
+    padding: 2.5rem 0.5rem;
   }
   .paragraph-v1 {
     font-size: 14.50px;
