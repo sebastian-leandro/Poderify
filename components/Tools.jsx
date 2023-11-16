@@ -8,8 +8,6 @@ const Tools = () => {
 
   return (
     <section className="section w-full flex items-center h-auto gap-y-20 flex-col relative">
-      <div className="lg:block hidden gradient bottom-10 right-1"></div>
-      <div className="lg:block hidden gradient top-10 left-1"></div>
       <motion.div
       variants={textVariant(0.3)}
       initial="hidden"

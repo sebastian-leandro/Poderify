@@ -8,8 +8,6 @@ const Services = () => {
       id="services"
       className="section w-full h-auto flex flex-col md:gap-y-24 relative justify-between overflow-hidden"
     >
-      <div className="lg:block hidden gradient-01 w-[250px] h-[250px] bottom-64 left-1"></div>
-      <div className="lg:block hidden gradient top-36 w-[250px] h-[250px]"></div>
       <h2 className="heading txt-shadow uppercase mb-16">Nuestros Servicios</h2>
       <div
       className="w-full flex flex-col h-auto gap-y-4 mb-4 justify-center items-center"
