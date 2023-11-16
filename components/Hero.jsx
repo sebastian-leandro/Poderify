@@ -28,7 +28,7 @@ const Hero = () => {
               <HiChatAlt2 />
             </Link>
             <div className="absolute xs:bottom-2 bottom-8 w-full flex justify-center items-center">
-            <Link aria-label="deslizar hacia abajo" href={'#tools'}>
+            <Link aria-label="Scroll down" href={'#tools'}>
               <div className="w-[32px] h-16 rounded-3xl border-2 border-slate-300 flex justify-center items-start p-2 hover:border-slate-950 duration-300">
                 <motion.div
                 animate={{
