@@ -1,14 +1,28 @@
+"use client"
+import { motion } from "framer-motion";
+import { fadeIn } from "@/utils/motion";
 import Image from "next/image";
+import { MobileWidth, Direction } from "@/utils";
+
 
 const TestimonialCard = ({ text, img, alt, name, index }) => {
+
+  const isMobile = MobileWidth();
+  const direction = Direction(index);
+  const fadeVariant = fadeIn(direction,"spring",index * 0.5, index * 0.75);
+
   return (
-    <div
-      className="w-[270px] h-[250px] shadow-sm shadow-zinc-900 rounded-md relative"
+    <motion.div
+      className="w-[270px] h-[250px] shadow-feed bg-[rgba(0,0,0,0.5)] p-3 shadow-lg shadow-zinc-950 rounded-md relative"
+      variants={isMobile ? {} : fadeVariant}
+      initial={isMobile ? {} : "hidden"}
+      whileInView={isMobile ? {} : "show"}
+      viewport={{once: true, amount: 0.5}}
     >
-      <div className="absolute top-1 left-1 bg-feed-quote"></div>
+      <div className="absolute top-2 left-6 bg-feed-quote"></div>
       <div className="flex w-full h-full flex-col rounded-md">
-        <div className="w-full h-full flex items-center">
-          <p className="paragraph-v1 text-[#cecece] w-[95%]   text-center">
+        <div className="w-full h-full mt-6 flex items-center">
+          <p className="paragraph-v1 w-[95%] text-center">
             {text}
           </p>
         </div>
@@ -18,13 +32,12 @@ const TestimonialCard = ({ text, img, alt, name, index }) => {
             alt={alt}
             width={32}
             height={32}
-            className="rounded-[50%]"
-            loading="lazy"
+            className="rounded-[50%] object-contain"
           />
           <h4 className="subheading">{name}</h4>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

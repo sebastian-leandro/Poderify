@@ -293,11 +293,16 @@ section {
 }
 
 .paragraph-v1 {
-  font-size: 17.25px;
+  font-size: 17.75px;
   font-weight: 500;
-  letter-spacing: 0.1rem;
   color: var(--thistle-2);
-  text-shadow: 0 0 3px rgba(255, 255, 255, .1);
+  font-style: normal;
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+}
+
+.shadow-feed {
+  box-shadow: 0 3px 40px rgba(255, 255, 255, .1);
 }
 
 .paragraph-v2 {
