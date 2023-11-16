@@ -302,7 +302,7 @@ section {
 }
 
 .shadow-feed {
-  box-shadow: 0 3px 40px rgba(255, 255, 255, .1);
+  box-shadow: 0 3px 40px rgba(255, 255, 255, .050);
 }
 
 .paragraph-v2 {
@@ -429,7 +429,6 @@ section {
     font-size: 14.50px;
   }
   .heading {
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 26px;
   }
 }

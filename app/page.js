@@ -9,9 +9,9 @@ export default function Home() {
         < Tools />
         < CTA />
         < Services />
-        < Testimonials />
         < Works />
         < About />
+        < Testimonials />
       </main>
     </>
   )
