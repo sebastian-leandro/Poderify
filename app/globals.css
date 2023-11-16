@@ -423,10 +423,10 @@ section {
 
 @media screen and (max-width: 640px) {
   section {
-    padding: 0.25rem;
+    padding: 2.5rem;
   }
   .paragraph-v1 {
-    font-size: 13.25px;
+    font-size: 14.50px;
   }
   .heading {
     font-size: 22px;

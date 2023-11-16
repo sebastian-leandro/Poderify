@@ -17,7 +17,7 @@ const TestimonialCard = ({ text, img, alt, name, index }) => {
       variants={fadeVariant}
       initial={"hidden"}
       whileInView={"show"}
-      viewport={{once: true, amount: 0.5}}
+      viewport={{once: true, amount: 0.25}}
     >
       <div className="absolute top-2 left-6 bg-feed-quote"></div>
       <div className="flex w-full h-full flex-col rounded-md">
