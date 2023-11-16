@@ -42,7 +42,7 @@ const Slider = () => {
           <div className="w-full h-full flex flex-col items-center gap-4">
             <h3 className="heading m-auto">{title}</h3>
             <p className="paragraph-v1 m-auto w-[90%] text-center ">{subTitle}</p>
-            <Link className="btn-feedback justify-self-end" href={link}>{linkTitle}</Link>
+            <Link className="btn-feedback justify-self-end" aria-label={linkTitle} href={link}>{linkTitle}</Link>
           </div>
         </div>
       ))}
