@@ -13,9 +13,7 @@ const About = () => {
         </h2>
       </div>
       <div className="w-full h-full flex items-center justify-center">
-        <div
-          className=" w-full h-full items-center justify-center gap-4 flex flex-wrap flex-col sm:flex-row "
-        >
+        <div className=" w-full h-full items-center justify-center gap-4 flex flex-wrap flex-col sm:flex-row ">
           {team.map(({ img, alt, name, desc, link, href }, index) => (
             <CardAbout
               key={index}

@@ -305,6 +305,17 @@ section {
   box-shadow: 0 3px 40px rgba(255, 255, 255, .080);
 }
 
+.canvas-loader {
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  animation: mulShdSpin 1.1s infinite ease;
+  transform: translateZ(0);
+}
+
 .paragraph-v2 {
   font-size: 17.25px;
   font-weight: 500;
@@ -395,6 +406,61 @@ section {
   stroke: white;
   transition: 500ms fill ease;
 }
+
+/* Icons */
+
+
+.item .icon-media {
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: hsl(203,92%,97%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  border: 2px solid hsl(203, 92%, 97%);
+  overflow: hidden;
+}
+
+.item .icon-media::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:var(--bg-color);
+  z-index: 0;
+  scale: 1 0;
+  transform-origin: bottom;
+  transition: scale 0.5s ease;
+}
+
+.item:hover .icon-media::before {
+  scale: 1 1;
+}
+
+.item .icon-media:hover .icon {
+  color: #fff;
+  transform: rotate(360deg);
+}
+
+.item:nth-child(1) {
+  --bg-color: #0077b5;
+}
+
+
+.item:nth-child(2) {
+  --bg-color: linear-gradient(
+    to bottom right,
+    #f9ce34,
+    #ee2a7b,
+    #6228d7
+  )
+}
+
+
+
 
 /* Border */
 

@@ -34,7 +34,7 @@ const Navbar = () => {
       <div
         className="flex gap-x-0 m-0 w-fit cursor-pointer h-full items-center"
         onClick={() => {
-          window.scrollTo(0,0);
+          window.scrollTo(0, 0);
         }}
       >
         <Image
@@ -48,12 +48,11 @@ const Navbar = () => {
       </div>
       <ul className="md:flex hidden gap-x-4 list-none">
         {nav.map(({ id, title }, i) => (
-          <li key={i} className="link-paragraph p-2 rounded-md hover:bg-[rgba(255,255,255,0.3)] hover:backdrop-blur-3xl duration-300 ">
-            <Link
-              href={`#${id}`}
-            >
-              {title}
-            </Link>
+          <li
+            key={i}
+            className="link-paragraph p-2 rounded-md hover:bg-[rgba(255,255,255,0.3)] hover:backdrop-blur-3xl duration-300 "
+          >
+            <Link href={`#${id}`}>{title}</Link>
           </li>
         ))}
       </ul>
