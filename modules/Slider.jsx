@@ -18,10 +18,10 @@ const Slider = () => {
     <div
       className={`max-w-[1200px] relative  w-full h-full md:max-h-[450px] rounded-2xl flex overflow-hidden bg-tertiary duration-700 text-white px-6 py-4`}
     >
-      <button onClick={prevSlide} className="btn-arrow duration-500">
+      <button onClick={prevSlide} aria-label="Previous Slide" className="btn-arrow duration-500">
         <HiChevronLeft />
       </button>
-      <button onClick={nextSlide} className="btn-arrow duration-500">
+      <button onClick={nextSlide} aria-label="Next Slide" className="btn-arrow duration-500">
         <HiChevronRight />
       </button>
       {images.map(({ src, alt, title, subTitle, link, linkTitle }, i) => (
@@ -52,6 +52,7 @@ const Slider = () => {
             className="btn-icon"
             onClick={() => setCurrentIndex(index)}
             key={index}
+            aria-label={`Slide ${index + 1}`}
           >
             {index === currentIndex ? <LuCircleDot /> : <LuCircle />}
           </button>
