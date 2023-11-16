@@ -9,7 +9,7 @@ const TestimonialCard = ({ text, img, alt, name, index }) => {
 
   const isMobile = MobileWidth();
   const direction = Direction(index);
-  const fadeVariant = fadeIn(direction,"spring",index * 0.5, index * 0.75);
+  const fadeVariant = fadeIn(direction,"spring", 0.3, index * 0.75);
 
   return (
     <motion.div
@@ -17,7 +17,7 @@ const TestimonialCard = ({ text, img, alt, name, index }) => {
       variants={fadeVariant}
       initial={"hidden"}
       whileInView={"show"}
-      viewport={{once: true, amount: 0.25}}
+      viewport={{once: true}}
     >
       <div className="absolute top-2 left-6 bg-feed-quote"></div>
       <div className="flex w-full h-full flex-col rounded-md">

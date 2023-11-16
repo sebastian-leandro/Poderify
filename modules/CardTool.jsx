@@ -3,27 +3,20 @@ import Image from "next/image";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/utils/motion";
+import { Direction } from "@/utils";
 
 const CardTool = ({ img, alt, title, index }) => {
-  const direction = (index) => {
-    switch (index) {
-      case 0:
-        return "right";
-      case 1:
-        return "bottom";
-      case 2:
-        return "left";
-      default:
-        return "up";
-    }
-  };
 
-  const fade = fadeIn(direction(index), "spring", 0.5, index * 0.75);
+  const direction = Direction(index);
+  const fade = fadeIn(direction, "spring", 0.3, index * 0.75);
 
   return (
     <Tilt>
       <motion.div
       variants={fade}
+      initial="hidden"
+      whileInView="show"
+      viewport={{once: true}}
       className="w-[230px] h-[230px] rounded-lg">
         <div className="w-full h-full cursor-default">
           <div className="w-[99%] h-[99%] rounded-lg bg-card p-[0.05rem]">
