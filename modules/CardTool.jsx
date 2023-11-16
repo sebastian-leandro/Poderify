@@ -17,7 +17,7 @@ const CardTool = ({ img, alt, title, index }) => {
       initial="hidden"
       whileInView="show"
       viewport={{once: true}}
-      className="w-[230px] h-[230px] rounded-lg">
+      className="w-[230px] h-[230px] rounded-lg duration-500 shadow-feed m-1">
         <div className="w-full h-full cursor-default">
           <div className="w-[99%] h-[99%] rounded-lg bg-card p-[0.05rem]">
             <div className="w-full rounded-lg h-full bg-tertiary">

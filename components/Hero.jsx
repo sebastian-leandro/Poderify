@@ -27,7 +27,7 @@ const Hero = () => {
               {link}
               <HiChatAlt2 />
             </Link>
-            <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+            <div className="absolute xs:bottom-10 bottom-8 w-full flex justify-center items-center">
             <Link href={'#tools'}>
               <div className="w-[32px] h-16 rounded-3xl border-2 border-slate-300 flex justify-center items-start p-2 hover:border-slate-950 duration-300">
                 <motion.div

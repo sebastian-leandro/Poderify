@@ -2,18 +2,17 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "@/utils/motion";
 import Image from "next/image";
-import { MobileWidth, Direction } from "@/utils";
+import { Direction } from "@/utils";
 
 
 const TestimonialCard = ({ text, img, alt, name, index }) => {
 
-  const isMobile = MobileWidth();
   const direction = Direction(index);
   const fadeVariant = fadeIn(direction,"spring", 0.3, index * 0.75);
 
   return (
     <motion.div
-      className="w-[270px] h-[250px] shadow-feed bg-[rgba(0,0,0,0.5)] p-3 shadow-lg shadow-zinc-950 rounded-md relative"
+      className="w-[270px] duration-500 h-[250px] shadow-feed bg-[rgba(0,0,0,0.5)] p-3 shadow-lg shadow-zinc-950 rounded-md relative"
       variants={fadeVariant}
       initial={"hidden"}
       whileInView={"show"}

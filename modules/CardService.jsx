@@ -1,11 +1,23 @@
+"use client"
 import Image from "next/image";
+import { Direction } from "@/utils";
+import { motion } from "framer-motion";
+import { slideIn } from "@/utils/motion";
 
 const CardService = ({title, img, alt, i }) => {
 
+  const direction = Direction(i)
+  const slide = slideIn(direction, 'spring', 0.3, i * 0.5);
+
   return (
-    <div className="cursor-default">
+    <motion.div 
+    variants={slide}
+    initial="hidden"
+    whileInView="show"
+    viewport={{once: true}}
+    className="cursor-default shadow-feed duration-500">
       <div
-        className="w-[250px] h-[320px] rounded-2xl bg-card p-[0.15rem]"
+        className="w-[250px] h-[320px] rounded-2xl  bg-card p-[0.15rem]"
       >
         <div className="flex flex-col w-full h-full gradient-07 rounded-2xl items-center justify-center">
           <div className="w-full h-full relative">
@@ -22,7 +34,7 @@ const CardService = ({title, img, alt, i }) => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -302,7 +302,7 @@ section {
 }
 
 .shadow-feed {
-  box-shadow: 0 3px 40px rgba(255, 255, 255, .050);
+  box-shadow: 0 3px 40px rgba(255, 255, 255, .080);
 }
 
 .paragraph-v2 {
