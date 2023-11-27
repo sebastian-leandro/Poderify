@@ -21,7 +21,7 @@ export const metadata = {
     title: 'PoderiFy',
     description: 'Desde desarrollo web, análisis de datos e IA hasta scraping y automatización de tareas. Hacemos que la tecnología trabaje para vos.',
     icons: {
-      icon: '/favicon.ico'
+      icon: '/favicon.png'
     },
     url: 'https://poderify.com',
     type: 'website',
