@@ -20,7 +20,9 @@ export const metadata = {
   opengraph: {
     title: 'PoderiFy',
     description: 'Desde desarrollo web, análisis de datos e IA hasta scraping y automatización de tareas. Hacemos que la tecnología trabaje para vos.',
-    image: '/logos/logo_pagina/logo_pagina/1.png',
+    icons: {
+      icon: '/favicon.ico'
+    },
     url: 'https://poderify.com',
     type: 'website',
     siteName: 'PoderiFy',
