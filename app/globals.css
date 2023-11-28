@@ -411,10 +411,8 @@ section {
 }
 
 .btn-icon > * {
-  width: 1rem;
-  height: 1rem;
-  fill: black;
-  stroke: white;
+  width: 2.5rem;
+  height: 2.5rem;
   transition: 500ms fill ease;
 }
 

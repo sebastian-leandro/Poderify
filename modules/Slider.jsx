@@ -4,7 +4,7 @@ import Link from "next/link";
 import { images } from "@/constants";
 import { useState } from "react";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
-import { LuCircleDot, LuCircle } from "react-icons/lu";
+import { LuDot  ,LuCircle } from "react-icons/lu";
 
 const Slider = () => {
   // Slider
@@ -16,7 +16,7 @@ const Slider = () => {
 
   return (
     <div
-      className={`max-w-[1200px] relative  w-full h-full md:max-h-[450px] rounded-2xl flex overflow-hidden bg-tertiary duration-700 text-white px-6 py-4`}
+      className={`max-w-[1200px] relative  w-full h-full md:max-h-[450px] rounded-2xl flex overflow-hidden bg-dark duration-700 text-white px-6 py-4`}
     >
       <button onClick={prevSlide} aria-label="Previous Slide" className="btn-arrow duration-500">
         <HiChevronLeft />
@@ -46,7 +46,7 @@ const Slider = () => {
           </div>
         </div>
       ))}
-      <div className="absolute flex w-full gap-x-2 bottom-[0.5rem] left-0 right-0 items-center justify-center">
+      <div className="absolute flex w-full gap-x-2 bottom-[0.1rem] z-40 left-0 right-0 items-end justify-center">
         {images.map((_, index) => (
           <button
             className="btn-icon"
@@ -54,7 +54,7 @@ const Slider = () => {
             key={index}
             aria-label={`Slide ${index + 1}`}
           >
-            {index === currentIndex ? <LuCircleDot /> : <LuCircle />}
+            {index === currentIndex ? <LuDot style={{stroke: '#fff'}} /> : <LuDot style={{stroke: '#090909'}} />}
           </button>
         ))}
       </div>
