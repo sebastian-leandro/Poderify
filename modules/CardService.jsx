@@ -19,7 +19,7 @@ const CardService = ({title, img, alt, index }) => {
       <div
         className="w-[250px] h-[320px] rounded-2xl  bg-card p-[0.15rem]"
       >
-        <div className="flex flex-col w-full h-full gradient-07 rounded-2xl items-center justify-center">
+        <div className="flex flex-col w-full h-full bg-dark rounded-2xl items-center justify-center">
           <div className="w-full h-full relative">
             <Image
               src={img}

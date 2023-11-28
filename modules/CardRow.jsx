@@ -15,7 +15,7 @@ const CardRow = ({img,alt,title,index}) => {
     whileInView="show"
     viewport={{once:true}}
     className="w-64 md:w-full h-[350px] max-w-[1100px] p-[0.1rem] bg-card rounded-2xl">
-        <div className="w-full h-full gradient-07 rounded-2xl">
+        <div className="w-full h-full bg-dark rounded-2xl">
             <div className="w-full flex items-center h-full justify-center flex-col lg:flex-row">
                 <div className="w-full h-[75%] md:h-full flex relative">
                     <Image

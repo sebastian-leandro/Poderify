@@ -10,25 +10,15 @@ const Navbar = () => {
   const [move, setMove] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 100) {
-        setMove(true);
-      } else {
-        setMove(false);
-      }
-    };
-
+    const handleScroll = () => window.scrollY > 144 ? setMove(true) : setMove(false)
     window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <nav
-      className={`flex fixed top-0 px-4 md:px-12 left-0 w-full h-[64px] justify-between z-[999] items-center duration-300 ${
-        move ? "bg-[rgba(0,0,0,.75)]" : ""
+      className={`flex fixed top-0 px-12 left-0 w-full h-[84px] justify-between z-[999] items-center duration-300 ${
+        move ? "bg-[rgba(0,0,0,0.75)] backdrop-blur-3xl px-24" : ""
       }`}
     >
       <div
@@ -43,16 +33,14 @@ const Navbar = () => {
           width={180}
           height={56}
           className="object-contain p-0 m-0"
-          loading="eager"
         />
       </div>
       <ul className="md:flex hidden gap-x-4 list-none">
         {nav.map(({ id, title }, i) => (
           <li
             key={i}
-            className="link-paragraph p-2 rounded-md hover:bg-[rgba(255,255,255,0.3)] hover:backdrop-blur-3xl duration-300 "
           >
-            <Link href={`#${id}`}>{title}</Link>
+            <Link className="link-paragraph" href={`#${id}`}>{title}</Link>
           </li>
         ))}
       </ul>

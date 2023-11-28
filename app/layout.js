@@ -14,6 +14,10 @@ export const metadata = {
     name: 'Poderify',
     url: 'https://poderify.com'
   },
+  icons: {
+    icon: ['/favicon.png'],
+    apple: ['/apple-icon-144x144.png']
+  },
   creator: 'Sebastian Leandro',
   publisher: 'Santiago Cànepa',
   type: 'website',
@@ -21,7 +25,7 @@ export const metadata = {
     title: 'PoderiFy',
     description: 'Desde desarrollo web, análisis de datos e IA hasta scraping y automatización de tareas. Hacemos que la tecnología trabaje para vos.',
     icons: {
-      icon: '/favicon.png'
+      icon: '/favicon.png',
     },
     url: 'https://poderify.com',
     type: 'website',
@@ -44,11 +48,11 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className={`${nunito.className} bg-body-gradient`}>
         < Navbar />
-        <WhatsappIcon />
         {children}
         <div className='mt-12'>
           < Footer />
         </div>
+        <WhatsappIcon />
       </body>
     </html>
   )

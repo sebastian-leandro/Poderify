@@ -20,7 +20,7 @@ const CardTool = ({ img, alt, title, index }) => {
       className="w-[230px] h-[230px] rounded-lg shadow-feed m-1">
         <div className="w-full h-full cursor-default">
           <div className="w-[99%] h-[99%] rounded-lg bg-card p-[0.05rem]">
-            <div className="w-full rounded-lg h-full bg-tertiary">
+            <div className="w-full rounded-lg h-full bg-dark">
               <div className="flex flex-col items-center justify-center w-full h-full">
                 <div className="w-full h-full items-center justify-center flex">
                   <Image

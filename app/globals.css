@@ -350,11 +350,22 @@ section {
 }
 
 .link-paragraph {
-  color: var(--thistle-2);
-  font-size: 16.25px;
+  color: var(--ghost-white);
+  font-size: 16.75px;
   font-weight: 500;
   text-transform: uppercase;
-  text-shadow: 0 0 0.9px #ffffff;
+  text-shadow: 0 0 0.9px var(--cornflower-blue);
+  border: 1px solid var(--violet);
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  background-color: var(--black);
+  transition: 300ms ease background-color, color;
+  box-shadow: 0 1.8px 12px rgba(255, 255, 255, 0.080);
+}
+
+.link-paragraph:hover {
+  color: var(--black);
+  background-color: var(--ghost-white);
 }
 
 /* Slider */

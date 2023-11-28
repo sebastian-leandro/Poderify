@@ -19,6 +19,7 @@ module.exports = {
       colors: {
         tertiary: "#151030",
         violet : '#1b1622',
+        dark: '#1b1622'
       },
       backgroundImage : theme => ({
         'body-gradient' : 'linear-gradient(to bottom, #060c24, #090909);',
