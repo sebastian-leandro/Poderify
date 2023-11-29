@@ -17,8 +17,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flex fixed top-0 px-12 left-0 w-full h-[84px] justify-between z-[999] items-center duration-300 ${
-        move ? "bg-[rgba(0,0,0,0.75)] backdrop-blur-3xl px-24" : ""
+      className={`flex fixed top-0 px-12 left-0 w-full h-[84px] bg-[rgba(0,0,0,0.75)] md:bg-transparent justify-between z-[999] items-center duration-300 ${
+        move ? "bg-[rgba(0,0,0,0.75)] backdrop-blur-3xl lg:px-24" : ""
       }`}
     >
       <div
@@ -53,13 +53,13 @@ const Navbar = () => {
           {toggle ? <HiX /> : <HiMenuAlt2 />}
         </div>
         <ul
-          className={`absolute top-[64px] right-1 px-3 py-2 ${
-            toggle ? "flex" : "hidden"
-          } gap-y-2 items-center flex-col rounded-md bg-slate-900 justify-center`}
+          className={`absolute top-[84px] right-0 py-6 ${
+            toggle ? "w-full opacity-100 visible z-50" : "opacity-0 invisible -z-10 w-0"
+          } flex items-center justify-center gap-x-4  bg-[rgba(0,0,0,0.80)]  backdrop-blur-3xl duration-500`}
         >
           {nav.map(({ id, title }, i) => (
-            <li key={i} className="link-paragraph">
-              <Link href={`#${id}`}>{title}</Link>
+            <li key={i}>
+              <Link className="link-paragraph-mobile" href={`#${id}`}>{title}</Link>
             </li>
           ))}
         </ul>
