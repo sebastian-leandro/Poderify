@@ -14,10 +14,6 @@ export const metadata = {
     name: 'Poderify',
     url: 'https://poderify.com'
   },
-  icons: {
-    icon: ['/favicon.png'],
-    apple: ['/apple-icon-144x144.png']
-  },
   creator: 'Sebastian Leandro',
   publisher: 'Santiago Cànepa',
   type: 'website',
@@ -25,8 +21,11 @@ export const metadata = {
     title: 'PoderiFy',
     description: 'Desde desarrollo web, análisis de datos e IA hasta scraping y automatización de tareas. Hacemos que la tecnología trabaje para vos.',
     icons: {
-      icon: '/favicon.png',
+      icon: ['/favi/favicon.ico?v=4'],
+      apple: ['/favi/apple-touch.png'],
+      shortcut: ['/favi/apple-touch.png']
     },
+    manifest: '/favi/site.webmanifest',
     url: 'https://poderify.com',
     type: 'website',
     siteName: 'PoderiFy',
