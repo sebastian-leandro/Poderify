@@ -2,17 +2,21 @@
 import Image from "next/image";
 import Link from "next/link";
 import { images } from "@/constants";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
-import { LuDot  ,LuCircle } from "react-icons/lu";
+import { LuDot } from "react-icons/lu";
 
 const Slider = () => {
   // Slider
   const [currentIndex, setCurrentIndex] = useState(0);
-  const prevSlide = () =>
-    setCurrentIndex(currentIndex === 0 ? images.length - 1 : currentIndex - 1);
-  const nextSlide = () =>
-    setCurrentIndex(currentIndex === images.length - 1 ? 0 : currentIndex + 1);
+  const prevSlide = () => setCurrentIndex(currentIndex === 0 ? images.length - 1 : currentIndex - 1);
+  const nextSlide = () => setCurrentIndex(currentIndex === images.length - 1 ? 0 : currentIndex + 1);
+
+  useEffect(() => {
+    const interval = setInterval(nextSlide, 5000)
+    return () => clearInterval(interval)
+    }, [nextSlide])
+
 
   return (
     <div
