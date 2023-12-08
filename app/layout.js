@@ -17,13 +17,19 @@ export const metadata = {
   creator: 'Sebastian Leandro',
   publisher: 'Santiago Cànepa',
   type: 'website',
+  icons: {
+    icon: '/favi/favicon.ico?v=4',
+    apple: '/favi/apple-touch.png',
+    shortcut: '/favi/apple-touch.png'
+  },
+  manifest: '/favi/site.webmanifest',
   opengraph: {
     title: 'PoderiFy',
     description: 'Desde desarrollo web, análisis de datos e IA hasta scraping y automatización de tareas. Hacemos que la tecnología trabaje para vos.',
     icons: {
-      icon: ['/favi/favicon.ico?v=4'],
-      apple: ['/favi/apple-touch.png'],
-      shortcut: ['/favi/apple-touch.png']
+      icon: '/favi/favicon.ico?v=4',
+      apple: '/favi/apple-touch.png',
+      shortcut: '/favi/apple-touch.png'
     },
     manifest: '/favi/site.webmanifest',
     url: 'https://poderify.com',
@@ -35,8 +41,7 @@ export const metadata = {
     follow: false,
     googleBot: {
       index: true,
-      follow: false,
-      nocache: true,
+      follow: true,
     }
   }
 }
