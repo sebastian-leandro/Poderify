@@ -13,12 +13,9 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = throttle(() => {
       window.scrollY > 144 ? setMove(true) : setMove(false)
-    }, 200)
+    }, 100)
     window.addEventListener('scroll', handleScroll)
-    return () => {
-      handleScroll.cancel()
-      window.removeEventListener('scroll', handleScroll)
-    }
+    return () => { window.removeEventListener('scroll', handleScroll) }
   }, [])
 
   return (
@@ -46,7 +43,7 @@ const Navbar = () => {
           <li
             key={i}
           >
-            <Link className="link-paragraph" href={`#${id}`}>{title}</Link>
+            <Link className="link-paragraph capitalize" href={`#${id}`}>{title}</Link>
           </li>
         ))}
       </ul>
