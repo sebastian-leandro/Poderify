@@ -1,67 +1,67 @@
-"use client";
-import { useState, useRef } from "react";
-import emailjs from "@emailjs/browser";
+'use client'
+import React, { useState, useRef } from 'react'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
-  const formRef = useRef();
-  const [error, setError] = useState(null);
-  const [success, setSuccess] = useState(false);
+  const formRef = useRef()
+  const [error, setError] = useState(null)
+  const [success, setSuccess] = useState(false)
   const [form, setForm] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const [loading, setLoading] = useState(false);
+    name: '',
+    email: '',
+    message: ''
+  })
+  const [loading, setLoading] = useState(false)
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    const { target } = e
+    const { name, value } = target
     setForm({
       ...form,
-      [name]: value,
-    });
-  };
+      [name]: value
+    })
+  }
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
+    e.preventDefault()
+    setLoading(true)
     emailjs
       .send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Poderify",
+          to_name: 'Poderify',
           from_email: form.email,
-          to_email: "poderify.network@gmail.com",
-          message: form.message,
+          to_email: 'poderify.network@gmail.com',
+          message: form.message
         },
         process.env.NEXT_PUBLIC_EMAILJS_USER_ID
       )
       .then(
         () => {
-          setLoading(false);
+          setLoading(false)
           setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-          formRef.current.reset();
-          setError(null);
-          setSuccess(true);
+            name: '',
+            email: '',
+            message: ''
+          })
+          formRef.current.reset()
+          setError(null)
+          setSuccess(true)
           setTimeout(() => {
-            setSuccess(false);
-          }, 3000);
+            setSuccess(false)
+          }, 3000)
         },
         (error) => {
-          setLoading(false);
-          console.error(error);
-          setError(error.message || "An error has ocurred");
-          setSuccess(false);
+          setLoading(false)
+          console.error(error)
+          setError(error.message || 'An error has ocurred')
+          setSuccess(false)
           setTimeout(() => {
-            setError(null);
-          }, 3000);
+            setError(null)
+          }, 3000)
         }
-      );
-  };
+      )
+  }
   return (
     <form
       ref={formRef}
@@ -107,7 +107,7 @@ const Contact = () => {
           type="submit"
           className="bg-tertiary py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary"
         >
-          {loading ? "Enviando..." : "Enviar"}
+          {loading ? 'Enviando...' : 'Enviar'}
         </button>
       </div>
       <div className="flex w-full h-auto absolute bottom-1 right-1 justify-end">
@@ -127,7 +127,7 @@ const Contact = () => {
         )}
       </div>
     </form>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

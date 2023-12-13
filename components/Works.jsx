@@ -1,4 +1,4 @@
-import { Slider } from "@/modules";
+import { Slider } from '@/modules'
 
 const Works = () => {
   return (
@@ -14,7 +14,7 @@ const Works = () => {
         <div className="absolute bg-wrapper w-[200px] sm:w-[400px] bottom-6"></div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Works;
+export default Works

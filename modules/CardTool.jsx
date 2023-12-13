@@ -1,14 +1,13 @@
-"use client";
-import Image from "next/image";
-import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
-import { fadeIn } from "@/utils/motion";
-import { Direction } from "@/utils";
+'use client'
+import React from 'react'
+import Image from 'next/image'
+import { Tilt } from 'react-tilt'
+import { motion } from 'framer-motion'
+import { fadeIn } from '@/utils/motion'
+import PropTypes from 'prop-types'
 
 const CardTool = ({ img, alt, title, index }) => {
-
-  const direction = Direction(index);
-  const fade = fadeIn(direction, "spring", 0.3, 0.5 );
+  const fade = fadeIn('left', 'spring', 0.3 * index, 0.5)
 
   return (
     <Tilt>
@@ -16,7 +15,7 @@ const CardTool = ({ img, alt, title, index }) => {
       variants={fade}
       initial="hidden"
       whileInView="show"
-      viewport={{once: true}}
+      viewport={{ once: true }}
       className="w-[230px] h-[230px] rounded-lg shadow-feed m-1">
         <div className="w-full h-full cursor-default">
           <div className="w-[99%] h-[99%] rounded-lg bg-card p-[0.05rem]">
@@ -40,7 +39,14 @@ const CardTool = ({ img, alt, title, index }) => {
         </div>
       </motion.div>
     </Tilt>
-  );
-};
+  )
+}
 
-export default CardTool;
+CardTool.propTypes = {
+  img: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  index: PropTypes.number.isRequired
+}
+
+export default CardTool

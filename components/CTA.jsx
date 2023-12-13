@@ -1,6 +1,7 @@
-import { HiChatAlt2 } from "react-icons/hi";
-import Link from "next/link";
-import { cta } from "@/constants";
+import React from 'react'
+import { HiChatAlt2 } from 'react-icons/hi'
+import Link from 'next/link'
+import { cta } from '@/constants'
 
 const CTA = () => {
   return (
@@ -28,7 +29,7 @@ const CTA = () => {
         </div>
       ))}
     </section>
-  );
-};
+  )
+}
 
-export default CTA;
+export default CTA

@@ -1,10 +1,7 @@
-import { servicesRow } from "@/constants";
-import { services } from "@/constants";
-import { CardService, CardRow } from "@/modules";
+import { servicesRow, services } from '@/constants'
+import { CardService, CardRow } from '@/modules'
 
 const Services = () => {
-
-
   return (
     <section
       id="services"
@@ -22,8 +19,7 @@ const Services = () => {
         ))}
       </div>
     </section>
-  );
-};
+  )
+}
 
-
-export default Services;
+export default Services

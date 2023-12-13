@@ -1,26 +1,25 @@
-"use client";
-import Image from "next/image";
-import Link from "next/link";
-import { images } from "@/constants";
-import { useState, useEffect } from "react";
-import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
-import { LuDot } from "react-icons/lu";
+'use client'
+import React, { useState, useEffect } from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+import { images } from '@/constants'
+import { HiChevronLeft, HiChevronRight } from 'react-icons/hi'
+import { LuDot } from 'react-icons/lu'
 
 const Slider = () => {
   // Slider
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const prevSlide = () => setCurrentIndex(currentIndex === 0 ? images.length - 1 : currentIndex - 1);
-  const nextSlide = () => setCurrentIndex(currentIndex === images.length - 1 ? 0 : currentIndex + 1);
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const prevSlide = () => setCurrentIndex(currentIndex === 0 ? images.length - 1 : currentIndex - 1)
+  const nextSlide = () => setCurrentIndex(currentIndex === images.length - 1 ? 0 : currentIndex + 1)
 
   useEffect(() => {
     const interval = setInterval(nextSlide, 5000)
     return () => clearInterval(interval)
-    }, [nextSlide])
-
+  }, [nextSlide])
 
   return (
     <div
-      className={`max-w-[1200px] relative  w-full h-full md:max-h-[450px] rounded-2xl flex overflow-hidden bg-dark duration-700 text-white px-6 py-4`}
+      className={'max-w-[1200px] relative  w-full h-full md:max-h-[450px] rounded-2xl flex overflow-hidden bg-dark duration-700 text-white px-6 py-4'}
     >
       <button onClick={prevSlide} aria-label="Previous Slide" className="btn-arrow duration-500">
         <HiChevronLeft />
@@ -30,7 +29,7 @@ const Slider = () => {
       </button>
       {images.map(({ src, alt, title, subTitle, link, linkTitle }, i) => (
         <div
-          className={` flex-col md:flex-row w-full slider h-full p-6 flex items-center justify-between duration-700`}
+          className={' flex-col md:flex-row w-full slider h-full p-6 flex items-center justify-between duration-700'}
           style={{ translate: `${-100 * currentIndex}%` }}
           key={i}
         >
@@ -58,12 +57,12 @@ const Slider = () => {
             key={index}
             aria-label={`Slide ${index + 1}`}
           >
-            {index === currentIndex ? <LuDot style={{stroke: '#fff'}} /> : <LuDot style={{stroke: '#090909'}} />}
+            {index === currentIndex ? <LuDot style={{ stroke: '#fff' }} /> : <LuDot style={{ stroke: '#090909' }} />}
           </button>
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Slider;
+export default Slider

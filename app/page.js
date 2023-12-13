@@ -1,7 +1,7 @@
-import { Hero,Tools,CTA,Services,Testimonials,Works,About } from "@/components"
+import React from 'react'
+import { Hero, Tools, CTA, Services, Testimonials, Works, About } from '@/components'
 
-export default function Home() {
-  
+export default function Home () {
   return (
     <>
       <Hero />

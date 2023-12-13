@@ -1,34 +1,40 @@
-"use client";
-import Image from "next/image";
-import Link from "next/link";
-import { useState, useEffect } from "react";
-import { HiMenuAlt2, HiX } from "react-icons/hi";
-import { nav } from "@/constants";
+'use client'
+import React, { useState, useEffect } from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+import { HiMenuAlt2, HiX } from 'react-icons/hi'
+import { nav } from '@/constants'
+import { throttle } from '@/utils/throttle'
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(false);
-  const [move, setMove] = useState(false);
+  const [toggle, setToggle] = useState(false)
+  const [move, setMove] = useState(false)
 
   useEffect(() => {
-    const handleScroll = () => window.scrollY > 144 ? setMove(true) : setMove(false)
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+    const handleScroll = throttle(() => {
+      window.scrollY > 144 ? setMove(true) : setMove(false)
+    }, 200)
+    window.addEventListener('scroll', handleScroll)
+    return () => {
+      handleScroll.cancel()
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
 
   return (
     <nav
       className={`flex fixed top-0 px-12 left-0 w-full h-[84px] bg-[rgba(0,0,0,0.75)] md:bg-transparent justify-between z-[999] items-center duration-300 ${
-        move ? "bg-[rgba(0,0,0,0.75)] backdrop-blur-3xl lg:px-24" : ""
+        move ? 'bg-[rgba(0,0,0,0.75)] backdrop-blur-3xl lg:px-24' : ''
       }`}
     >
       <div
         className="flex gap-x-0 m-0 w-fit cursor-pointer h-full items-center"
         onClick={() => {
-          window.scrollTo(0, 0);
+          window.scrollTo(0, 0)
         }}
       >
         <Image
-          src={"/logos/logo_pagina/logo_pagina/1.png"}
+          src={'/logos/logo_pagina/logo_pagina/1.png'}
           alt="logo poderify"
           width={180}
           height={56}
@@ -54,7 +60,7 @@ const Navbar = () => {
         </div>
         <ul
           className={`absolute top-[84px] right-0 py-6 ${
-            toggle ? "w-full opacity-100 visible z-50" : "opacity-0 invisible -z-10 w-0"
+            toggle ? 'w-full opacity-100 visible z-50' : 'opacity-0 invisible -z-10 w-0'
           } flex items-center justify-center gap-x-4  bg-[rgba(0,0,0,0.80)]  backdrop-blur-3xl duration-500`}
         >
           {nav.map(({ id, title }, i) => (
@@ -65,7 +71,7 @@ const Navbar = () => {
         </ul>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

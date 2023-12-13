@@ -1,15 +1,11 @@
-import { Contact } from "@/modules";
-import Link from "next/link";
-import {
-  BiLogoFacebookSquare,
-  BiLogoInstagram,
-  BiLogoLinkedinSquare,
-} from "react-icons/bi";
-import { HiChevronDoubleUp } from "react-icons/hi";
+import React from 'react'
+import { Contact } from '@/modules'
+import Link from 'next/link'
+import { BiLogoInstagram, BiLogoLinkedinSquare } from 'react-icons/bi'
+import { HiChevronDoubleUp } from 'react-icons/hi'
 
 const Footer = () => {
-
-  const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear()
 
   return (
     <section id="contact">
@@ -25,7 +21,7 @@ const Footer = () => {
               <div className="item">
                 <Link
                   aria-label="Linkedin link of poderify"
-                  href={"https://www.linkedin.com/company/poderify/"}
+                  href={'https://www.linkedin.com/company/poderify/'}
                   className="icon-media"
                 >
                   <BiLogoLinkedinSquare className="text-black text-3xl icon duration-300" />
@@ -34,7 +30,7 @@ const Footer = () => {
               <div className="item">
                 <Link
                   aria-label="Instagram link of poderify"
-                  href={"https://instagram.com/PoderiFy"}
+                  href={'https://instagram.com/PoderiFy'}
                   className="icon-media"
                 >
                   <BiLogoInstagram className="text-black text-3xl icon duration-300" />
@@ -50,7 +46,7 @@ const Footer = () => {
               </p>
               <Link
                 aria-label="Scroll to the top"
-                href={"#home"}
+                href={'#home'}
                 className="text-white w-fit text-center text-4xl p-2 rounded-full hover:bg-[rgba(255,255,255,.6)] hover:backdrop-blur-3xl duration-500"
               >
                 <HiChevronDoubleUp />
@@ -60,7 +56,7 @@ const Footer = () => {
         </div>
       </footer>
     </section>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

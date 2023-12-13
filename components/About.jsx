@@ -1,5 +1,6 @@
-import { team } from "@/constants";
-import { CardAbout } from "@/modules";
+import React from 'react'
+import { team } from '@/constants'
+import { CardAbout } from '@/modules'
 
 const About = () => {
   return (
@@ -29,7 +30,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About

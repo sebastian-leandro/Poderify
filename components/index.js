@@ -1,12 +1,12 @@
-import Navbar from "./Navbar";
-import Hero from "./Hero";
-import Tools from "./Tools";
-import CTA from "./CTA";
-import Services from "./Services";
-import Testimonials from "./Testimonials";
-import Works from "./Works";
-import About from "./About";
-import Footer from "./Footer";
+import Navbar from './Navbar'
+import Hero from './Hero'
+import Tools from './Tools'
+import CTA from './CTA'
+import Services from './Services'
+import Testimonials from './Testimonials'
+import Works from './Works'
+import About from './About'
+import Footer from './Footer'
 
 export {
   Navbar,
@@ -17,5 +17,5 @@ export {
   Testimonials,
   Works,
   About,
-  Footer,
-};
+  Footer
+}

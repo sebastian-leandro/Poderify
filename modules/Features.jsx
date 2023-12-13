@@ -1,5 +1,6 @@
-import { feature } from "@/constants";
-import Image from "next/image";
+import React from 'react'
+import { feature } from '@/constants'
+import Image from 'next/image'
 
 const Features = () => {
   return (
@@ -17,7 +18,7 @@ const Features = () => {
         </div>
       ))}
     </div>
-  );
-};
+  )
+}
 
-export default Features;
+export default Features

@@ -1,21 +1,21 @@
-"use client"
-import Image from "next/image";
-import Link from "next/link";
-import { AiFillLinkedin } from "react-icons/ai";
-import { motion } from "framer-motion";
-import { fadeIn } from "@/utils/motion";
-import { Time } from "@/utils";
+'use client'
+import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+import { AiFillLinkedin } from 'react-icons/ai'
+import { motion } from 'framer-motion'
+import { fadeIn } from '@/utils/motion'
+import PropTypes from 'prop-types'
 
 const CardAbout = ({ img, alt, name, desc, href, index }) => {
-  
-  const fade = fadeIn("right", "tween", 0.3, 0.75);
-  
+  const fade = fadeIn('right', 'tween', 0.3 * index, 0.75)
+
   return (
     <motion.div
       variants={fade}
       initial="hidden"
       whileInView="show"
-      viewport={{once: true}}
+      viewport={{ once: true }}
       className="w-[230px] relative h-[250px] p-[0.075rem] bg-about"
     >
       <div className="w-full h-full flex flex-col bg-[#090909]">
@@ -46,7 +46,16 @@ const CardAbout = ({ img, alt, name, desc, href, index }) => {
         </div>
       </div>
     </motion.div>
-  );
-};
+  )
+}
 
-export default CardAbout;
+CardAbout.propTypes = {
+  img: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  desc: PropTypes.string.isRequired,
+  href: PropTypes.string.isRequired,
+  index: PropTypes.number.isRequired
+}
+
+export default CardAbout

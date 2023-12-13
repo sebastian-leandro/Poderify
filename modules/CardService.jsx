@@ -1,20 +1,21 @@
-"use client"
-import Image from "next/image";
-import { Direction } from "@/utils";
-import { motion } from "framer-motion";
-import { slideIn } from "@/utils/motion";
+'use client'
+import React from 'react'
+import Image from 'next/image'
+import { Direction } from '@/utils'
+import { motion } from 'framer-motion'
+import { slideIn } from '@/utils/motion'
+import PropTypes from 'prop-types'
 
-const CardService = ({title, img, alt, index }) => {
-
+const CardService = ({ title, img, alt, index }) => {
   const direction = Direction(index)
-  const slide = slideIn(direction, 'spring', 0.3, 0.75);
+  const slide = slideIn(direction, 'spring', 0.3 * index, 0.75)
 
   return (
-    <motion.div 
+    <motion.div
     variants={slide}
     initial="hidden"
     whileInView="show"
-    viewport={{once: true}}
+    viewport={{ once: true }}
     className="cursor-default shadow-feed">
       <div
         className="w-[250px] h-[320px] rounded-2xl  bg-card p-[0.15rem]"
@@ -35,7 +36,14 @@ const CardService = ({title, img, alt, index }) => {
         </div>
       </div>
     </motion.div>
-  );
-};
+  )
+}
 
-export default CardService;
+CardService.propTypes = {
+  title: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+  index: PropTypes.number.isRequired
+}
+
+export default CardService

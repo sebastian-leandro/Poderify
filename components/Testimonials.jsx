@@ -1,5 +1,5 @@
-import TestimonialCard from "@/modules/TestimonialCard";
-import { feedback } from "@/constants";
+import TestimonialCard from '@/modules/TestimonialCard'
+import { feedback } from '@/constants'
 
 const Testimonials = () => {
   return (
@@ -24,7 +24,7 @@ const Testimonials = () => {
         ))}
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Testimonials;
+export default Testimonials
