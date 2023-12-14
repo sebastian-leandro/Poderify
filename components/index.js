@@ -1,3 +1,4 @@
+import { GTMScript } from './GTM'
 import Navbar from './Navbar'
 import Hero from './Hero'
 import Tools from './Tools'
@@ -9,6 +10,7 @@ import About from './About'
 import Footer from './Footer'
 
 export {
+  GTMScript,
   Navbar,
   Hero,
   Tools,
