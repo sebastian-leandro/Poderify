@@ -1,5 +1,4 @@
 'use client'
-import React from 'react'
 import Image from 'next/image'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'

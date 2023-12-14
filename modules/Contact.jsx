@@ -1,5 +1,5 @@
 'use client'
-import React, { useState, useRef } from 'react'
+import { useState, useRef } from 'react'
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {

@@ -1,4 +1,3 @@
-import React from 'react'
 import { BiLogoWhatsapp } from 'react-icons/bi'
 import Link from 'next/link'
 

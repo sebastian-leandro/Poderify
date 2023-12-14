@@ -1,4 +1,3 @@
-import React from 'react'
 import { Contact } from '@/modules'
 import Link from 'next/link'
 import { BiLogoInstagram, BiLogoLinkedinSquare } from 'react-icons/bi'

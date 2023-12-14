@@ -1,4 +1,3 @@
-import React from 'react'
 import { team } from '@/constants'
 import { CardAbout } from '@/modules'
 

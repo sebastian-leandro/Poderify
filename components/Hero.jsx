@@ -1,5 +1,4 @@
 'use client'
-import React from 'react'
 import { motion } from 'framer-motion'
 import { hero } from '@/constants'
 import Link from 'next/link'

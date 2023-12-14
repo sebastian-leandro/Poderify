@@ -1,4 +1,3 @@
-import React from 'react'
 import { feature } from '@/constants'
 import Image from 'next/image'
 
