@@ -1,4 +1,3 @@
-import React from 'react'
 import { Nunito } from 'next/font/google'
 import './globals.css'
 import { Navbar, Footer } from '@/components'
