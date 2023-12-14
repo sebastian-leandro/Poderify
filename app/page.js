@@ -1,8 +1,6 @@
 import { GTMScript, Hero, Tools, CTA, Services, Testimonials, Works, About } from '@/components'
 
 export default function Home () {
-  const id = process.env.NEXT_PUBLIC_GA_ID
-  console.log(id)
   return (
     <>
       <GTMScript />
