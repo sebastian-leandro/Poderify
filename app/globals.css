@@ -5,15 +5,16 @@
 
 :root {
   --green-water: #80ffdb;
-  --violet: #5e60ce;
+  --violet: hsl(239, 53%, 59%);
   --thistle-2: #b0a9c7;
   --black: #060416;
   --ghost-white: #fbf7ff;
   --cornflower-blue: #6a80ff;
   --medium-purple: #a06cff;
   --medium-purple-2: #8478a8;
+  --black-bg: hsl(0, 2%, 3%);
+  --white: hsl(100, 98%, 98%);
 }
-
 
 /* Globals */
 
@@ -33,7 +34,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 section {
   padding: 4rem 6rem ;
 }
@@ -49,24 +49,39 @@ section {
 /* Buttons */
 
 .btn-classic {
-  background-color: var(--black);
-  color: var(--ghost-white);
+  background-color: var(--black-bg);
+  color: var(--white);
   text-transform: uppercase;
   font-weight: 500;
-  letter-spacing: 0.1rem;
+  letter-spacing: 1px;
   padding: 0.5rem 1.25rem;
   border-radius: 5px;
   display: flex;
   align-items: center;
-  box-shadow: 0 1px 5px rgba(255, 255, 255, .075);
-  transition: .33s all ease;
-  border: 0.2px solid var(--cornflower-blue);
+  transition: 300ms color ease;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-classic::before {
+  background: linear-gradient(to right bottom, hsla(270, 40%, 25%, 1), hsla(260, 50%, 30%, 1), hsla(250, 40%, 35%, 1));
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  content: '';
+  transition: 300ms width ease-in-out;
+  border-radius: 5px;
 }
 
 .btn-classic:hover {
-  background-color: var(--ghost-white);
-  color: var(--black);
-  transform: translateY(-5px);
+  color: var(--ghost-white);
+}
+
+.btn-classic:hover::before {
+  width: 100%;
 }
 
 .btn-feedback {
@@ -94,9 +109,36 @@ section {
   z-index: -1;
 }
 
+.bg-gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(135deg,#1e1e20,#0e0e11 32%);
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://uploads-ssl.webflow.com/6408bea3de5aef58b7e197d4/6438c3059d443cd7a78762eb_stars-bg.png);
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto;
+
+}
+
 .bg-image {
-  background: linear-gradient(to right, #00000096, #00000096),url('../public/bg.jpg')no-repeat center/cover;
-  background-attachment: fixed;
+  width: 800px;
+  height: 700px;
+  opacity: 1;
+  -webkit-text-fill-color: inherit;
+  background-image: radial-gradient(circle at 50% 40%, rgba(28, 23, 67, .8), hsla(239, 53%, 59%, 0.1), rgba(28, 23, 67, 0) 55%);
+  background-clip: border-box;
+  border-radius: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bg-feed-quote {
@@ -254,20 +296,18 @@ section {
 /* Text */
 
 .heading {
-  font-size: 32.75px;
-  font-weight: 700;
-  letter-spacing: -1px;
   text-align: center;
-  background-clip: text;
-  background-image: linear-gradient(
-    to top,
-    var(--medium-purple-2) 4%,
-    white 29%
-  );
-  line-height: 1.2;
-  -webkit-background-clip: text;
+  letter-spacing: -.2px;
+  text-shadow: 0 1px rgba(0,0,0,.07);
   -webkit-text-fill-color: transparent;
-  color: transparent;
+  background-image: linear-gradient(145deg,#fff 65%,rgba(255,255,255,.43));
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-top: 0;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  line-height: 1.08
 }
 
 .subheading {

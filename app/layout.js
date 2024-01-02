@@ -1,10 +1,39 @@
-import { Nunito } from 'next/font/google'
 import './globals.css'
 import { Navbar, Footer } from '@/components'
 import { WhatsappIcon } from '@/modules'
-import PropTypes from 'prop-types'
+import Satoshi from 'next/font/local'
 
-const nunito = Nunito({ subsets: ['latin'], weight: ['200', '300', '400', '500', '600', '700', '800', '900', '1000'], style: 'normal' })
+const satoshi = Satoshi(
+  {
+    src: [
+      {
+        path: '../font/satoshi/Satoshi-Regular.otf',
+        weight: '400',
+        style: 'normal'
+      },
+      {
+        path: '../font/satoshi/Satoshi-Light.otf',
+        weight: '300',
+        style: 'normal'
+      },
+      {
+        path: '../font/satoshi/Satoshi-Bold.otf',
+        weight: '700',
+        style: 'normal'
+      },
+      {
+        path: '../font/satoshi/Satoshi-Medium.otf',
+        weight: '500',
+        style: 'normal'
+      },
+      {
+        path: '../font/satoshi/Satoshi-Black.otf',
+        weight: '900',
+        style: 'normal'
+      }
+    ]
+  }
+)
 
 export const metadata = {
   title: 'PoderiFy',
@@ -45,7 +74,7 @@ export const metadata = {
 export default function RootLayout ({ children }) {
   return (
     <html lang="es">
-      <body className={`${nunito.className} bg-body-gradient`}>
+      <body className={`${satoshi.className}`}>
         < Navbar />
         {children}
         <div className='mt-12'>
@@ -55,8 +84,4 @@ export default function RootLayout ({ children }) {
       </body>
     </html>
   )
-}
-
-RootLayout.propTypes = {
-  children: PropTypes.node.isRequired
 }

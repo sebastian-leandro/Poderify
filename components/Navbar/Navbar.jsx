@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { HiMenuAlt2, HiX } from 'react-icons/hi'
 import { nav } from '@/constants'
+import style from './Navbar.module.css'
 import { throttle } from '@/utils/throttle'
 
 const Navbar = () => {
@@ -19,10 +20,9 @@ const Navbar = () => {
   }, [])
 
   return (
+    <div className={`${style.wrapper} ${move ? 'backdrop-blur' : 'backdrop-blur-0'}`} >
     <nav
-      className={`flex fixed top-0 px-12 left-0 w-full h-[84px] bg-[rgba(0,0,0,0.75)] md:bg-transparent justify-between z-[999] items-center duration-300 ${
-        move ? 'bg-[rgba(0,0,0,0.75)] backdrop-blur-3xl lg:px-24' : ''
-      }`}
+    className={`${style.nav} ${move ? 'px-5' : 'px-0'} duration-300 py-3`}
     >
       <div
         className="flex gap-x-0 m-0 w-fit cursor-pointer h-full items-center"
@@ -35,7 +35,7 @@ const Navbar = () => {
           alt="logo poderify"
           width={180}
           height={56}
-          className="object-contain p-0 m-0"
+          className="object-contain"
         />
       </div>
       <ul className="md:flex hidden gap-x-4 list-none">
@@ -43,7 +43,7 @@ const Navbar = () => {
           <li
             key={i}
           >
-            <Link className="link-paragraph capitalize" href={`#${id}`}>{title}</Link>
+            <Link className={style.link} href={`#${id}`}>{title}</Link>
           </li>
         ))}
       </ul>
@@ -68,6 +68,7 @@ const Navbar = () => {
         </ul>
       </div>
     </nav>
+    </div>
   )
 }
 

@@ -8,8 +8,13 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="overflow-hidden section flex w-full flex-col min-h-[100vh] bg-image justify-center relative items-center"
+      className="overflow-hidden section flex w-full flex-col min-h-[100vh] justify-center relative items-center"
     >
+      <div className='bg-gradient'>
+        <div className='hero-bg'>
+          <div className='bg-image' />
+        </div>
+      </div>
       {hero.map(({ title, paragraph, href, link }, i) => (
         <div
           className="flex flex-col max-w-[620px] items-center  gap-y-6"

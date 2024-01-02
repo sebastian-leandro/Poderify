@@ -103,38 +103,39 @@ export const cta = [
 ]
 
 export const servicesRow = [
-  {
-    img: '/service/web-design.jpg',
-    alt: 'Logo',
-    title: 'Diseño & Desarrollo Web'
-  },
-  {
-    img: '/service/AnaliticayModeladodeDatos.jpg',
-    alt: 'Logo',
-    title: 'Análisis & Modelos de Datos'
-  }
+
 ]
 
 export const services = [
   {
-    img: '/service/branding.png',
-    alt: 'Logo',
-    title: 'Branding & Marketing Digital'
+    img: '/service/branding.jpg',
+    title: 'Branding & Marketing Digital',
+    description: ''
   },
   {
-    img: '/service/estrategia.png',
-    alt: 'Logo',
-    title: 'Estrategia de Crecimiento'
+    img: '/service/strategy.jpg',
+    title: 'Estrategia de Crecimiento',
+    description: ''
   },
   {
-    img: '/service/inteligencia.png',
-    alt: 'Logo',
-    title: 'IA & Machine Learning'
+    img: '/service/ia.jpg',
+    title: 'IA & Machine Learning',
+    description: ''
   },
   {
-    img: '/service/scraping.png',
-    alt: 'Logo',
-    title: 'Automatización & Scraping'
+    img: '/service/automatizacion.jpg',
+    title: 'Automatización & Scraping',
+    description: ''
+  },
+  {
+    img: '/service/web.jpg',
+    title: 'Diseño & Desarrollo Web',
+    description: ''
+  },
+  {
+    img: '/service/datos.jpg',
+    title: 'Análisis & Modelos de Datos',
+    description: ''
   }
 ]
 

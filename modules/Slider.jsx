@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { images } from '@/constants'
@@ -12,14 +12,9 @@ const Slider = () => {
   const prevSlide = () => setCurrentIndex(currentIndex === 0 ? images.length - 1 : currentIndex - 1)
   const nextSlide = () => setCurrentIndex(currentIndex === images.length - 1 ? 0 : currentIndex + 1)
 
-  useEffect(() => {
-    const interval = setInterval(nextSlide, 5000)
-    return () => clearInterval(interval)
-  }, [nextSlide])
-
   return (
     <div
-      className={'max-w-[1200px] relative  w-full h-full md:max-h-[450px] rounded-2xl flex overflow-hidden bg-dark duration-700 text-white px-6 py-4'}
+      className={'max-w-[1200px] relative  w-full h-full md:max-h-[450px] rounded-2xl flex overflow-hidden bg-[#1d1c20] border-solid border border-[rgba(255,255,255,.08)] duration-700 text-white px-6 py-4'}
     >
       <button onClick={prevSlide} aria-label="Previous Slide" className="btn-arrow duration-500">
         <HiChevronLeft />
