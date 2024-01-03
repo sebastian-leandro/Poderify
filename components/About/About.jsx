@@ -1,13 +1,5 @@
-'use client'
-import { motion } from 'framer-motion'
-import Link from 'next/link'
-import Image from 'next/image'
-import { AiFillLinkedin } from 'react-icons/ai'
-
-import style from './About.module.css'
 import { team } from '@/constants'
 import { CardAbout } from '@/modules'
-import { textVariant, fadeIn } from '@/utils/motion'
 
 const About = () => {
   return (
