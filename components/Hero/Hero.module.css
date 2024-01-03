@@ -31,19 +31,11 @@
   border-radius: 300px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 960px) {
+  .bgImage {
+    width: 250px;
+    height: 220px;
   }
-  
-@media screen and (max-width: 768px) {
-.bg-image {
-  width: 230px;
-  height: 170px;
-  margin: auto;
-}
-
-@media screen and (max-width: 480px ) {
-.bg-image {
-  display: none;
-}
-}
-
 }

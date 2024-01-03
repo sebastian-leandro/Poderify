@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <div className={`${style.wrapper} ${move ? 'backdrop-blur' : 'backdrop-blur-0'}`} >
-      <nav className={`${style.nav} ${move ? 'px-5' : 'px-0'} duration-300 py-3`} >
+      <nav className={`${style.nav} ${move ? 'px-6' : 'px-4'} duration-300 py-3`} >
         <div
           className="flex gap-x-0 m-0 w-fit cursor-pointer h-full items-center"
           onClick={() => { window.scrollTo(0, 0) }}

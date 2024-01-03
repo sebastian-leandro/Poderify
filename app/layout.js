@@ -40,7 +40,7 @@ export const metadata = {
   description: 'Desde desarrollo web, análisis de datos e IA hasta scraping y automatización de tareas. Hacemos que la tecnología trabaje para vos.',
   keywords: ['Desarrollo Web', 'Datos', 'IA', 'scraping', 'automatización', 'CRM', 'Diseño', 'Web', 'SEM'],
   authorInfo: {
-    name: 'Poderify',
+    name: 'PoderiFy',
     url: 'https://poderify.com'
   },
   creator: 'Sebastian Leandro',
