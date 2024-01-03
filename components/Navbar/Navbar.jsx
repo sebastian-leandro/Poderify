@@ -56,13 +56,13 @@ const Navbar = () => {
           {toggle ? <HiX /> : <HiMenuAlt2 />}
         </div>
         <ul
-          className={`absolute top-[84px] right-0 py-6 ${
+          className={`absolute top-[72px] right-0 py-6 ${
             toggle ? 'w-full opacity-100 visible z-50' : 'opacity-0 invisible -z-10 w-0'
-          } flex items-center justify-center gap-x-4  bg-[rgba(0,0,0,0.80)]  backdrop-blur-3xl duration-500`}
+          } flex items-center justify-center gap-x-4 bg-[#1d1c20] border-t border-solid border-[rgba(255,255,255,.08)] backdrop-blur-3xl duration-500`}
         >
           {nav.map(({ id, title }, i) => (
             <li key={i}>
-              <Link className="link-paragraph-mobile" href={`#${id}`}>{title}</Link>
+              <Link className={`${style.link}`} href={`#${id}`}>{title}</Link>
             </li>
           ))}
         </ul>
