@@ -7,7 +7,8 @@ import { fadeIn } from '@/utils/motion'
 import PropTypes from 'prop-types'
 
 const CardAbout = ({ img, alt, name, desc, href, index }) => {
-  const fade = fadeIn('right', 'tween', 0.3 * index, 0.5)
+  const direction = index % 2 === 0 ? 'right' : 'left'
+  const fade = fadeIn(direction, 'tween', 0.3 * index, 0.5)
 
   return (
     <motion.div
