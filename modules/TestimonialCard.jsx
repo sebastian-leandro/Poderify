@@ -3,7 +3,6 @@ import { motion } from 'framer-motion'
 import { fadeIn } from '@/utils/motion'
 import Image from 'next/image'
 import { Direction } from '@/utils'
-import PropTypes from 'prop-types'
 
 const TestimonialCard = ({ text, img, alt, name, index }) => {
   const direction = Direction(index)
@@ -11,7 +10,7 @@ const TestimonialCard = ({ text, img, alt, name, index }) => {
 
   return (
     <motion.div
-      className="w-[270px] h-[250px] shadow-feed bg-[rgba(0,0,0,0.5)] p-3 shadow-lg shadow-zinc-950 rounded-md relative"
+      className="w-[270px] h-[250px] shadow-feed bg-[#1d1c20] border border-solid border-[rgba(255,255,255,.08)] p-3 rounded-md relative"
       variants={fadeVariant}
       initial={'hidden'}
       whileInView={'show'}
@@ -37,14 +36,6 @@ const TestimonialCard = ({ text, img, alt, name, index }) => {
       </div>
     </motion.div>
   )
-}
-
-TestimonialCard.propTypes = {
-  text: PropTypes.string.isRequired,
-  img: PropTypes.string.isRequired,
-  alt: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  index: PropTypes.number.isRequired
 }
 
 export default TestimonialCard

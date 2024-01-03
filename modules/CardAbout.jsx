@@ -15,9 +15,9 @@ const CardAbout = ({ img, alt, name, desc, href, index }) => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true }}
-      className="w-[230px] relative h-[250px] p-[0.075rem] bg-about"
+      className="w-[230px] relative h-[250px] rounded-md border border-solid border-[rgba(255,255,255,.08)]"
     >
-      <div className="w-full h-full flex flex-col bg-[#090909]">
+      <div className="w-full h-full flex flex-col rounded-md bg-[#1d1c20]">
         <div className="w-full h-full items-center justify-center flex">
           <Image
             src={img}

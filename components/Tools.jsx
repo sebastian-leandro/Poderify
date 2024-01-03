@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const Tools = () => {
   return (
-    <section className="section w-full flex items-center h-auto gap-y-20 flex-col relative">
+    <section className="section px-8 w-full flex items-center h-auto gap-y-20 flex-col relative">
       <motion.div
       variants={textVariant(0.3)}
       initial="hidden"

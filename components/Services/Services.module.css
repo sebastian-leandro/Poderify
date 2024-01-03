@@ -118,3 +118,9 @@
     min-width: 280px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .item:last-child {
+    min-height: 320px;
+  }
+}

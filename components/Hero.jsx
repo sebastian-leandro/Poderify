@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="overflow-hidden section flex w-full flex-col min-h-[100vh] justify-center relative items-center"
+      className="overflow-hidden flex w-full flex-col min-h-[100vh] justify-center relative items-center"
     >
       <div className='bg-gradient'>
         <div className='hero-bg'>

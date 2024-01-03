@@ -4,11 +4,11 @@ import { cta } from '@/constants'
 
 const CTA = () => {
   return (
-    <section className="section flex w-full px-12 h-auto justify-center relative">
+    <section className="section flex w-full h-auto justify-center relative">
       {cta.map(({ title, paragraph, link }, i) => (
         <div
           key={i}
-          className="w-full h-72 max-w-[1280px] flex md:flex-row flex-col shadow-sm shadow-zinc-950 rounded-2xl px-6 bg-gradient-to-l from-[#151030] to-[#1b1622]"
+          className="w-full pt-4 md:pt-0 h-72 max-w-[1280px] flex md:flex-row flex-col shadow-sm shadow-zinc-950 rounded-2xl px-6 bg-gradient-to-l from-[#151030] to-[#1b1622]"
         >
           <div className="flex flex-col w-full h-full items-center md:items-start justify-center">
             <h3 className="heading uppercase">{title}</h3>
