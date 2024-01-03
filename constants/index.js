@@ -210,22 +210,6 @@ export const team = [
     href: 'https://www.linkedin.com/in/felipemaldonado/'
   },
   {
-    img: '/equipo/gonza.jpeg',
-    alt: 'Gonzalo Canepa foto del equipo de PoderiFy.',
-    name: 'Gonzalo Canepa',
-    desc: 'Desarrollador Backend | Ingeniero de Software',
-    link: 'https://www.github.com/',
-    href: 'https://www.linkedin.com/in/gonzalocanepa23/'
-  },
-  {
-    img: '/equipo/4.jpeg',
-    alt: 'Ramiro Imperiali foto del equipo de PoderiFy',
-    name: 'Ramiro Imperiali',
-    desc: 'Especialista en Marketing Digital, SEO y SEM',
-    link: 'https://www.github.com/',
-    href: 'https://www.linkedin.com/in/ramiro-imperiali-172b4a256/'
-  },
-  {
     img: '/equipo/7.jpeg',
     alt: 'Victoria Quiroga foto del equipo de PoderiFy.',
     name: 'Victoria Quiroga',
@@ -239,22 +223,38 @@ export const team = [
     name: 'Alejandro Lencina',
     desc: 'Diseñador Experto en Experiencia e Interfaz de Usuario',
     link: 'https://www.github.com/',
-    href: 'https://www.linkeding.com'
+    href: 'https://www.linkedin.com/in/lencinaalejandro'
+  },
+  {
+    img: '/equipo/2.jpeg',
+    alt: 'Nadia Malena Foto del equipo de PoderiFy',
+    name: 'Nadia Malena',
+    desc: 'Diseñadora Gráfica con Enfoque en Branding e Identidad Visual',
+    link: 'https://www.github.com/',
+    href: 'https://www.linkedin.com/in/nadia-malena-b92541297'
+  },
+  {
+    img: '/equipo/gonza.jpeg',
+    alt: 'Gonzalo Canepa foto del equipo de PoderiFy.',
+    name: 'Gonzalo Canepa',
+    desc: 'Desarrollador Backend | Ingeniero de Software',
+    link: 'https://www.github.com/',
+    href: 'https://www.linkedin.com/in/gonzalocanepa23/'
   },
   {
     img: '/equipo/3.jpeg',
-    alt: 'Nadia Malena Foto del equipo de PoderiFy',
-    name: 'Nadia Malena',
+    alt: 'Clara Oviedo foto del equipo de PoderiFy',
+    name: 'Clara Oviedo',
     desc: 'Ingeniera Especializada en Big Data y Análisis de Datos',
     link: 'https://www.github.com/',
     href: 'https://www.linkeding.com'
   },
   {
-    img: '/equipo/2.jpeg',
-    alt: 'Clara Oviedo foto del equipo de PoderiFy',
-    name: 'Clara Oviedo',
-    desc: 'Diseñadora Gráfica con Enfoque en Branding e Identidad Visual',
+    img: '/equipo/4.jpeg',
+    alt: 'Ramiro Imperiali foto del equipo de PoderiFy',
+    name: 'Ramiro Imperiali',
+    desc: 'Especialista en Marketing Digital, SEO y SEM',
     link: 'https://www.github.com/',
-    href: 'https://www.linkeding.com'
+    href: 'https://www.linkedin.com/in/ramiro-imperiali-172b4a256/'
   }
 ]
