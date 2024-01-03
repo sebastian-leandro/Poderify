@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <section className="section w-full h-auto flex flex-col gap-y-20 min-h-[100vh] relative overflow-hidden">
       <div className="w-full h-auto justify-center sm:items-start flex">
-        <h2 className="heading txt-shadow uppercase">
+        <h2 className="heading">
           Que dicen nuestros clientes
         </h2>
       </div>
