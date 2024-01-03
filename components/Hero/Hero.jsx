@@ -12,10 +12,9 @@ const Hero = () => {
       id="home"
       className="overflow-hidden flex w-full flex-col min-h-[100vh] h-auto justify-center relative items-center"
     >
-      <div className={style.bgGradient}>
-        <div className={style.heroBg}>
-          <div className={`${style.bgImage} sm:block hidden`} />
-        </div>
+      <div className={style.background}>
+        <div className={style.backgroundImage} />
+        <div className={`${style.backgroundGradient}`} />
       </div>
       {hero.map(({ title, paragraph, href, link }, i) => (
         <div
