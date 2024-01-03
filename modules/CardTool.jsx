@@ -6,8 +6,8 @@ import { fadeIn } from '@/utils/motion'
 import PropTypes from 'prop-types'
 
 const CardTool = ({ img, alt, title, index }) => {
-  const fade = fadeIn('left', 'spring', 0.3 * index, 0.5)
-
+  const direction = index % 2 === 0 ? 'left' : 'right'
+  const fade = fadeIn(direction, 'spring', 0.3 * index, 0.5)
   return (
     <Tilt>
       <motion.div
