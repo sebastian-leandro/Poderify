@@ -25,10 +25,10 @@ const Tools = () => {
           <p className="paragraph-v2 capitalize text-purple-900">
             Soluciones inteligentes.
           </p>
-          <h2 id="tools" className="heading uppercase">
+          <h2 id="tools" className="heading">
             Potencia tu Empresa con Innovación Digital.
           </h2>
-          <p className="paragraph-v1 text-[#cecece] mx-auto w-[100%]">
+          <p className="paragraph-v1 mx-auto w-[100%]">
             Desbloquea el potencial de tu negocio. Transformamos datos
             en decisiones, conectividad en crecimiento, y estrategias en
             resultados.
@@ -37,7 +37,7 @@ const Tools = () => {
       </motion.div>
       <div
       className="flex w-full flex-col h-full flex-wrap items-center gap-y-10">
-        <h2 className="heading uppercase txt-shadow">SOMOS EXPERTOS EN</h2>
+        <h2 className="heading uppercase">SOMOS EXPERTOS EN</h2>
         <div
           className="flex w-full h-auto flex-wrap flex-col gap-y-4 sm:flex-row items-center justify-center gap-x-10"
         >

@@ -6,7 +6,7 @@ import CTA from './CTA'
 import Services from './Services/Services'
 import Testimonials from './Testimonials'
 import Works from './Works'
-import About from './About'
+import About from './About/About'
 import Footer from './Footer'
 
 export {

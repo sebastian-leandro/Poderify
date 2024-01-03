@@ -300,14 +300,14 @@ section {
   letter-spacing: -.2px;
   text-shadow: 0 1px rgba(0,0,0,.07);
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(145deg,#fff 65%,rgba(255,255,255,.43));
+  background-image: linear-gradient(145deg,#fff 50%,rgba(255,255,255,.43));
   -webkit-background-clip: text;
   background-clip: text;
   margin-top: 0;
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 24px;
-  line-height: 1.08
+  line-height: 1.20;
 }
 
 .subheading {
@@ -315,14 +315,11 @@ section {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  background-image: linear-gradient(
-    to top,
-    var(--medium-purple-2) 4%,
-    white 29%
-  );
+  text-shadow: 0 1px rgba(0,0,0,.07);
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(145deg,#fff 50%,rgba(255,255,255,.43));
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
@@ -333,9 +330,14 @@ section {
 }
 
 .paragraph-v1 {
-  font-size: 17.75px;
+  font-size: 18.50px;
   font-weight: 500;
-  color: var(--thistle-2);
+  text-shadow: 0 1px rgba(0,0,0,.07);
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(145deg,#fff 50%,rgba(255,255,255,.43));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   font-style: normal;
   font-display: swap;
   text-rendering: optimizeLegibility;
@@ -357,18 +359,21 @@ section {
 }
 
 .paragraph-v2 {
-  font-size: 17.25px;
-  font-weight: 500;
-  letter-spacing: 0.1rem;
-  text-shadow: 0 0 3px rgba(255, 255, 255, .1);
+  font-size: 18.75px;
+  font-weight: 600;
+  letter-spacing: 0.1rem; 
 }
 
 .paragraph-v3 {
   font-size: 15.75px;
   font-weight: 400;
   letter-spacing: 0.075rem;
-  text-shadow: 0 0 1.1px rgba(255, 255, 255, 0.9);
-  color: var(--thistle-2);
+  text-shadow: 0 1px rgba(0,0,0,.07);
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(145deg,#fff 50%,rgba(255,255,255,.43));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   text-rendering: optimizeLegibility;
 }
 
@@ -530,9 +535,6 @@ section {
 /* Medias */
 
 @media screen and (max-width: 1024px) {
-  .bg-image {
-    background-attachment: scroll;
-  }
   section {
     padding: 2rem 3rem;
   }
@@ -540,7 +542,7 @@ section {
 
 @media screen and (max-width: 640px) {
   section {
-    padding: 2.5rem 0.5rem;
+    padding: 2.5rem 1rem;
   }
   .paragraph-v1 {
     font-size: 14.50px;

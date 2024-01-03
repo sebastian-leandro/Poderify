@@ -1,0 +1,53 @@
+.bentoGrid {
+  display: grid;
+  height: auto;
+  width: fit-content;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  place-content: center;
+}
+
+.item {
+  border: 1px solid rgba(255,255,255,.08);
+  background-color: #1d1c20;
+  min-height: 350px;
+  min-width: 260px;
+  height: 100%;
+  width: 100%;
+  max-width: 260px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 70% 30%;
+  text-align: left;
+  box-shadow: 0 2px 18px rgba(12, 12, 13, 0.4);
+  position: relative;
+  padding: 0 8px;
+}
+
+.item::before {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 1px;
+    content: '';
+    background: radial-gradient(62.87% 100% at 50% 100%,rgba(255,255,255,.12) 0%,rgba(255,255,255,0) 100%);
+}
+
+@media screen and (max-width: 768px) {
+  .bentoGrid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .bentoGrid {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}

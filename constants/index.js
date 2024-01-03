@@ -102,10 +102,6 @@ export const cta = [
   }
 ]
 
-export const servicesRow = [
-
-]
-
 export const services = [
   {
     img: '/service/branding.jpg',
@@ -157,27 +153,6 @@ export const feedback = [
     alt: 'Foto',
     title: 'Damian Perez',
     text: 'Desde que miramos el SEO en el diseño web, la gente que nos visita orgánicamente subio considerablemente.'
-  }
-]
-
-export const works = [
-  {
-    img: '',
-    alt: '',
-    title: '',
-    desc: ''
-  },
-  {
-    img: '',
-    alt: '',
-    title: '',
-    desc: ''
-  },
-  {
-    img: '',
-    alt: '',
-    title: '',
-    desc: ''
   }
 ]
 
