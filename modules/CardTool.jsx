@@ -17,8 +17,7 @@ const CardTool = ({ img, alt, title, index }) => {
       viewport={{ once: true }}
       className="w-[230px] h-[230px] rounded-lg shadow-feed m-1">
         <div className="w-full h-full cursor-default">
-          <div className="w-[99%] h-[99%] rounded-lg bg-card p-[0.05rem]">
-            <div className="w-full rounded-lg h-full bg-dark">
+            <div className="w-full rounded-lg h-full border border-solid border-[rgba(255,255,255,.08)] bg-[#1d1c20]">
               <div className="flex flex-col items-center justify-center w-full h-full">
                 <div className="w-full h-full items-center justify-center flex">
                   <Image
@@ -34,7 +33,6 @@ const CardTool = ({ img, alt, title, index }) => {
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </motion.div>
     </Tilt>

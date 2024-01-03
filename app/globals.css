@@ -58,13 +58,13 @@ html {
   border-radius: 5px;
   display: flex;
   align-items: center;
-  transition: 300ms color ease;
+  transition: 300ms color, text-shadow ease;
   position: relative;
   z-index: 1;
 }
 
 .btn-classic::before {
-  background: linear-gradient(to right bottom, hsla(270, 40%, 25%, 1), hsla(260, 50%, 30%, 1), hsla(250, 40%, 35%, 1));
+  background: linear-gradient(145deg, #151030 40%, #2d0074);
   z-index: -1;
   position: absolute;
   top: 0;
@@ -77,6 +77,7 @@ html {
 }
 
 .btn-classic:hover {
+  text-shadow: 0 1px rgba(0,0,0,.07);
   color: var(--ghost-white);
 }
 
@@ -97,7 +98,7 @@ html {
 }
 
 .btn-feedback:hover {
-  background-color: hsla(350, 95%, 98.5%, 1);
+  background-color: hsla(100, 95%, 98.5%, 1);
   color: hsla(0, 0%, 0%, 1);
 }
 
@@ -107,50 +108,6 @@ html {
 .bg-card {
   background: linear-gradient(to right, #04c7bd, rgb(45, 1, 128) );
   z-index: -1;
-}
-
-.bg-gradient {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-image: linear-gradient(135deg,#1e1e20,#0e0e11 32%);
-  z-index: -1;
-  width: 100%;
-  height: 100vh;
-}
-
-
-.hero-bg {
-  width: 100%;
-  height: 100vh;
-  background-image: url(https://uploads-ssl.webflow.com/6408bea3de5aef58b7e197d4/6438c3059d443cd7a78762eb_stars-bg.png);
-  background-position: 0 0;
-  background-repeat: repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: auto;
-
-}
-
-.bg-image {
-  width: 800px;
-  height: 700px;
-  opacity: 1;
-  -webkit-text-fill-color: inherit;
-  background-image: radial-gradient(circle at 50% 40%, rgba(28, 23, 67, .8), hsla(239, 53%, 59%, 0.1), rgba(28, 23, 67, 0) 55%);
-  background-clip: border-box;
-  border-radius: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (max-width: 768px) {
-  .bg-image {
-    width: 230px;
-    height: 170px;
-    margin: auto;
-  }
 }
 
 .bg-feed-quote {
@@ -325,7 +282,7 @@ html {
 .subheading {
   font-size: 19.75px;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   text-shadow: 0 1px rgba(0,0,0,.07);
   -webkit-text-fill-color: transparent;

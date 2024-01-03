@@ -21,53 +21,57 @@ const Navbar = () => {
 
   return (
     <div className={`${style.wrapper} ${move ? 'backdrop-blur' : 'backdrop-blur-0'}`} >
-    <nav
-    className={`${style.nav} ${move ? 'px-5' : 'px-0'} duration-300 py-3`}
-    >
-      <div
-        className="flex gap-x-0 m-0 w-fit cursor-pointer h-full items-center"
-        onClick={() => {
-          window.scrollTo(0, 0)
-        }}
-      >
-        <Image
-          src={'/logos/logo_pagina/logo_pagina/1.png'}
-          alt="logo poderify"
-          width={180}
-          height={56}
-          className="object-contain"
-        />
-      </div>
-      <ul className="md:flex hidden gap-x-4 list-none">
-        {nav.map(({ id, title }, i) => (
-          <li
-            key={i}
-          >
-            <Link className={style.link} href={`#${id}`}>{title}</Link>
-          </li>
-        ))}
-      </ul>
-
-      <div className="flex md:hidden justify-center items-center">
+      <nav className={`${style.nav} ${move ? 'px-5' : 'px-0'} duration-300 py-3`} >
         <div
-          className="text-3xl text-white"
-          onClick={() => setToggle((prevToggle) => !prevToggle)}
+          className="flex gap-x-0 m-0 w-fit cursor-pointer h-full items-center"
+          onClick={() => { window.scrollTo(0, 0) }}
         >
-          {toggle ? <HiX /> : <HiMenuAlt2 />}
+          <Image
+            src={'/logos/logo_pagina/logo_pagina/1.png'}
+            alt="logo de PoderiFy"
+            width={180}
+            height={56}
+            className="object-contain block object-center"
+          />
         </div>
-        <ul
-          className={`absolute top-[72px] right-0 py-6 ${
-            toggle ? 'w-full opacity-100 visible z-50' : 'opacity-0 invisible -z-10 w-0'
-          } flex items-center justify-center gap-x-4 bg-[#1d1c20] border-t border-solid border-[rgba(255,255,255,.08)] backdrop-blur-3xl duration-500`}
-        >
-          {nav.map(({ id, title }, i) => (
-            <li key={i}>
-              <Link className={`${style.link}`} href={`#${id}`}>{title}</Link>
+        <ul className="md:flex hidden gap-x-4 list-none">
+          {nav.map(({ id, title }, index) => (
+            <li key={index}>
+              <Link
+                aria-label={`Enlace a la sección ${id}`}
+                className={style.link}
+                href={`${id}`}>
+                {title}
+              </Link>
             </li>
           ))}
         </ul>
-      </div>
-    </nav>
+
+        <div className="flex md:hidden justify-center items-center">
+          <div
+            className="text-3xl text-white"
+            onClick={() => setToggle((prevToggle) => !prevToggle)}
+          >
+            {toggle ? <HiX /> : <HiMenuAlt2 />}
+          </div>
+          <ul
+            className={`absolute top-[72px] right-0 py-6 ${
+              toggle ? 'w-full opacity-100 visible z-50' : 'opacity-0 invisible -z-10 w-0'
+            } flex items-center justify-center gap-x-4 bg-[#1d1c20] border-t border-solid border-[rgba(255,255,255,.08)] backdrop-blur-3xl duration-500`}
+          >
+            {nav.map(({ id, title }, index) => (
+              <li key={index}>
+                <Link
+                  aria-label={`Enlace a la sección ${id}`}
+                  className={`${style.link}`}
+                  href={`${id}`}>
+                  {title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </nav>
     </div>
   )
 }

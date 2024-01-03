@@ -1,8 +1,10 @@
 'use client'
 import { motion } from 'framer-motion'
-import { hero } from '@/constants'
-import Link from 'next/link'
 import { HiChatAlt2 } from 'react-icons/hi'
+import Link from 'next/link'
+
+import { hero } from '@/constants'
+import style from './Hero.module.css'
 
 const Hero = () => {
   return (
@@ -10,9 +12,9 @@ const Hero = () => {
       id="home"
       className="overflow-hidden flex w-full flex-col min-h-[100vh] justify-center relative items-center"
     >
-      <div className='bg-gradient'>
-        <div className='hero-bg'>
-          <div className='bg-image' />
+      <div className={style.bgGradient}>
+        <div className={style.heroBg}>
+          <div className={style.bgImage} />
         </div>
       </div>
       {hero.map(({ title, paragraph, href, link }, i) => (
@@ -25,12 +27,14 @@ const Hero = () => {
             {paragraph}
           </p>
           <div className="flex w-full gap-x-8 items-center justify-center flex-col gap-y-6">
-            <Link href={href} className="btn-classic gap-x-4">
+            <Link href={href}
+            aria-label='Enlace al whatsapp de PoderiFy'
+            className="btn-classic gap-x-4">
               {link}
               <HiChatAlt2 />
             </Link>
             <div className="absolute xs:bottom-2 bottom-8 w-full flex justify-center items-center">
-              <Link aria-label="Scroll down" href={'#tools'}>
+              <Link aria-label="Desplazarse hacia abajo a Herramientas" href={'#tools'}>
                 <div className="w-[32px] h-16 rounded-3xl border-2 border-slate-300 flex justify-center items-start p-2 hover:border-slate-950 duration-300">
                   <motion.div
                     animate={{
