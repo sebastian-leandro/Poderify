@@ -5,29 +5,6 @@ import { services } from '@/constants'
 import style from './Services.module.css'
 import { fadeIn } from '@/utils/motion'
 
-/*
-const Services = () => {
-  return (
-    <section
-      id="services"
-      className="section w-full h-auto flex flex-col md:gap-y-24 relative justify-between overflow-hidden"
-    >
-      <h2 className="heading txt-shadow uppercase mb-16">Nuestros Servicios</h2>
-      <div className="w-full flex flex-col h-auto gap-y-4 mb-4 justify-center items-center">
-        {servicesRow.map(({ img, alt, title }, i) => (
-          <CardRow img={img} alt={alt} title={title} index={i} key={i} />
-        ))}
-      </div>
-      <div className="w-full h-full gap-6 gap-y-4 flex flex-wrap md:flex-row items-center justify-center flex-col">
-        {services.map(({ title, img, alt }, i) => (
-          <CardService key={i} i={i} title={title} img={img} alt={alt} />
-        ))}
-      </div>
-    </section>
-  )
-}
-*/
-
 const Services = () => {
   const BentoItem = ({ img, title, description, index }) => {
     const direction = index % 2 === 0 ? 'left' : 'right'

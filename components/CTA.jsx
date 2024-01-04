@@ -11,7 +11,7 @@ const CTA = () => {
           className="w-full pt-4 md:pt-0 h-72 max-w-[1280px] flex md:flex-row flex-col  rounded-2xl border border-solid border-[rgba(255,255,255,.08)] px-6 bg-gradient-to-l from-[#151030] to-[#1b1622]"
         >
           <div className="flex flex-col w-full h-full items-center md:items-start justify-center">
-            <h3 className="heading uppercase">{title}</h3>
+            <h3 className="heading">{title}</h3>
             <p className="paragraph-v1 text-center md:text-left text-[#cecece]">
               {paragraph}
             </p>

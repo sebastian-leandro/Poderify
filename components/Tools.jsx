@@ -22,7 +22,7 @@ const Tools = () => {
           </div>
         </div>
         <div className="w-full items-center text-center max-w-[600px] justify-center">
-          <p className="paragraph-v2 capitalize text-purple-900">
+          <p className="paragraph-v2 capitalize text-gradient-v2">
             Soluciones inteligentes.
           </p>
           <h2 id="tools" className="heading">

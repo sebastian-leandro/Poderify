@@ -312,6 +312,31 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+.text-gradient-v2 {
+  background: linear-gradient(to right,#FC72FF,#8F68FF,#487BFF,#2CD9FF,#2CFFCC);
+  background-size: auto;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200% 100%;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  animation: hue-rotate 2s infinite linear;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes hue-rotate {
+  0% {
+    filter:hue-rotate(0deg)
+  }
+  to {
+    filter:hue-rotate(360deg)
+  }
+}
+
+
+
 .shadow-feed {
   box-shadow: 0 3px 40px rgba(12, 12, 13, 0.4);
 }
