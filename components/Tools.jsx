@@ -25,7 +25,7 @@ const Tools = () => {
           <p className="paragraph-v2 capitalize text-gradient-v2">
             Soluciones inteligentes.
           </p>
-          <h2 id="tools" className="heading">
+          <h2 id="tools" className="heading" style={{ lineHeight: '64px' }}>
             Potencia tu Empresa con Innovación Digital.
           </h2>
           <p className="paragraph-v1 mx-auto w-[100%]">

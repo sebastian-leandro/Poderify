@@ -103,9 +103,18 @@
 
 
 @media screen and (max-width: 1280px) {
+  .bentoGrid {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .item {
     max-width: 300px;
+    min-height: 350px;
   }
+  .item:nth-child(3) {
+    min-height: 350px;
+  }
+  
 }
 
 @media screen and (max-width: 1024px) {
@@ -113,9 +122,6 @@
     display: flex;
     flex-wrap: wrap;
     height: auto;
-  }
-  .item {
-    min-width: 280px;
   }
   .item:last-child {
     min-height: 320px;

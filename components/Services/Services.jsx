@@ -18,10 +18,10 @@ const Services = () => {
       className={`${style.item}`}>
         <div className={`${style.cover} bg-cover bg-center bg-no-repeat bg-blend-luminosity absolute top-0 left-0 w-full h-full z-0`} style={{ backgroundImage: `url(${img})` }} />
         <div className='absolute w-full h-full top-0 left-0 z-[1] bg-gradient-to-b from-transparent from-10% via-black/40 to-black/80' />
-        <div className='z-10 w-full absolute left-0 bottom-0 pl-2 h-[100px] items-center flex'>
+        <div className='z-10 w-full absolute left-0 bottom-2 pl-2 h-[100px] items-center flex'>
           <div className='flex flex-col w-full h-full'>
             <h3 className='subheading'>{title}</h3>
-            <p className='paragraph-v1 lg:inline hidden' style={{ fontSize: '16px' }}>{description}</p>
+            <p className='paragraph-v1 lg:inline hidden max-w-[95%]' style={{ fontSize: '16px' }}>{description}</p>
           </div>
         </div>
       </motion.div>
