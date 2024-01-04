@@ -38,7 +38,7 @@ const Navbar = () => {
           {nav.map(({ id, title }, index) => (
             <li key={index}>
               <Link
-                aria-label={`Enlace a la sección ${id}`}
+                aria-label={`Enlace a la sección ${title}`}
                 className={style.link}
                 href={`${id}`}>
                 {title}
@@ -62,7 +62,7 @@ const Navbar = () => {
             {nav.map(({ id, title }, index) => (
               <li key={index}>
                 <Link
-                  aria-label={`Enlace a la sección ${id}`}
+                  aria-label={`Enlace a la sección ${title}`}
                   className={`${style.link}`}
                   href={`${id}`}>
                   {title}

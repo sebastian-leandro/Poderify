@@ -27,7 +27,7 @@ const Hero = () => {
           </p>
           <div className="flex w-full gap-x-8 items-center justify-center flex-col gap-y-6">
             <Link href={href}
-            aria-label='Enlace al whatsapp de PoderiFy'
+            aria-label='Enlace principal al whatsapp de PoderiFy'
             className="btn-classic gap-x-4">
               {link}
               <HiChatAlt2 />
