@@ -1,4 +1,4 @@
-import { GTMScript, Hero, Tools, CTA, Services, Testimonials, Works, About } from '@/components'
+import { GTMScript, Hero, Tools, CTA, Services, Works, About } from '@/components'
 
 export default function Home () {
   return (
@@ -11,7 +11,6 @@ export default function Home () {
         < Services />
         < Works />
         < About />
-        < Testimonials />
       </main>
 
     </>

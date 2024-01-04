@@ -1,21 +1,13 @@
-'use client'
 import { HiChatAlt2 } from 'react-icons/hi'
 import Link from 'next/link'
-import { motion } from 'framer-motion'
 
 import { cta } from '@/constants'
-import { slideIn } from '@/utils/motion'
 
 const CTA = () => {
-  const slide = slideIn('left', 'spring', 0.3, 0.5)
   return (
     <section className="section flex w-full h-auto justify-center relative">
       {cta.map(({ title, paragraph, link }, index) => (
-        <motion.div
-          initial='hidden'
-          whileInView='show'
-          variants={slide}
-          viewport={{ once: true }}
+        <div
           key={index}
           className="w-full pt-4 md:pt-0 h-[340px] max-w-[1280px] flex md:flex-row flex-col  rounded-2xl border border-solid border-[rgba(255,255,255,.08)] px-6 bg-[#1d1c20]"
         >
@@ -35,7 +27,7 @@ const CTA = () => {
               <HiChatAlt2 />
             </Link>
           </div>
-        </motion.div>
+        </div>
       ))}
     </section>
   )
