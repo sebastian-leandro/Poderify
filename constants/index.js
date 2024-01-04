@@ -104,14 +104,19 @@ export const cta = [
 
 export const services = [
   {
-    img: '/service/datos.jpg',
-    title: 'Análisis & Modelos de Datos',
-    description: 'Modela tus datos avanzados y obtiene insights clave que impulsen el crecimiento y la toma de decisiones estratégicas.'
+    img: '/service/web.jpg',
+    title: 'Diseño & Desarrollo Web',
+    description: 'Cautiva a tu audiencia con sitios web diseñados para atraer y convertir, optimizados para SEO y experiencia de usuario.'
   },
   {
     img: '/service/branding.jpg',
     title: 'Branding & Marketing Digital',
     description: 'Eleva tu marca y visibilidad online mediante estrategias de branding y marketing digital personalizadas. Integra las últimas tendencias para maximizar tu alcance y engagement en el mundo digital.'
+  },
+  {
+    img: '/service/strategy.jpg',
+    title: 'Automatización Digital',
+    description: 'Email marketing, chatbots para WhatsApp y Messenger, scripts  para aumentar el tráfico en redes sociales, soluciones personalizadas que transforman tu interacción digital.'
   },
   {
     img: '/service/ia.jpg',
@@ -124,14 +129,9 @@ export const services = [
     description: 'Extraemos y analizamos información crítica para mejorar la toma de decisiones, dándote una ventaja clave en el mercado.'
   },
   {
-    img: '/service/web.jpg',
-    title: 'Diseño & Desarrollo Web',
-    description: 'Cautiva a tu audiencia con sitios web diseñados para atraer y convertir, optimizados para SEO y experiencia de usuario.'
-  },
-  {
-    img: '/service/strategy.jpg',
-    title: 'Automatización Digital',
-    description: 'Email marketing, chatbots para WhatsApp y Messenger, scripts  para aumentar el tráfico en redes sociales, soluciones personalizadas que transforman tu interacción digital.'
+    img: '/service/datos.jpg',
+    title: 'Análisis & Modelos de Datos',
+    description: 'Modela tus datos y obtén insights clave que impulsen el crecimiento y la toma de decisiones estratégicas.'
   }
 
 ]
