@@ -326,15 +326,6 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
-@keyframes hue-rotate {
-  0% {
-    filter:hue-rotate(0deg)
-  }
-  to {
-    filter:hue-rotate(360deg)
-  }
-}
-
 .shadow-feed {
   box-shadow: 0 3px 40px rgba(12, 12, 13, 0.4);
 }
@@ -481,7 +472,7 @@ html {
   z-index: 0;
   scale: 1 0;
   transform-origin: bottom;
-  transition: scale 0.5s ease;
+  transition: all 750ms ease;
 }
 
 .item:hover .icon-media::before {
@@ -507,6 +498,15 @@ html {
   )
 }
 
+.shadow-filter {
+  filter: drop-shadow(0 0 35px rgba(20, 160, 80, 1));
+  transition: 300ms ease-in-out transform;
+}
+
+.whatsapp:hover .whatsapp-icon {
+  transform: rotate(360deg);
+}
+
 
 
 
@@ -522,7 +522,16 @@ html {
   background-color: rgba(255, 255, 255, .075);
 }
 
+/* Animations */
 
+@keyframes hue-rotate {
+  0% {
+    filter:hue-rotate(0deg)
+  }
+  to {
+    filter:hue-rotate(360deg)
+  }
+}
 
 /* Medias */
 
