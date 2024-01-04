@@ -106,7 +106,7 @@ export const services = [
   {
     img: '/service/datos.jpg',
     title: 'Análisis & Modelos de Datos',
-    description: 'Proveemos análisis de datos y modelado para decisiones estratégicas.'
+    description: 'Modela tus datos avanzados y obtiene insights clave que impulsen el crecimiento y la toma de decisiones estratégicas.'
   },
   {
     img: '/service/branding.jpg',
@@ -116,7 +116,7 @@ export const services = [
   {
     img: '/service/ia.jpg',
     title: 'IA & Machine Learning',
-    description: 'Soluciones de Inteligencia Artificial y Machine Learning, para optimizar procesos.'
+    description: 'Desde análisis predictivo para optimizar campañas, hasta sistemas de recomendación personalizados para aumentar tus ventas.'
   },
   {
     img: '/service/automatizacion.jpg',
@@ -128,7 +128,6 @@ export const services = [
     title: 'Diseño & Desarrollo Web',
     description: 'Cautiva a tu audiencia con sitios web diseñados para atraer y convertir, optimizados para SEO y experiencia de usuario.'
   },
-
   {
     img: '/service/strategy.jpg',
     title: 'Automatización Digital',
