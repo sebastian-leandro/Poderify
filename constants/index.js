@@ -121,12 +121,12 @@ export const services = [
   {
     img: '/service/automatizacion.jpg',
     title: 'Scraping de Datos',
-    description: 'Revoluciona tu gestión con scraping de datos. Extraemos y analizamos información crítica, dándote una ventaja en el mercado.'
+    description: 'Extraemos y analizamos información crítica para mejorar la toma de decisiones, dándote una ventaja clave en el mercado.'
   },
   {
     img: '/service/web.jpg',
     title: 'Diseño & Desarrollo Web',
-    description: 'Creación de sitios web atractivos y funcionales para tu audiencia.'
+    description: 'Cautiva a tu audiencia con sitios web diseñados para atraer y convertir, optimizados para SEO y experiencia de usuario.'
   },
   {
     img: '/service/branding.jpg',
