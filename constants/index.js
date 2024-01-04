@@ -109,9 +109,9 @@ export const services = [
     description: 'Proveemos análisis de datos y modelado para decisiones estratégicas.'
   },
   {
-    img: '/service/strategy.jpg',
-    title: 'Automatización Digital',
-    description: 'Email marketing, chatbots para WhatsApp y Messenger, scripts  para aumentar el tráfico en redes sociales, soluciones personalizadas que transforman tu interacción digital.'
+    img: '/service/branding.jpg',
+    title: 'Branding & Marketing Digital',
+    description: 'Eleva tu marca y visibilidad online mediante estrategias de branding y marketing digital personalizadas. Integra las últimas tendencias para maximizar tu alcance y engagement en el mundo digital.'
   },
   {
     img: '/service/ia.jpg',
@@ -128,11 +128,13 @@ export const services = [
     title: 'Diseño & Desarrollo Web',
     description: 'Cautiva a tu audiencia con sitios web diseñados para atraer y convertir, optimizados para SEO y experiencia de usuario.'
   },
+
   {
-    img: '/service/branding.jpg',
-    title: 'Branding & Marketing Digital',
-    description: 'Eleva tu marca y visibilidad online mediante estrategias de branding y marketing digital personalizadas. Integra las últimas tendencias para maximizar tu alcance y engagement en el mundo digital.'
+    img: '/service/strategy.jpg',
+    title: 'Automatización Digital',
+    description: 'Email marketing, chatbots para WhatsApp y Messenger, scripts  para aumentar el tráfico en redes sociales, soluciones personalizadas que transforman tu interacción digital.'
   }
+
 ]
 
 export const feedback = [
