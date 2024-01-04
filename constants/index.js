@@ -120,8 +120,8 @@ export const services = [
   },
   {
     img: '/service/automatizacion.jpg',
-    title: 'Automatización & Scraping',
-    description: 'Revoluciona tu gestión con scraping de datos. Extraemos y analizamos información crítica para mejorar la toma de decisiones, dándote una ventaja competitiva en el mercado.'
+    title: 'Scraping de Datos',
+    description: 'Revoluciona tu gestión con scraping de datos. Extraemos y analizamos información crítica, dándote una ventaja en el mercado.'
   },
   {
     img: '/service/web.jpg',
