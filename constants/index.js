@@ -106,12 +106,12 @@ export const services = [
   {
     img: '/service/branding.jpg',
     title: 'Branding & Marketing Digital',
-    description: 'Potenciamos tu negocio con estrategias de crecimiento innovadoras y efectivas.'
+    description: 'Eleva tu marca y visibilidad online mediante estrategias de branding y marketing digital personalizadas. Integra las últimas tendencias para maximizar tu alcance y engagement en el mundo digital.'
   },
   {
     img: '/service/strategy.jpg',
-    title: 'Estrategia de Crecimiento',
-    description: 'Impulsamos tu empresa con soluciones avanzadas de IA y Machine Learning.'
+    title: 'Automatización Digital',
+    description: 'Email marketing, chatbots para WhatsApp y Messenger, scripts  para aumentar el tráfico en redes sociales, soluciones personalizadas que transforman tu interacción digital.'
   },
   {
     img: '/service/ia.jpg',
@@ -121,7 +121,7 @@ export const services = [
   {
     img: '/service/automatizacion.jpg',
     title: 'Automatización & Scraping',
-    description: 'Optimizamos procesos con automatización y scraping de datos eficiente.'
+    description: 'Revoluciona tu gestión con scraping de datos. Extraemos y analizamos información crítica para mejorar la toma de decisiones, dándote una ventaja competitiva en el mercado.'
   },
   {
     img: '/service/web.jpg',
