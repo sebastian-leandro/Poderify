@@ -104,9 +104,9 @@ export const cta = [
 
 export const services = [
   {
-    img: '/service/branding.jpg',
-    title: 'Branding & Marketing Digital',
-    description: 'Eleva tu marca y visibilidad online mediante estrategias de branding y marketing digital personalizadas. Integra las últimas tendencias para maximizar tu alcance y engagement en el mundo digital.'
+    img: '/service/datos.jpg',
+    title: 'Análisis & Modelos de Datos',
+    description: 'Proveemos análisis de datos y modelado para decisiones estratégicas.'
   },
   {
     img: '/service/strategy.jpg',
@@ -129,9 +129,9 @@ export const services = [
     description: 'Creación de sitios web atractivos y funcionales para tu audiencia.'
   },
   {
-    img: '/service/datos.jpg',
-    title: 'Análisis & Modelos de Datos',
-    description: 'Proveemos análisis de datos y modelado para decisiones estratégicas.'
+    img: '/service/branding.jpg',
+    title: 'Branding & Marketing Digital',
+    description: 'Eleva tu marca y visibilidad online mediante estrategias de branding y marketing digital personalizadas. Integra las últimas tendencias para maximizar tu alcance y engagement en el mundo digital.'
   }
 ]
 
