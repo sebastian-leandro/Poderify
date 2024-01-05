@@ -246,7 +246,7 @@ export const team = [
     img: '/equipo/meri.jpg',
     alt: 'Meria Laura Iezzi foto del equipo de PoderiFy',
     name: 'Meri Iezzi',
-    desc: 'Administradora de E-Commerce y Marketing | Servicio al Cliente',
+    desc: 'Gestión de E-Commerce y Servicio al Cliente',
     link: 'https://www.github.com/',
     href: 'https://www.linkedin.com/in/maríalauraiezzi//'
   }
