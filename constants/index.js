@@ -161,10 +161,10 @@ export const images = [
   {
     src: '/work/eda-min.gif',
     alt: 'GIF de un EDA sobre un Analisis de Search Engine Marketing.',
-    title: 'EDA | Analisis SEM',
-    subTitle: 'Realizamos un análisis exhaustivo del Search Engine Marketing (SEM) del cliente, utilizando técnicas avanzadas de Exploratory Data Analysis (EDA) para optimizar la estrategia de marketing digital y mejorar la captación de leads.',
+    title: 'Analisis SEM: Optimización Predictiva:',
+    subTitle: 'Mejoramos en un 80% la eficiencia de los vendedores al identificar anticipadamente prospectos no calificados, enfocando esfuerzos en los más prometedores, con un coste de oportunidad de solo el 4%.',
     link: 'https://www.kaggle.com/code/ivancanepa/analisis-sem-aplicando-ml-catboost-rf?scriptVersionId=151014470',
-    linkTitle: 'Ver Proyecto'
+    linkTitle: 'Detalles en Kaggle.'
   },
   {
     src: '/work/1.png',
@@ -172,15 +172,15 @@ export const images = [
     title: 'Desarrollo Web iPureFix',
     subTitle: 'Diseñamos y desarrollamos una Landing Page eficiente y atractiva para iPureFix, enfocada en maximizar la conversión de usuarios y mejorar la experiencia de navegación.',
     link: 'https://iPureFix.com',
-    linkTitle: 'Ver Proyecto'
+    linkTitle: 'Ver Pagina'
   },
   {
     src: '/work/2.png',
     alt: 'Foto del sitio web de Muelles & Marinas Design.',
     title: 'Desarrollo Web M&M Design',
-    subTitle: 'Creamos un sitio web dinámico y a medida para M&M Design, integrando soluciones CRM y Chatbot para mejorar la interacción con el cliente y la gestión de leads.',
+    subTitle: 'Creamos un sitio web dinámico y a medida para M&M Design, integrando soluciones de Hubspot CRM y Chatbot para mejorar la interacción con el cliente y la gestión de leads.',
     link: 'https://muellesyestacados.com',
-    linkTitle: 'Ver Proyecto'
+    linkTitle: 'Ver Pagina'
   }
 
 ]
