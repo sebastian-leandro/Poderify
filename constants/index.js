@@ -243,9 +243,17 @@ export const team = [
     href: 'https://www.linkedin.com/in/gonzalocanepa23/'
   },
   {
+    img: '/equipo/meri.jpg',
+    alt: 'Meria Laura Iezzi foto del equipo de PoderiFy',
+    name: 'Meri Iezzi',
+    desc: 'Administradora de E-Commerce y Marketing | Servicio al Cliente',
+    link: 'https://www.github.com/',
+    href: 'https://www.linkedin.com/in/maríalauraiezzi//'
+  }
+  {
     img: '/equipo/3.jpeg',
     alt: 'Clara Oviedo foto del equipo de PoderiFy',
-    name: 'Clara Oviedo',
+    name: 'Clari Oviedo',
     desc: 'Ingeniera Especializada en Big Data y Análisis de Datos',
     link: 'https://www.github.com/',
     href: 'https://www.linkeding.com'
@@ -258,4 +266,5 @@ export const team = [
     link: 'https://www.github.com/',
     href: 'https://www.linkedin.com/in/ramiro-imperiali-172b4a256/'
   }
+  
 ]
