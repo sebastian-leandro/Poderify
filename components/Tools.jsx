@@ -26,7 +26,7 @@ const Tools = () => {
             Soluciones Integrales.
           </p>
           <h2 id="tools" className="heading" style={{ lineHeight: '64px' }}>
-           ¿Cansado coordinar múltiples proveedores y tecnologías? 
+           ¿Cansado coordinar múltiples proveedores y tecnologías?
           </h2>
           <p className="paragraph-v1 mx-auto w-[100%]">
             Maximiza eficiencia y coherencia en tu branding con una estrategia digital unificada, moldeada a la medida de tu negocio.
