@@ -248,7 +248,7 @@ export const team = [
     name: 'Meri Iezzi',
     desc: 'Gestión de E-Commerce y Servicio al Cliente',
     link: 'https://www.github.com/',
-    href: 'https://www.linkedin.com/in/maríalauraiezzi//'
+    href: 'https://www.linkedin.com/in/maríalauraiezzi/'
   }
   {
     img: '/equipo/3.jpeg',
