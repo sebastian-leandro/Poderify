@@ -30,7 +30,7 @@ const Services = () => {
 
   return (
     <section id='services' className={style.section}>
-      <h2 className='heading'>Soluciones Integrales</h2>
+      <h2 className='heading'>Soluciones 360°</h2>
       <div className={style.flex}>
         <div className={style.bentoGrid}>
           {services.map((service, index) => (

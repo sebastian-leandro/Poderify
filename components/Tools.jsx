@@ -15,7 +15,7 @@ const Tools = () => {
       className="w-full h-auto flex flex-col items-center gap-y-10 py-2 justify-center">
         <div className="flex items-center justify-center w-full h-auto gap-y-10 flex-col">
           <p className="paragraph text-center text-[#618adc]">
-          Integra las herramientas más poderosas del mercado, en un único servicio.
+          Incorpora las herramientas más poderosas del mercado, en un único servicio.
           </p>
           <div className="flex w-full h-full flex-wrap">
             <Features />
