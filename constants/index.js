@@ -19,8 +19,8 @@ export const nav = [
 
 export const hero = [
   {
-    title: 'Tu Puente Hacia el Futuro Digital, Hoy.',
-    paragraph: 'Soluciones 360. Desde desarrollo web, análisis de datos e IA hasta scraping y automatización de tareas. Hacemos que la tecnología trabaje para vos.',
+    title: 'Transformación Digital para PyMEs y Emprendedores.',
+    paragraph: 'Tu aliado en diseño Web, análisis de Datos, automatización, branding y marketing Digital. Hacemos la tecnología trabaje para vos, y no al reves.',
     href: 'https://api.whatsapp.com/send?phone=5491176108397',
     link: 'Contáctanos',
     navigation: '#services',
@@ -97,7 +97,7 @@ export const tools = [
 export const cta = [
   {
     title: 'Tu negocio es único.',
-    paragraph: 'Contáctanos y recibe nuestra asesoría personalizada.',
+    paragraph: 'Contáctanos hoy para recibir asesoría personalizada y comenzar a transformar digitalmente tu negocio con confianza.',
     link: 'Contáctanos'
   }
 ]

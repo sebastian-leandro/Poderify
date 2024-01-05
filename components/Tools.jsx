@@ -23,21 +23,19 @@ const Tools = () => {
         </div>
         <div className="w-full items-center text-center max-w-[600px] justify-center">
           <p className="paragraph-v2 capitalize text-gradient-v2">
-            Soluciones inteligentes.
+            Soluciones Integrales.
           </p>
           <h2 id="tools" className="heading" style={{ lineHeight: '64px' }}>
-            Potencia tu Empresa con Innovación Digital.
+           ¿Cansado coordinar múltiples proveedores y tecnologías? 
           </h2>
           <p className="paragraph-v1 mx-auto w-[100%]">
-            Desbloquea el potencial de tu negocio. Transformamos datos
-            en decisiones, conectividad en crecimiento, y estrategias en
-            resultados.
+            Maximiza eficiencia y coherencia en tu branding con una estrategia digital unificada, moldeada a la medida de tu negocio.
           </p>
         </div>
       </motion.div>
       <div
       className="flex w-full flex-col h-full flex-wrap items-center gap-y-10">
-        <h2 className="heading uppercase">SOMOS EXPERTOS EN</h2>
+        <h2 className="heading uppercase">ESPECIALISTAS EN</h2>
         <div
           className="flex w-full h-auto flex-wrap flex-col gap-y-4 sm:flex-row items-center justify-center gap-x-10"
         >
