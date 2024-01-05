@@ -20,7 +20,7 @@ export const nav = [
 export const hero = [
   {
     title: 'Transformación Digital para PyMEs y Emprendedores.',
-    paragraph: 'Tu aliado en diseño Web, análisis de Datos, automatización, branding y marketing Digital. Hacemos la tecnología trabaje para vos, y no al reves.',
+    paragraph: 'Tu Solución en diseño Web, branding, marketing Digital, análisis de datos y automatización. Haz la tecnología trabaje para vos.',
     href: 'https://api.whatsapp.com/send?phone=5491176108397',
     link: 'Contáctanos',
     navigation: '#services',
@@ -97,7 +97,7 @@ export const tools = [
 export const cta = [
   {
     title: 'Tu negocio es único.',
-    paragraph: 'Contáctanos hoy para recibir asesoría personalizada y comenzar a transformar digitalmente tu negocio con confianza.',
+    paragraph: 'Contáctanos hoy para recibir asesoría personalizada y comenzar a transformar tu negocio.',
     link: 'Contáctanos'
   }
 ]

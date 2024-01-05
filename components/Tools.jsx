@@ -15,7 +15,7 @@ const Tools = () => {
       className="w-full h-auto flex flex-col items-center gap-y-10 py-2 justify-center">
         <div className="flex items-center justify-center w-full h-auto gap-y-10 flex-col">
           <p className="paragraph text-center capitalize text-[#618adc]">
-            Integra las herramientas más poderosas del mercado a tu negocio.
+           
           </p>
           <div className="flex w-full h-full flex-wrap">
             <Features />
@@ -26,10 +26,10 @@ const Tools = () => {
             Soluciones Integrales.
           </p>
           <h2 id="tools" className="heading" style={{ lineHeight: '64px' }}>
-           ¿Cansado coordinar múltiples proveedores y tecnologías?
+          ¿Cansado de coordinar con múltiples proveedores y tecnologías?
           </h2>
           <p className="paragraph-v1 mx-auto w-[100%]">
-            Maximiza eficiencia y coherencia en tu branding con una estrategia digital unificada, moldeada a la medida de tu negocio.
+           Con una estrategia digital unificada ganaras eficiencia y organización, coherencia en tu branding y una sólida presencia adaptada a las necesidades únicas de tu negocio.
           </p>
         </div>
       </motion.div>
