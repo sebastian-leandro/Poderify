@@ -249,7 +249,7 @@ export const team = [
     desc: 'Gestión de E-Commerce y Servicio al Cliente',
     link: 'https://www.github.com/',
     href: 'https://www.linkedin.com/in/maríalauraiezzi/'
-  }
+  },
   {
     img: '/equipo/3.jpeg',
     alt: 'Clara Oviedo foto del equipo de PoderiFy',
