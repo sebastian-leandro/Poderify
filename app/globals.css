@@ -145,6 +145,23 @@ html {
 
 /* Gradients */
 
+.mouseEffect {
+  background-image: linear-gradient(
+    hsl(295deg 76% 51%) 0%,
+    hsl(284deg 70% 73%) 26%,
+    hsl(257deg 70% 86%) 39%,
+    hsl(202deg 92% 90%) 50%,
+    hsl(215deg 77% 81%) 61%,
+    hsl(221deg 73% 70%) 74%,
+    hsl(220deg 76% 51%) 100%
+  );
+  filter: blur(50px);
+  -webkit-filter: blur(50px);
+  -moz-filter: blur(50px);
+  -o-filter: blur(50px);
+  -ms-filter: blur(50px);
+}
+
 .gradient {
   position: absolute;
   z-index: -10;
@@ -260,6 +277,8 @@ html {
     #34acc7 53.65%,
     #4402af 100%
   );
+
+
 }
 
 /* Text */
