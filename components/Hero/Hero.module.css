@@ -4,7 +4,7 @@
   left: 0;
   z-index: -1;
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   background-image: linear-gradient(135deg,#1e1e20,#0e0e11 32%);
 }
   
@@ -12,7 +12,7 @@
 .backgroundImage {
   background-image: url(https://uploads-ssl.webflow.com/6408bea3de5aef58b7e197d4/6438c3059d443cd7a78762eb_stars-bg.png);
   width: 100%;
-  height: 110vh;
+  height: 100dvh;
   background-position: 0 0;
   background-repeat: repeat;
   background-size: auto;
