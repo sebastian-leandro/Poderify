@@ -18,11 +18,11 @@ const Hero = () => {
       </div>
       {hero.map(({ title, paragraph, href, link }, i) => (
         <div
-          className="flex flex-col max-w-[620px] items-center  gap-y-6"
+          className="flex flex-col sm:max-w-[480px] md:max-w-[640px] lg:max-w-[940px] items-center gap-y-6"
           key={i}
         >
           <h1 className="heading capitalize sm:uppercase">{title}</h1>
-          <p className="paragraph-v4 text-[#ffffff] w-[95%]  md:w-[90%] text-center">
+          <p className="paragraph-v4 font-medium lg:font-semibold lg:text-[20px] md:text-[17px] sm:text-[14px] text-[#f7f7f7] w-[95%]  md:w-[75%] text-center">
             {paragraph}
           </p>
           <div className="flex w-full gap-x-8 items-center justify-center flex-col gap-y-6">

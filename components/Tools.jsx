@@ -29,7 +29,7 @@ const Tools = () => {
           <h2 id="tools" className="heading" style={{ lineHeight: '64px' }}>
           ¿Cansado de coordinar con múltiples proveedores y tecnologías?
           </h2>
-          <p className="paragraph-v1 mx-auto w-[100%]">
+          <p className="paragraph-v1 mx-auto w-[80%] md:w-[100%]">
            Con una estrategia digital unificada ganaras eficiencia y organización, coherencia en tu branding y una sólida presencia adaptada a las necesidades únicas de tu negocio.
           </p>
         </div>
