@@ -40,12 +40,12 @@ const Slider = () => {
           <div className="w-full h-full flex flex-col items-center gap-4">
             <h3 className="heading m-auto">{title}</h3>
             <p className="paragraph-v1 m-auto w-[90%] text-center ">{subTitle}</p>
-            <Link className="btn-feedback justify-self-end" aria-label={linkTitle} href={link}>{linkTitle}</Link>
+            {images[i].link && <Link className="btn-feedback justify-self-end" aria-label={linkTitle} href={link}>{linkTitle}</Link>}
           </div>
         </div>
       ))}
       <div className="absolute flex w-full gap-x-2 bottom-[0.1rem] z-40 left-0 right-0 items-end justify-center">
-        {images.map((_, index) => (
+        {images.map((_, index) =>
           <button
             className="btn-icon"
             onClick={() => setCurrentIndex(index)}
@@ -54,7 +54,7 @@ const Slider = () => {
           >
             {index === currentIndex ? <LuDot style={{ stroke: '#fff' }} /> : <LuDot style={{ stroke: '#090909' }} />}
           </button>
-        ))}
+        )}
       </div>
     </div>
   )

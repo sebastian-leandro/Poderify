@@ -159,6 +159,24 @@ export const feedback = [
 
 export const images = [
   {
+    src: '/work/efficient.jpg',
+    alt: 'Matriz de confusión mostrando la clasificación de etiquetas verdaderas y etiquetas predichas con números específicos en cada celda para evaluación de modelo.',
+    title: 'Limpieza Ultra Eficiente de 400M de Títulos con Pipeline de Embeddings',
+    subTitle: 'Este proyecto se centra en la esencia y utilidad amplia de técnicas modernas y diversas para el procesamiento de títulos. Utiliza modelos avanzados para aplicaciones como agrupación, detección de idiomas y limpieza de datos, optimizando el rendimiento y la precisión.'
+  },
+  {
+    src: '/work/facebook_chatbot.jpg',
+    alt: 'Imagen de Facebook',
+    title: 'Facebook Chatbot',
+    subTitle: 'Chatbot personalizable para Facebook Messenger que utiliza embeddings de texto y XGBoost para respuestas automáticas. Adaptable fácilmente a diversas industrias y flujos de trabajo.'
+  },
+  {
+    src: '/work/instabot.jpg',
+    alt: 'Foto de instagram',
+    title: 'Instabot',
+    subTitle: 'Bot de Instagram impulsado por IA para segmentación precisa de género, utilizando XGBoost y OpenAI ADA, con una precisión del 91% a solo $0.001 por 1000 consultas. Automatiza seguimientos y dejadas de seguir desde listas de usuarios o likes en fotos, y verifica las respuestas con acciones aleatorias similares a las humanas. Ideal para influencers y mercadólogos que buscan un compromiso dirigido.'
+  },
+  {
     src: '/work/eda-min.gif',
     alt: 'GIF de un EDA sobre un Analisis de Search Engine Marketing.',
     title: 'Analisis SEM: Optimización Predictiva:',
@@ -190,7 +208,7 @@ export const team = [
     img: '/equipo/meji.jpeg',
     alt: 'Foto de Felipe Maldonado',
     name: 'Felipe Maldonado',
-    desc: 'Founder',
+    desc: 'Fundador & CEO',
     link: 'https://github.com/Felipeinti',
     href: 'https://www.linkedin.com/in/felipemaldonado/'
   },
