@@ -21,15 +21,15 @@ const Navbar = () => {
 
   return (
     <div className={`${style.wrapper} ${move ? 'backdrop-blur' : 'backdrop-blur-0'}`} >
-      <nav className={`${style.nav} ${move ? 'px-6' : 'px-4'} duration-300 py-3`} >
+      <nav className={`${style.nav} ${move ? 'px-6' : 'px-4'} duration-300 py-4`} >
         <div
           className="flex gap-x-0 m-0 w-fit cursor-pointer h-full items-center"
           onClick={() => { window.scrollTo(0, 0) }}
         >
           <Image
-            src={'/logos/logo_pagina/logo_pagina/1.png'}
+            src={'/logos/logo_pagina/logo_pagina/redondo2.png'}
             alt="logo de PoderiFy"
-            width={180}
+            width={56}
             height={56}
             className="object-contain block object-center"
           />

@@ -187,28 +187,28 @@ export const images = [
 
 export const team = [
   {
+    img: '/equipo/meji.jpeg',
+    alt: 'Foto de Felipe Maldonado',
+    name: 'Felipe Maldonado',
+    desc: 'Founder',
+    link: 'https://github.com/Felipeinti',
+    href: 'https://www.linkedin.com/in/felipemaldonado/'
+  },
+  {
     img: '/equipo/5.jpeg',
-    alt: 'santiago Canepa Foto del equipo de PoderiFy.',
+    alt: 'Foto de Santiago Canepa',
     name: 'Santiago Canepa',
-    desc: 'Director Consultor de Estrategia & Análisis del Negocio',
-    link: 'https://www.github.com/',
+    desc: 'Científico de Datos | Ingeniero en Aprendizaje Automático',
+    link: 'https://www.github.com/santiago-canepa',
     href: 'https://www.linkeding.com/santiagocanepa'
   },
   {
     img: '/equipo/6.jpeg',
-    alt: 'Sebastian Leandro Foto del equipo de PoderiFy.',
+    alt: 'Foto de Sebastian Canepa',
     name: 'Sebastian Leandro',
-    desc: 'Desarrollador Web Full-Stack | Especialista en Javascript',
-    link: 'https://www.github.com/',
+    desc: 'Desarrollador Web Full-Stack',
+    link: 'https://github.com/sebastian-leandro',
     href: 'https://www.linkedin.com/in/sebastian-leandro/'
-  },
-  {
-    img: '/equipo/meji.jpeg',
-    alt: 'Felipe Maldonado Foto del equipo de PoderiFy.',
-    name: 'Felipe Maldonado',
-    desc: 'Científico de Datos | Ingeniero en Aprendizaje Automático',
-    link: 'https://www.github.com/',
-    href: 'https://www.linkedin.com/in/felipemaldonado/'
   },
   {
     img: '/equipo/7.jpeg',
@@ -266,5 +266,5 @@ export const team = [
     link: 'https://www.github.com/',
     href: 'https://www.linkedin.com/in/ramiro-imperiali-172b4a256/'
   }
-  
+
 ]
