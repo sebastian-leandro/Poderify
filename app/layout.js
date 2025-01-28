@@ -1,39 +1,7 @@
 import './globals.css'
 import { Navbar, Footer } from '@/components'
 import { WhatsappIcon } from '@/modules'
-import Satoshi from 'next/font/local'
-
-const satoshi = Satoshi(
-  {
-    src: [
-      {
-        path: '../font/satoshi/Satoshi-Regular.otf',
-        weight: '400',
-        style: 'normal'
-      },
-      {
-        path: '../font/satoshi/Satoshi-Light.otf',
-        weight: '300',
-        style: 'normal'
-      },
-      {
-        path: '../font/satoshi/Satoshi-Bold.otf',
-        weight: '700',
-        style: 'normal'
-      },
-      {
-        path: '../font/satoshi/Satoshi-Medium.otf',
-        weight: '500',
-        style: 'normal'
-      },
-      {
-        path: '../font/satoshi/Satoshi-Black.otf',
-        weight: '900',
-        style: 'normal'
-      }
-    ]
-  }
-)
+import { satoshi } from './fonts'
 
 export const metadata = {
   title: 'PoderiFy',
