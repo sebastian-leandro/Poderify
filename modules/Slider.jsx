@@ -1,7 +1,6 @@
 'use client'
 import { useState } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import { images } from '@/constants'
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi'
 import { LuDot } from 'react-icons/lu'
