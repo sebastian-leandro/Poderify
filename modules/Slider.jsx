@@ -36,8 +36,8 @@ const Slider = () => {
               loading="lazy"
             />
           </div>
-          <div className="w-full h-full flex flex-col items-center">
-            <h3 className="heading max-w-[95%] m-auto" style={{ fontSize: "32px" }}>{title}</h3>
+          <div className="w-full h-full flex flex-col justify-center items-center">
+            <h3 className="heading max-w-[95%] m-auto" style={{ fontSize: "32px", lineHeight: "130%", marginBottom: "0px", marginTop: "16px" }}>{title}</h3>
             <p className="paragraph-v1 m-auto w-[90%] text-center ">{subTitle}</p>
           </div>
         </div>
