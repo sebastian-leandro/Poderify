@@ -21,7 +21,7 @@ const Hero = () => {
           className="flex flex-col sm:max-w-[480px] md:max-w-[640px] lg:max-w-[940px] items-center gap-y-6"
           key={i}
         >
-          <h1 className="heading capitalize leading-6 sm:uppercase max-w-[95%] sm:max-w-full" style={{ lineHeight: "130%" }}>{title}</h1>
+          <h1 className="heading capitalize leading-6 sm:uppercase max-w-[95%] sm:max-w-full" style={{ lineHeight: '130%' }}>{title}</h1>
           <p className="paragraph-v4 font-medium lg:font-semibold lg:text-[20px] md:text-[17px] sm:text-[14px] text-[#f7f7f7] w-[95%]  md:w-[75%] text-center">
             {paragraph}
           </p>
