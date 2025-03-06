@@ -19,8 +19,8 @@ export const nav = [
 
 export const hero = [
   {
-    title: 'Transformación Digital para PyMEs y Emprendedores.',
-    paragraph: 'Tu solución en diseño web, branding, marketing digital, análisis de datos y automatización. Hacemos que la tecnología trabaje para vos.',
+    title: 'Inteligencia Artificial Para PyMEs y startups.',
+    paragraph: 'Catalizamos el éxito de startups y pymes con soluciones de inteligencia artificial y automatización personalizadas, optimizando procesos, reduciendo costos y acelerando el crecimiento.',
     href: 'https://api.whatsapp.com/send?phone=5491176108397',
     link: 'Contáctanos',
     navigation: '#services',
@@ -96,44 +96,48 @@ export const tools = [
 
 export const cta = [
   {
-    title: 'Tu negocio es único.',
-    paragraph: 'Contáctanos hoy para recibir asesoría personalizada y comenzar a transformar tu negocio.',
+    title: 'Tu modelo de negocio es único.',
+    paragraph: 'Contáctanos hoy para recibir asesoría personalizada y conocer el proceso  paso a paso para transformar tu empresa.',
     link: 'Contáctanos'
   }
 ]
 
 export const services = [
   {
-    img: '/service/web.jpg',
-    title: 'Diseño & Desarrollo Web',
-    description: 'Cautiva a tu audiencia con sitios web diseñados para atraer y convertir, optimizados para SEO y experiencia de usuario.'
+    img: '/service/small1.png',
+    title: 'Marketing basado en datos',
+    description: 'Estrategias escalables que maximizan resultados con campañas predictivas y contenido dinámico.'
   },
   {
-    img: '/service/branding.jpg',
-    title: 'Branding & Marketing Digital',
-    description: 'Eleva tu marca y visibilidad online mediante estrategias de branding y marketing digital personalizadas. Integra las últimas tendencias para maximizar tu alcance y engagement en el mundo digital.'
+    img: '/service/large.png',
+    title: 'Agentes de Soporte al cliente automatizado',
+    description: 'Asistentes virtuales que brindan respuestas inmediatas entrenados especialmente para tu empresa.'
   },
   {
-    img: '/service/strategy.jpg',
-    title: 'Automatización Digital',
-    description: 'Email marketing, chatbots para WhatsApp y Messenger, scripts  para aumentar el tráfico en redes sociales, soluciones personalizadas que transforman tu interacción digital.'
+    img: '/service/small2.png',
+    title: 'Optimización comercial y Clasificación de leeds',
+    description: 'Añade a tu CRM la probabilidad de cierre de un leed, otorgándo prioridad a los más prometedores.'
   },
   {
-    img: '/service/ia.jpg',
-    title: 'IA & Machine Learning',
-    description: 'Desde análisis predictivo para optimizar campañas, hasta sistemas de recomendación personalizados para aumentar tus ventas.'
+    img: '/service/small3.png',
+    title: 'Chatbots de soporte para tu equipo',
+    description: 'Agentes que responden preguntas de tu equipo, desde consultas SQL hasta verificar inventarios y sugerir productos alternativos ante la falta de stock.'
   },
   {
-    img: '/service/automatizacion.jpg',
-    title: 'Scraping de Datos',
-    description: 'Extraemos y analizamos información crítica para mejorar la toma de decisiones, dándote una ventaja clave en el mercado.'
+    img: '/service/small4.png',
+    title: 'Analizar sentimientos de clientes',
+    description: 'Identificar emociones y tendencias en opiniones, ajustando estrategias de comunicación y servicio.'
   },
   {
-    img: '/service/datos.jpg',
-    title: 'Análisis & Modelos de Datos',
-    description: 'Modela tus datos y obtén insights clave que impulsen el crecimiento y la toma de decisiones estratégicas.'
+    img: '/service/small5.png',
+    title: 'Optimización de stock',
+    description: 'Logra un mejor control de inventarios con pronósticos precisos.'
+  },
+  {
+    img: '/service/small6.png',
+    title: 'Gestión financiera',
+    description: 'Soluciones automatizadas para contabilidad, facturación y prevención de fraudes.'
   }
-
 ]
 
 export const feedback = [
@@ -159,28 +163,22 @@ export const feedback = [
 
 export const images = [
   {
-    src: '/work/efficient.jpg',
-    alt: 'Matriz de confusión mostrando la clasificación de etiquetas verdaderas y etiquetas predichas con números específicos en cada celda para evaluación de modelo.',
-    title: 'Limpieza Ultra Eficiente de 400M de Títulos con Pipeline de Embeddings',
-    subTitle: 'Este proyecto se centra en la esencia y utilidad amplia de técnicas modernas y diversas para el procesamiento de títulos. Utiliza modelos avanzados para aplicaciones como agrupación, detección de idiomas y limpieza de datos, optimizando el rendimiento y la precisión.'
-  },
-  {
     src: '/work/facebook_chatbot.jpg',
     alt: 'Imagen de Facebook',
-    title: 'Facebook Chatbot',
-    subTitle: 'Chatbot personalizable para Facebook Messenger que utiliza embeddings de texto y XGBoost para respuestas automáticas. Adaptable fácilmente a diversas industrias y flujos de trabajo.'
+    title: 'Chatbot para Facebook y Whatsapp',
+    subTitle: 'Chatbots personalizables que usan IA generativa y embeddings para entender y responder consultas iniciales. Envía documentos automáticamente a los clientes y notifica al vendedor cuando debe intervenir, optimizando costos y maximizando el rendimiento del chatflow.'
+  },
+  {
+    src: '/work/efficient.jpg',
+    alt: 'Matriz de confusión mostrando la clasificación de etiquetas verdaderas y etiquetas predichas con números específicos en cada celda para evaluación de modelo.',
+    title: 'Probabilidad de cierre en tu CRM',
+    subTitle: 'Imagina tener en tu CRM una columna "probabilidad de cierre". Nosotros extraemos tus datos de leads, entrenamos modelos y analizamos variables como zona IP, producto, inversión, interacciones y mensajes para identificar los leads más prometedores, garantizando cero falsos negativos.'
   },
   {
     src: '/work/instabot.jpg',
     alt: 'Foto de instagram',
     title: 'Instabot',
-    subTitle: 'Bot de Instagram impulsado por IA para segmentación precisa de género, utilizando XGBoost y OpenAI ADA, con una precisión del 91% a solo $0.001 por 1000 consultas. Automatiza seguimientos y dejadas de seguir desde listas de usuarios o likes en fotos, y verifica las respuestas con acciones aleatorias similares a las humanas. Ideal para influencers y mercadólogos que buscan un compromiso dirigido.'
-  },
-  {
-    src: '/work/eda-min.gif',
-    alt: 'GIF de un EDA sobre un Analisis de Search Engine Marketing.',
-    title: 'Analisis SEM: Optimización Predictiva:',
-    subTitle: 'Mejoramos en un 80% la eficiencia de los vendedores al identificar anticipadamente prospectos no calificados, enfocando esfuerzos en los más prometedores, con un coste de oportunidad de solo el 4%.'
+    subTitle: 'Instabot es tu asistente inteligente en Instagram. Conecta de manera efectiva con tu público ideal, automatiza interacciones, controla tus seguimientos y unfollowers para mantener solo las interacciones más valiosas. Es la solución perfecta para influencers y mercadólogos que buscan aumentar su impacto en redes sociales de forma sencilla y económica.'
   }
 ]
 
@@ -209,14 +207,7 @@ export const team = [
     link: 'https://github.com/sebastian-leandro',
     href: 'https://www.linkedin.com/in/sebastian-leandro/'
   },
-  {
-    img: '/equipo/7.jpeg',
-    alt: 'Victoria Quiroga foto del equipo de PoderiFy.',
-    name: 'Victoria Quiroga',
-    desc: 'Experta en Marketing de Contenido y Storytelling',
-    link: 'https://www.github.com/',
-    href: 'https://www.linkedin.com/in/victoriaquirogalopez/'
-  },
+  /*
   {
     img: '/equipo/1.jpeg',
     alt: 'Alenjandro Lencina foto del equipo de PoderiFy',
@@ -225,30 +216,7 @@ export const team = [
     link: 'https://www.github.com/',
     href: 'https://www.linkedin.com/in/lencinaalejandro'
   },
-  {
-    img: '/equipo/2.jpeg',
-    alt: 'Nadia Malena Foto del equipo de PoderiFy',
-    name: 'Nadia Malena',
-    desc: 'Diseñadora Gráfica con Enfoque en Branding e Identidad Visual',
-    link: 'https://www.github.com/',
-    href: 'https://www.linkedin.com/in/nadia-malena-b92541297'
-  },
-  {
-    img: '/equipo/gonza.jpeg',
-    alt: 'Gonzalo Canepa foto del equipo de PoderiFy.',
-    name: 'Gonzalo Canepa',
-    desc: 'Desarrollador Backend | Ingeniero de Software',
-    link: 'https://www.github.com/',
-    href: 'https://www.linkedin.com/in/gonzalocanepa23/'
-  },
-  {
-    img: '/equipo/meri.jpg',
-    alt: 'Meria Laura Iezzi foto del equipo de PoderiFy',
-    name: 'Meri Iezzi',
-    desc: 'Gestión de E-Commerce y Servicio al Cliente',
-    link: 'https://www.github.com/',
-    href: 'https://www.linkedin.com/in/maríalauraiezzi/'
-  },
+  */
   {
     img: '/equipo/3.jpeg',
     alt: 'Clara Oviedo foto del equipo de PoderiFy',
@@ -256,14 +224,5 @@ export const team = [
     desc: 'Ingeniera Especializada en Big Data y Análisis de Datos',
     link: 'https://www.github.com/',
     href: 'https://www.linkeding.com'
-  },
-  {
-    img: '/equipo/4.jpeg',
-    alt: 'Ramiro Imperiali foto del equipo de PoderiFy',
-    name: 'Ramiro Imperiali',
-    desc: 'Especialista en Marketing Digital, SEO y SEM',
-    link: 'https://www.github.com/',
-    href: 'https://www.linkedin.com/in/ramiro-imperiali-172b4a256/'
   }
-
 ]

@@ -16,7 +16,7 @@ const Tools = () => {
       className="w-full h-auto flex flex-col items-center gap-y-10 py-2 justify-center">
         <div className="flex items-center justify-center w-full h-auto gap-y-10 flex-col">
           <p className="paragraph text-center text-[#618adc] max-w-[320px] sm:max-w-[600px] lg:max-w-[900px]">
-          Incorpora las herramientas más poderosas del mercado, en un único servicio.
+          Incorpora IA en las herramientas más poderosas del mercado, en un único servicio.
           </p>
           <div className="flex w-full h-full flex-wrap">
             <Features />
@@ -27,10 +27,10 @@ const Tools = () => {
             Soluciones Integrales.
           </p>
           <h2 id="tools" className="heading" style={{ lineHeight: '64px' }}>
-          ¿Cansado de coordinar con múltiples proveedores y tecnologías?
+          Potencia a tu equipo con IA: Entrenamiento a medida.
           </h2>
           <p className="paragraph-v1 mx-auto w-[80%] md:w-[100%]">
-           Con una estrategia digital unificada ganaras eficiencia y organización, coherencia en tu branding y una sólida presencia adaptada a las necesidades únicas de tu negocio.
+          Transformamos a tu equipo y líderes con entrenamientos innovadores en IA, diseñados para potenciar habilidades, impulsar el crecimiento y lograr resultados extraordinarios.
           </p>
         </div>
       </motion.div>

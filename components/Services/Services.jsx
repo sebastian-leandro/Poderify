@@ -26,16 +26,13 @@ const Services = () => {
       variants={fade}
       viewport={{ once: true }}
       className={`${style.item}`}>
-        <div className={`w-[40px] h-[40px] rounded-full z-20 ${hovering ? 'mouseEffect' : 'bg-transparent'}`}
-        style={{ transform: `translate(${position.x}px, ${position.y}px)` }}
-        />
+        <div className={`w-[40px] h-[40px] rounded-full z-20 ${hovering ? 'mouseEffect' : 'bg-transparent'}`} style={{ transform: `translate(${position.x}px, ${position.y}px)` }} />
         <div className={`${style.cover} bg-cover bg-center bg-no-repeat bg-blend-luminosity absolute top-0 left-0 w-full h-full z-0`} style={{ backgroundImage: `url(${img})` }} />
-        <div className='absolute w-full h-full top-0 left-0 z-[1] bg-gradient-to-b from-transparent from-5% via-black/50 to-black/90' />
-        <div className='z-10 w-full absolute left-0 bottom-2 pl-2 h-[100px] items-center flex'>
-          <div className='flex flex-col w-full h-full'>
-            <h3 className='subheading'>{title}</h3>
-            <p className='paragraph-v1 lg:inline hidden max-w-[95%]' style={{ fontSize: '16px' }}>{description}</p>
-          </div>
+        <div className={style.customCover} />
+        <div className={style.background} />
+        <div className='z-10 w-full flex flex-col gap-2 pl-2 items-center h-full'>
+          <h3 className='text-white text-3xl sm:text-xl font-bold top-8 left-4 absolute'>{title}</h3>
+          <p className='absolute left-4 bottom-6 max-w-full sm:max-w-[95%]' style={{ fontSize: '16px', color: "#FFF", fontWeight: "bolder" }}>{description}</p>
         </div>
       </motion.div>
     )
@@ -43,7 +40,7 @@ const Services = () => {
 
   return (
     <section id='services' className={style.section}>
-      <h2 className='heading'>Soluciones 360°</h2>
+      <h2 className='heading'>Nuestros servicios</h2>
       <div className={style.flex}>
         <div className={style.bentoGrid}>
           {services.map((service, index) => (
