@@ -12,7 +12,7 @@ const CTA = () => {
           className="w-full pt-4 md:pt-0 h-[340px] max-w-[1280px] flex md:flex-row flex-col  rounded-2xl border border-solid border-[rgba(255,255,255,.08)] px-6 bg-[#1d1c20]"
         >
           <div className="flex flex-col w-full h-full items-center md:items-start justify-center">
-            <h3 className="heading sm:text-2xl" style={{ lineHeight: '72px', fontSize: "42px" }}>{title}</h3>
+            <h3 className="heading sm:text-2xl" style={{ lineHeight: '72px', fontSize: '42px' }}>{title}</h3>
             <p className="paragraph-v1 text-center md:text-left">
               {paragraph}
             </p>

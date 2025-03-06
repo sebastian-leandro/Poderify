@@ -32,7 +32,7 @@ const Services = () => {
         <div className={style.background} />
         <div className='z-10 w-full flex flex-col gap-2 pl-2 items-center h-full'>
           <h3 className='text-white text-3xl sm:text-xl font-bold top-8 left-4 absolute'>{title}</h3>
-          <p className='absolute left-4 bottom-6 max-w-full sm:max-w-[95%]' style={{ fontSize: '16px', color: "#FFF", fontWeight: "bolder" }}>{description}</p>
+          <p className='absolute left-4 bottom-6 max-w-full sm:max-w-[95%]' style={{ fontSize: '16px', color: '#FFF', fontWeight: 'bolder' }}>{description}</p>
         </div>
       </motion.div>
     )
