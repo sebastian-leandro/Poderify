@@ -42,6 +42,7 @@ const Services = () => {
     <section id='services' className={style.section}>
       <h2 className='heading'>Nuestros servicios</h2>
       <div className={style.flex}>
+      <div className='background-gradient' style={{ top: 0, bottom: 0, left: 0, right: 0, backgroundImage: "url('/gradient_1.png')" }} />
         <div className={style.bentoGrid}>
           {services.map((service, index) => (
             <BentoItem key={index} index={index} {...service} />

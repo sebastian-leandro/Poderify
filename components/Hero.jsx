@@ -4,7 +4,6 @@ import { HiChatAlt2 } from 'react-icons/hi'
 import Link from 'next/link'
 
 import { hero } from '@/constants'
-import style from './Hero.module.css'
 
 const Hero = () => {
   return (
@@ -12,23 +11,14 @@ const Hero = () => {
       id="home"
       className="overflow-hidden flex w-full flex-col min-h-[100vh] h-auto justify-center relative items-center"
     >
-      <div className={style.background}>
-        <div className={style.backgroundImage} />
-        <div className={`${style.backgroundGradient}`} />
-      </div>
       {hero.map(({ title, paragraph, href, link }, i) => (
-        <div
-          className="flex flex-col sm:max-w-[480px] md:max-w-[640px] lg:max-w-[940px] items-center gap-y-6"
-          key={i}
-        >
-          <h1 className="heading capitalize leading-6 sm:uppercase max-w-[95%] sm:max-w-full" style={{ lineHeight: '130%' }}>{title}</h1>
+        <div className="flex flex-col sm:max-w-[480px] md:max-w-[640px] lg:max-w-[940px] items-center gap-y-6" key={i} >
+          <h1 className="heading uppercase leading-6 max-w-[95%] sm:max-w-full" style={{ lineHeight: '130%' }}>{title}</h1>
           <p className="paragraph-v4 font-medium lg:font-semibold lg:text-[20px] md:text-[17px] sm:text-[14px] text-[#f7f7f7] w-[95%]  md:w-[75%] text-center">
             {paragraph}
           </p>
           <div className="flex w-full gap-x-8 items-center justify-center flex-col gap-y-6">
-            <Link href={href}
-            aria-label='Enlace principal al whatsapp de PoderiFy'
-            className="btn-classic gap-x-4">
+            <Link href={href} aria-label='Enlace principal al whatsapp de PoderiFy' className="btn-classic gap-x-4">
               {link}
               <HiChatAlt2 />
             </Link>
@@ -36,14 +26,8 @@ const Hero = () => {
               <Link aria-label="Desplazarse hacia abajo a Herramientas" href={'#tools'}>
                 <div className="w-[32px] h-16 rounded-3xl border-2 border-slate-300 flex justify-center items-start p-2 hover:border-slate-950 duration-300">
                   <motion.div
-                    animate={{
-                      y: [0, 35, 0]
-                    }}
-                    transition={{
-                      duration: 2.3,
-                      repeat: Infinity,
-                      repeatType: 'loop'
-                    }}
+                    animate={{ y: [0, 35, 0] }}
+                    transition={{ duration: 2.3, repeat: Infinity, repeatType: 'loop' }}
                     className="w-2.5 h-2.5 rounded-full mb-1 bg-slate-300"
                   />
                 </div>

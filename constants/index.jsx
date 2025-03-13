@@ -1,3 +1,5 @@
+import * as Icons from "@/public/icons"
+
 export const nav = [
   {
     id: '/',
@@ -21,7 +23,7 @@ export const hero = [
   {
     title: 'Inteligencia Artificial Para PyMEs y startups.',
     paragraph: 'Catalizamos el éxito de startups y pymes con soluciones de inteligencia artificial y automatización personalizadas, optimizando procesos, reduciendo costos y acelerando el crecimiento.',
-    href: 'https://api.whatsapp.com/send?phone=5491176108397',
+    href: 'https://api.whatsapp.com/send?phone=5491160131139',
     link: 'Contáctanos',
     navigation: '#services',
     textNavigation: 'Servicios'
@@ -30,44 +32,34 @@ export const hero = [
 
 export const feature = [
   {
-    img: '/tools/1.png',
-    alt: 'Logo de hubSpot'
+    icon: <Icons.HubSpot />
   },
   {
-    img: '/tools/2.png',
-    alt: 'Logo de Power BI'
+    icon: <Icons.PowerBI />
   },
   {
-    img: '/tools/3.png',
-    alt: 'Logo de zapier'
+    icon: <Icons.Zapier />
   },
   {
-    img: '/tools/4.png',
-    alt: 'Logo de Google Analytics'
+    icon: <Icons.GoogleAnalytics />
   },
   {
-    img: '/tools/5.png',
-    alt: 'Logo de salesforce'
+    icon: <Icons.Salesforce />
   },
   {
-    img: '/tools/6.png',
-    alt: 'Logo de WordPress'
+    icon: <Icons.WordPress />
   },
   {
-    img: '/tools/7.png',
-    alt: 'Logo de WOO COMMERCE'
+    icon: <Icons.Woo />
   },
   {
-    img: '/tools/8.png',
-    alt: 'Logo de ZOHO'
+    icon: <Icons.Zoho />
   },
   {
-    img: '/tools/9.png',
-    alt: 'Logo de shopify'
+    icon: <Icons.Shopify />
   },
   {
-    img: '/tools/10.png',
-    alt: 'Logo de Semrush'
+    icon: <Icons.SemRush />
   }
 ]
 

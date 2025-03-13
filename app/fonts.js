@@ -4,27 +4,27 @@ export const satoshi = Satoshi(
   {
     src: [
       {
-        path: '../font/satoshi/Satoshi-Regular.otf',
+        path: '../font/Satoshi-Regular.otf',
         weight: '400',
         style: 'normal'
       },
       {
-        path: '../font/satoshi/Satoshi-Light.otf',
+        path: '../font/Satoshi-Light.otf',
         weight: '300',
         style: 'normal'
       },
       {
-        path: '../font/satoshi/Satoshi-Bold.otf',
+        path: '../font/Satoshi-Bold.otf',
         weight: '700',
         style: 'normal'
       },
       {
-        path: '../font/satoshi/Satoshi-Medium.otf',
+        path: '../font/Satoshi-Medium.otf',
         weight: '500',
         style: 'normal'
       },
       {
-        path: '../font/satoshi/Satoshi-Black.otf',
+        path: '../font/Satoshi-Black.otf',
         weight: '900',
         style: 'normal'
       }

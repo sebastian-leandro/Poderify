@@ -42,9 +42,10 @@ export const metadata = {
 export default function RootLayout ({ children }) {
   return (
     <html lang="es">
-      <body className={`${satoshi.className}`}>
-        < Navbar />
+      <body className={`${satoshi.className} background-main`}>
+        <Navbar />
         {children}
+        <div className='background-gradient' style={{ top: -16, left: -16, backgroundImage: "url('/gradient.png')" }} />
         <div className='mt-12'>
           < Footer />
         </div>

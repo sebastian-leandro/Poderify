@@ -1,5 +1,5 @@
 import Navbar from './Navbar/Navbar'
-import Hero from './Hero/Hero'
+import Hero from './Hero'
 import Tools from './Tools'
 import CTA from './CTA'
 import Services from './Services/Services'
