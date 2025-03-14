@@ -202,7 +202,6 @@ export const Gradient: React.FC = () => {
             <feTurbulence type="fractalNoise" baseFrequency="0.005 0.003" numOctaves="2" seed="2" stitchTiles="stitch" x="0%" y="0%" width="100%" height="100%" result="turbulence" />
             <feGaussianBlur stdDeviation="20 0" x="0%" y="0%" width="100%" height="100%" in="turbulence" edgeMode="duplicate" result="blur" />
             <feBlend mode="hard-light" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" in2="blur" result="blend" />
-  
         </filter>
       </defs>
       <rect width="700" height="700" fill="url(#ffflux-gradient)" filter="url(#ffflux-filter)" />

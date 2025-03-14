@@ -1,5 +1,7 @@
 import * as Icons from "@/public/icons"
 
+export const link = "https://api.whatsapp.com/send?phone=5491160131139";
+
 export const nav = [
   {
     id: '/',
@@ -23,7 +25,7 @@ export const hero = [
   {
     title: 'Inteligencia Artificial Para PyMEs y startups.',
     paragraph: 'Catalizamos el éxito de startups y pymes con soluciones de inteligencia artificial y automatización personalizadas, optimizando procesos, reduciendo costos y acelerando el crecimiento.',
-    href: 'https://api.whatsapp.com/send?phone=5491160131139',
+    href: link,
     link: 'Contáctanos',
     navigation: '#services',
     textNavigation: 'Servicios'
