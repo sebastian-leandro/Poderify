@@ -590,6 +590,16 @@ html {
 
 /* Medias */
 
+@media screen and (max-width: 768px) {
+  .heading, .subheading, .paragraph-v1, .paragraph-v4 .paragraph-v3 {
+    -webkit-text-fill-color: #FFF;
+    background-image: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+  }
+  
+}
+
 @media screen and (max-width: 640px) {
   .paragraph-v1 {
     font-size: 14px;
